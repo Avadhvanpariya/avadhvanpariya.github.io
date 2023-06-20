@@ -1,0 +1,614 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <title> Understanding Urticaria: Types, Causes, Symptoms, and Treatment</title>
+    <meta name="Description" content=" Discover the different types of urticaria, its causes and triggers, symptoms,
+    treatment options, and home remedies. Learn how to manage and prevent this common skin
+    rash.    
+    ">
+    <meta name="keywords" content=" urticaria, hives, skin rash, itchy welts, acute urticaria, chronic urticaria, causes,
+    triggers, symptoms, treatment options, home remedies, prevention, management">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" type="image/png" href="../images/logos/gcs-logo-normal.png">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href='https://fonts.googleapis.com/css?family=Plus Jakarta Sans' rel='stylesheet'>
+    <link href="https://fonts.googleapis.com/css2?family=Cinzel:wght@600&family=Roboto&family=Ubuntu&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="https://unpkg.com/@tabler/core@1.0.0-beta10/dist/css/tabler-flags.min.css">
+    <link rel="stylesheet" type="text/css" href="../css/bootstrap.css">
+    <link rel="stylesheet" href="./css/popup-form-style.css">
+    <link rel="stylesheet" type="text/css" type="text/css" href="./plugins/sweetalert2/sweetalert2.min.css">
+    <link rel="stylesheet" type="text/css" href="./css/gcs.css">
+    <link rel="stylesheet" type="text/css" href="./css/media.css">
+    <link rel="stylesheet" type="text/css" href="./css/owl-style.css">
+    <link rel="stylesheet" type="text/css" href="./css/all.min.css">
+    <link rel="stylesheet" type="text/css" href="./css/owl.carousel.min.css">
+    <link rel="stylesheet" type="text/css" href="./css/owl.carousel.css">
+    <link rel="stylesheet" type="text/css" href="./css/owl.theme.css">
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <script type="text/javascript" src="./js/jquery-3.5.1.slim.min.js"></script>
+    <script type="text/javascript" src="./js/popper.min.js"></script>
+    <script type="text/javascript" src="./js/bootstrap.min.js"></script>
+    <script type="text/javascript" src="./js/jquery-3.5.1.min.js"></script>
+    <script type="text/javascript" src="./js/owl.carousel.js"></script>
+    <link rel="stylesheet" type="text/css" href="./plugins/toastr/toastr.min.css">
+    <script src="./plugins/toastr/toastr.min.js"></script>
+    <script type="text/javascript" src="./js/lazy-load.js"></script>
+
+    <script type="text/javascript">
+        function openside() {
+            document.getElementById('demo').style.width = '100%';
+        }
+
+        function sideclose() {
+            document.getElementById('demo').style.width = '0px';
+        }
+    </script>
+
+    <script type="text/javascript">
+        /*---------------------Drop down----------------------*/
+        $(document).ready(function () {
+            $('.ddmenu > a').click(function () {
+                $(this).parent().siblings().find('ul').fadeOut(500);
+                $(this).next('ul').stop(true, false, true).fadeToggle(500);
+                return false;
+            });
+        });
+
+        /*---------------------End----------------------*/
+    </script>
+
+    <script>
+        $(document).ready(function () {
+            $("#owl-insta").owlCarousel({
+                autoPlay: 5000, //Set AutoPlay to 5 seconds
+                navigation: true,
+                loop: true,
+                items: 6,
+                itemsDesktop: [1199, 1],
+                itemsDesktopSmall: [576, 1],
+                pagination: false,
+            });
+            $("#owl-instas").owlCarousel({
+                autoPlay: 5000, //Set AutoPlay to 5 seconds
+                nav: true,
+                dots: false,
+                loop: true,
+                items: 4,
+                itemsDesktop: [1199, 1],
+                itemsDesktopSmall: [576, 1],
+            });
+            $("#owl-instass").owlCarousel({
+                autoPlay: 5000, //Set AutoPlay to 5 seconds
+                nav: true,
+                loop: true,
+                items: 1,
+                itemsDesktop: [1199, 1],
+                itemsDesktopSmall: [576, 1],
+                pagination: true,
+            });
+            $("#owl-instasss").owlCarousel({
+                autoPlay: 5000, //Set AutoPlay to 5 seconds
+                navigation: true,
+                loop: true,
+                items: 3,
+                itemsDesktop: [1199, 1],
+                itemsDesktopSmall: [576, 1],
+                pagination: true,
+            });
+            $("#owl-review").owlCarousel({
+                autoPlay: 5000, //Set AutoPlay to 5 seconds
+                nav: true,
+                loop: true,
+                items: 1,
+                itemsDesktop: [1199, 1],
+                itemsDesktopSmall: [576, 1],
+                dots: false,
+            });
+            $("#owl-course").owlCarousel({
+                autoPlay: 5000, //Set AutoPlay to 5 seconds
+                nav: true,
+                loop: true,
+                items: 5,
+                itemsDesktop: [1199, 1],
+                itemsDesktopSmall: [576, 1],
+                dots: false,
+            });
+            $("#owl-placement").owlCarousel({
+                autoPlay: 5000, //Set AutoPlay to 5 seconds
+                nav: false,
+                loop: true,
+                items: 3,
+                itemsDesktop: [1199, 1],
+                itemsDesktopSmall: [576, 1],
+                dots: false,
+            });
+            $("#owl-review-1").owlCarousel({
+                autoPlay: 5000, //Set AutoPlay to 5 seconds
+                navigator: true,
+                loop: true,
+                items: 3,
+                itemsDesktop: [1199, 1],
+                itemsDesktopSmall: [576, 1],
+                dots: true,
+            });
+            $("#owl-demo1").owlCarousel({
+                autoPlay: 5000, //Set AutoPlay to 5 seconds
+                nav: false,
+                loop: true,
+                items: 1,
+                itemsDesktop: [1199, 1],
+                itemsDesktopSmall: [576, 1],
+                dots: false,
+            });
+            $("#owl-review-2").owlCarousel({
+                autoPlay: 5000, //Set AutoPlay to 5 seconds
+                nav: true,
+                loop: true,
+                items: 1,
+                itemsDesktop: [1199, 1],
+                itemsDesktopSmall: [576, 1],
+                dots: false,
+            });
+            $("#owl-placement-1").owlCarousel({
+                autoPlay: 5000, //Set AutoPlay to 5 seconds
+                nav: true,
+                loop: true,
+                items: 1,
+                itemsDesktop: [1199, 1],
+                itemsDesktopSmall: [576, 1],
+                dots: false,
+            });
+        });
+        $(document).ready(function () {
+            $(".owl-next").html('<i class="fa fa-chevron-right"></i>');
+            $(".owl-prev").html('<i class="fa fa-chevron-left"></i>');
+        });
+    </script>
+
+    <script>
+        $(function () {
+            //Scroll event
+            $(window).scroll(function () {
+                var scrolled = $(window).scrollTop();
+                if (scrolled > 200) $('.go-top').fadeIn('slow');
+                if (scrolled < 200) $('.go-top').fadeOut('slow');
+            });
+
+            //Click event
+            $('.go-top').click(function () {
+                $("html, body").animate({ scrollTop: "0" }, 500);
+            });
+        });
+    </script>
+    <!-- Google tag (gtag.js) -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-WX8P2R5E4Y"></script>
+    <script>
+        window.dataLayer = window.dataLayer || [];
+        function gtag() { dataLayer.push(arguments); }
+        gtag('js', new Date());
+
+        gtag('config', 'G-WX8P2R5E4Y');
+    </script>
+</head>
+<header>
+    <div class="go-top">
+        <p class="go-top-text"><i class="fas fa-arrow-up"></i></p>
+    </div>
+    <!-- <a class="float-button" target="_blank"
+        href="https://api.whatsapp.com/send?phone=9773174522&text=Hello I want to know more about Takshak Management service">
+        <i class="fab fa-whatsapp"></i>
+        <span>Message<span>
+    </a> -->
+    <div class="container-fluid main p-0 m-0">
+        <div class="d-lg-block d-none log">
+            <a href="/">
+                <div>
+                    <img src="./images/Dr-milan-modi-logo.png" width="270%" alt="Fg Group">
+                </div>
+            </a>
+        </div>
+        <div class="d-lg-none d-sm-block t0 log1">
+            <a href="/">
+                <div>
+                    <img src="./images/Dr-milan-modi-logo.png" width="200%" alt="Fg Group">
+                </div>
+            </a>
+        </div>
+    </div>
+</header>
+
+<body>
+    <section style="margin-top: 100px;">
+        <div class="container-fluid mt-md-3 mt-3">
+            <div class="container">
+                <div class="col-md-12 px-2 px-md-3">
+                    <h1 class="blog-h1">Skin Rash called Urticaria - Highly
+                        <span style="color: #bd2a2a;"> Prevalent Yet to Be Understood</span>
+                    </h1>
+                    <div class="border-top border-bottom p-3">
+                        <div class="row align-item-center justify-content-between">
+                            <div class="d-flex align-item-center">
+                                <div class="img-round mt-1">
+                                    <img src="./images/dr-milan-modi.png" class="img-fluid" alt="">
+                                </div>
+                                <div class="blog-img-side">
+                                    <h5>Dr.Milan Modi</h5>
+                                </div>
+                            </div>
+                            <div class="blog-p">
+                                <p class="mt-2"><i class="fas fa-calendar-alt mr-md-2 mr-1" style="color: #BD2A2A;"></i>
+                                    12/05/2023</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="row justify-content-center">
+                    <div class="col-md-7">
+                        <div class="blog-style">
+                            <h2>1. Introduction: What is Urticaria?
+                            </h2>
+                            <img src="./images/urticaria.jpg" width="100%"
+                                style="border-radius: 10px;" class="img-fluid" alt="Customer Centric Approach">
+                            <div>
+                                <p>Urticaria, commonly known as hives, is a skin condition characterized by the
+                                    appearance of
+                                    itchy, raised welts on the skin. These welts can vary in size and shape and are
+                                    usually
+                                    accompanied by redness and swelling. Urticaria is a highly prevalent condition,
+                                    affecting
+                                    people of all ages and backgrounds. Despite its prevalence, the exact causes and
+                                    mechanisms behind urticaria remain to be fully understood.
+                                </p>
+                            </div>
+                            <div>
+                                <h2>2. Types of Urticaria :-</h2>
+                                <h4 class="mb-4"><i class="fas fa-angle-double-right" style="color: #BD2A2A;"></i> There are two main
+                                    types of urticaria: acute urticaria and chronic urticaria.
+                                    :-</h4>
+                                <h4 class="ml-3"><img src="../images/icons/right-arrow.webp" width="25px" alt="">1.
+                                    Acute Urticaria:-
+                                </h4>
+                                <img src="./images/acute.png" width="100%"
+                                    style="border-radius: 10px;" class="img-fluid" alt="Customer Centric Approach">
+                                <p>Acute urticaria is a short-term condition that typically lasts for a few hours to
+                                    several weeks.
+                                    It is often caused by allergic reactions to certain foods, medications, insect
+                                    bites, or
+                                    infections. The welts associated with acute urticaria usually disappear within 24
+                                    hours but
+                                    may reappear in different locations.
+
+                                </p>
+                                <h4 class="ml-3"><img src="../images/icons/right-arrow.webp" width="25px" alt="">2.
+                                    Chronic Urticaria :-
+                                </h4>
+                                <img src="./images/chronic.jpg" width="100%"
+                                    style="border-radius: 10px;" class="img-fluid" alt="Customer Centric Approach">
+                                <p>Chronic urticaria, on the other hand, lasts for more than six weeks and can persist
+                                    for
+                                    months or even years. The cause of chronic urticaria is often more difficult to
+                                    identify. It may
+                                    be associated with underlying medical conditions, such as autoimmune disorders or
+                                    hormonal imbalances. Chronic urticaria can significantly impact a person's quality
+                                    of life,
+                                    leading to persistent discomfort and frustration.
+                                </p>
+                            </div>
+                            <div>
+                                <h2>3. Causes and Triggers</h2>
+                                <h4 class="mb-4"><i class="fas fa-angle-double-right" style="color: #BD2A2A;"></i> The exact causes of
+                                    urticaria are still not fully understood, making it a challenging condition
+                                    to diagnose and manage. However, there are several known triggers that can induce
+                                    urticaria episodes
+                                    :-</h4>
+                                <img src="./images/causes.svg" width="100%"
+                                    style="border-radius: 10px;" class="img-fluid" alt="Customer Centric Approach">
+                                <div class="triggers">
+                                    <ul>
+                                        <li><b>» Allergens</b>: Common allergens like pollen, dust mites, pet dander, or
+                                            certain
+                                            foods can
+                                            trigger urticaria in susceptible individuals.
+                                        </li>
+                                        <li><b>» Medications</b>: Certain medications, such as antibiotics,
+                                            non-steroidal
+                                            anti-inflammatory
+                                            drugs (NSAIDs), or aspirin, can cause urticaria as an adverse reaction.
+                                        </li>
+                                        <li><b>» Infections</b>: Viral or bacterial infections, including the common
+                                            cold or
+                                            urinary
+                                            tract
+                                            infections, can lead to acute urticaria in some individuals.
+                                        </li>
+                                        <li><b> » Physical Factors</b>: Exposure to heat, cold, pressure, or sunlight
+                                            can
+                                            trigger
+                                            urticaria in
+                                            certain individuals.</li>
+                                        <li><b> » Emotional Stress</b>: Stress and anxiety can sometimes worsen or
+                                            trigger
+                                            episodes
+                                            of
+                                            urticaria.
+                                        </li>
+                                        <li><b> » Underlying Health Conditions</b>: Urticaria can be associated with
+                                            underlying
+                                            medical
+                                            conditions like thyroid disorders, autoimmune diseases, or chronic
+                                            infections.
+                                        </li>
+                                    </ul>
+                                </div>
+                                <p>It's important to note that triggers can vary from person to person, and identifying
+                                    the specific
+                                    triggers for an individual is crucial in managing their urticaria effectively.
+                                </p>
+                            </div>
+                            <div>
+                                <h2>4. Symptoms and Diagnosis</h2>
+                                <img src="./images/diagnosis.webp" width="100%"
+                                    style="border-radius: 10px;" class="img-fluid" alt="Customer Centric Approach">
+                                <p>The primary symptom of urticaria is the appearance of itchy, raised welts on the
+                                    skin, also
+                                    known as hives. These welts can be of varying sizes, ranging from small dots to
+                                    large
+                                    patches. They are usually red or pink in color and may have a pale center. The welts
+                                    can
+                                    appear on any part of the body and may change shape, fade, or reappear in different
+                                    locations.
+                                </p>
+                                <p>In addition to the physical symptoms, urticaria can also cause discomfort and
+                                    emotional
+                                    distress due to the constant itching and appearance of the welts.
+                                </p>
+                                <p>Diagnosing urticaria involves a thorough medical history review, physical
+                                    examination, and
+                                    sometimes additional tests. The doctor may inquire about potential triggers, recent
+                                    exposures, or underlying health conditions. Allergy tests or blood tests may be
+                                    recommended to identify specific allergens or underlying immune system
+                                    abnormalities.
+                                </p>
+                            </div>
+                            <div>
+                                <h2>5. Treatment Options</h2>
+                                <h4 class="mb-4"><i class="fas fa-angle-double-right" style="color: #BD2A2A;"></i> The treatment
+                                    approach for urticaria depends on the type, severity, and underlying causes.
+                                    The goals of treatment are to relieve symptoms, prevent recurrence, and improve the
+                                    overall
+                                    quality of life. Common treatment options include
+                                    :-</h4>
+                                <img src="./images/treatment.jpg" width="100%"
+                                    style="border-radius: 10px;" class="img-fluid" alt="Employee Development">
+                                <div class="triggers">
+                                    <ul>
+                                        <li><b>» Antihistamines :</b> These medications help block the effects of
+                                            histamine, a chemical released
+                                            during an allergic reaction, and can reduce itching and swelling associated
+                                            with urticaria.
+                                        </li>
+                                        <li><b>» Corticosteroids :</b> In severe cases or during acute flare-ups,
+                                            corticosteroids may be
+                                            prescribed to reduce inflammation and suppress the immune response.
+                                        </li>
+                                        <li><b>» Immune Modulators :</b> For chronic urticaria that does not respond to
+                                            conventional
+                                            treatments, immune modulating medications like omalizumab may be considered.
+                                        </li>
+                                        <li><b> » Avoidance of Triggers :</b> Identifying and avoiding triggers, such as
+                                            certain foods,
+                                            medications, or environmental factors, can help prevent urticaria episodes.
+                                        </li>
+                                        <p>It's important to consult with a healthcare professional to determine the
+                                            most appropriate
+                                            treatment plan based on individual circumstances.
+                                        </p>
+                                    </ul>
+                                </div>
+                            </div>
+                            <div>
+                                <h2>6. Home Remedies for Urticaria</h2>
+                                <h4 class="mb-4"><i class="fas fa-angle-double-right" style="color: #BD2A2A;"></i> In addition to
+                                    medical treatments, there are some home remedies that may help alleviate the
+                                    symptoms of urticaria. It's important to note that these remedies may provide
+                                    temporary
+                                    relief but should not replace medical advice. Some home remedies include:</h4>
+                                <img src="./images/home-remedies.jpg" width="100%"
+                                    style="border-radius: 10px;" class="img-fluid" alt="Employee Development">
+                                <div class="triggers">
+                                    <ul>
+                                        <li><b>» </b> Applying cool compresses or taking cool baths to soothe the skin
+                                        </li>
+                                        <li><b>» </b> Avoiding hot water and harsh soaps, which can worsen itching and
+                                            dry out the skin.
+
+                                        </li>
+                                        <li><b>» </b> Wearing loose-fitting clothing made of breathable fabrics to
+                                            reduce irritation.
+
+                                        </li>
+                                        <li><b>» </b> Using over-the-counter anti-itch creams or lotions containing
+                                            ingredients like calamine or
+                                            menthol.
+                                        </li>
+                                        <p>Again, it's crucial to consult a healthcare professional before relying
+                                            solely on home
+                                            remedies for the treatment of urticaria.
+                                        </p>
+                                    </ul>
+                                </div>
+                            </div>
+                            <div>
+                                <h2>7. Prevention and Management</h2>
+                                <h4 class="mb-4"><i class="fas fa-angle-double-right" style="color: #BD2A2A;"></i> While it may not be
+                                    possible to completely prevent urticaria, certain measures can help
+                                    minimize the frequency and severity of episodes :-</h4>
+                                <img src="./images/Prevention.jpg" width="100%"
+                                    style="border-radius: 10px;" class="img-fluid" alt="Employee Development">
+                                <div class="triggers">
+                                    <ul>
+                                        <li><b>» </b> Identifying Triggers: Keeping a diary to track possible triggers
+                                            and avoiding them can be
+                                            helpful in managing urticaria
+                                        </li>
+                                        <li><b>» </b> Managing Stress: Practicing stress management techniques, such as
+                                            meditation, exercise,
+                                            or therapy, can reduce the likelihood of stress-induced urticaria.
+                                        </li>
+                                        <li><b>» </b> Creating a Skin-Friendly Environment: Maintaining a clean and
+                                            allergen-free living
+                                            environment, using hypoallergenic products, and avoiding extreme
+                                            temperatures can help
+                                            prevent flare-ups
+                                        </li>
+                                        <p>Regular follow-ups with a healthcare professional are essential for
+                                            monitoring the condition,
+                                            adjusting treatment plans if necessary, and addressing any concerns or new
+                                            symptoms.
+                                        </p>
+                                    </ul>
+                                </div>
+                            </div>
+                            <h2>Frequently Asked Questions</h2>
+                            <div class="accordion">
+                                <div class="accordion-item">
+                                    <a>1. Is urticaria contagious? </a>
+                                    <div class="content">
+                                        <p> No, urticaria is not contagious. It is not caused by a virus or bacteria and
+                                            cannot be
+                                            transmitted from person to person.
+                                        </p>
+                                    </div>
+                                </div>
+                                <div class="accordion-item">
+                                    <a>2. Can stress trigger urticaria? </a>
+                                    <div class="content">
+                                        <p>Yes, emotional stress can sometimes trigger or worsen episodes of urticaria.
+                                            Managing
+                                            stress through relaxation techniques can be beneficial in reducing the
+                                            frequency of flare-ups.
+                                        </p>
+                                    </div>
+                                </div>
+                                <div class="accordion-item">
+                                    <a>3. Are there any long-term complications of urticaria? </a>
+                                    <div class="content">
+                                        <p> In most cases, urticaria is a temporary condition and does not lead to
+                                            long-term
+                                            complications. However, chronic urticaria can significantly impact a
+                                            person's quality of life
+                                            and may require ongoing management.
+                                        </p>
+                                    </div>
+                                </div>
+                                <div class="accordion-item">
+                                    <a>4. Can certain foods cause urticaria?
+                                    </a>
+                                    <div class="content">
+                                        <p>Yes,
+                                            certain foods can trigger urticaria in susceptible individuals. Common
+                                            culprits include
+                                            shellfish, nuts, eggs, and dairy products. Identifying and avoiding these
+                                            trigger foods can
+                                            help prevent episodes.
+                                        </p>
+                                    </div>
+                                </div>
+                                <div class="accordion-item">
+                                    <a>5. Can urticaria be cured?
+                                    </a>
+                                    <div class="content">
+                                        <p>While there is no definitive cure for urticaria, it can be effectively
+                                            managed with the help of
+                                            healthcare professionals. Treatment aims to control symptoms and minimize
+                                            the impact on
+                                            daily life.
+                                        </p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div>
+                                <h2>Conclusion :-</h2>
+                                <p>Urticaria, or hives, is a common and often frustrating skin condition characterized
+                                    by itchy
+                                    welts on the skin. Despite its prevalence, the exact causes of urticaria are still
+                                    not fully
+                                    understood. By identifying triggers, following an appropriate treatment plan, and
+                                    implementing preventive measures, individuals with urticaria can effectively manage
+                                    their
+                                    condition and improve their quality of life. It is important to consult with a
+                                    healthcare
+                                    professional for proper diagnosis, treatment, and ongoing management of urticaria.
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <footer class="bg-footer">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-12">
+                    <div class="footer-sec text-center">
+                        <div class="logo d-none d-md-block">
+                            <img src="./images/Dr-milan-modi-logo.png" alt="GCS" class="img-fluid" width="220px">
+                        </div>
+                        <div class="logo d-block d-md-none">
+                            <img src="./images/Dr-milan-modi-logo.png" alt="GCS" class="img-fluid">
+                        </div>
+                        <p>Gomzi Consulting Services (GCS) is a leading group managing diverse businesses,
+                            offering customized solutions for growth and profitability.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+    <div class="col-md-12 p-0">
+        <div class="footer-copyright">
+            <p>© 2023-2024 <span class="ml-2">All Rights Reserved | Design By Fitit official</span></p>
+        </div>
+    </div>
+    <div class="whats-float">
+        <a href="https://www.instagram.com/takshakmanagementconsultant/" target="_blank">
+            <i class="fab fa-instagram"></i><span>Instagram</span>
+        </a>
+    </div>
+    <div class="whats-float whats-float-1">
+        <a href="https://www.facebook.com/profile.php?id=100090828098705" target="_blank">
+            <i class="fab fa-facebook"></i><span>Facebook</span>
+        </a>
+    </div>
+    <div class="whats-float whats-float-2">
+        <a href="https://www.youtube.com/@TakshakManagementConsultant" target="_blank">
+            <i class="fab fa-youtube"></i><span>Youtube</span>
+        </a>
+    </div>
+    <div id="div_modal"></div>
+    <script src="../js/jquery.flashy.min.js"></script>
+    <script src="../plugins/bootstrap/bootstrap.min.js"></script>
+
+    <script src="./js/app.js"></script>
+    <script src="./js/modal/modal.js"></script>
+    <script src="./js/sweetalert2.js"></script>
+    <script src="./js/main.js"></script>
+    <script src="./js/api/all-course.js"></script>
+    <script src="./js/constant/course.js"></script>
+    <link href="./css/effect.css" rel="stylesheet">
+    <link href="./css/flashy.min.css" rel="stylesheet">
+
+    <script>
+        $(document).ready(function () {
+            $('.accordion a').click(function () {
+                $(this).toggleClass('active');
+                $(this).next('.content').slideToggle(400);
+            });
+        });
+    </script>
+</body>
+
+</html>
