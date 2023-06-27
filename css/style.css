@@ -564,6 +564,12 @@ a:focus {
   background: #eff0f3;
 }
 
+@media (min-width: 768px) {
+  .container {
+    min-width: 897px !important;
+  }
+}
+
 .appoinment-content {
   position: relative;
 }
