@@ -566,7 +566,7 @@ a:focus {
 
 @media (min-width: 768px) {
   .container {
-    min-width: 897px !important;
+    min-width: 990px !important;
   }
 }
 
