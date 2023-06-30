@@ -567,7 +567,7 @@ a:focus {
 
 @media (min-width: 768px) {
   .container {
-    min-width: 990px !important;
+    max-width: 990px !important;
   }
 
   .btn {
