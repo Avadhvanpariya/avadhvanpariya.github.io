@@ -24,6 +24,9 @@
 	<link rel="stylesheet" href="/css/wow.css">
 	<link rel="stylesheet" href="/plugins/bootstrap/js/bootstrap.min.js">
 	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" />
+	<script type="text/javascript" src="https://cdn.jsdelivr.net/npm/@emailjs/browser@3/dist/email.min.js"></script>
+	<script src="./plugins/sweetalert2/sweetalert2.all.min.js"></script>
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" />
 </head>
 
 <body id="top">
@@ -88,22 +91,19 @@
 			<div class="row">
 				<div class="col-lg-6 col-md-12 col-xl-7">
 					<div class="block">
-						<h1 class="mb-3 mt-3 wow animate__animated animate__fadeInLeft">Dr. Milan Modi</h1>
-						<div class="divider mb-3 wow animate__animated animate__fadeInLeft"></div>
+						<h1 class="mb-3 mt-3 wow animate__animated animate__fadeInLeft ml-lg-0 ml-5">Dr. Milan Modi</h1>
+						<div class="divider mb-3 wow animate__animated animate__fadeInLeft ml-lg-0 ml-5"></div>
 						<div class="col-sm-6 col-lg-9">
-							<p class="mb-4 pr-5 wow animate__animated animate__fadeInLeft" data-wow-delay="300ms"
-								style="font-size: 20px;width: 470px;">Dr. Milan
-								Modi is a highly skilled Chest Physician and ICU Intensivist at Mahavir Hospital,
-								dedicated
-								to delivering exceptional quality in Pulmonary and Critical Care services for patients.
-								With
-								a post-graduation in Respiratory Medicine from Lilavati Hospital in Mumbai and
-								specialized
-								training in Bronchoscopy from Tata Cancer Hospital, Dr. Modi possesses extensive
-								knowledge
-								and expertise in his field. </p>
+							<p class="mb-4 pr-5 wow animate__animated animate__fadeInLeft ml-lg-0 ml-5"
+								data-wow-delay="300ms" style="font-size: 20px;width: 470px;">Dr. Milan Modi, a renowned
+								Allergy, Chest & ICU Specialist from Surat, completed DNB Pulmonology, IDCCM & EDIC, and
+								Fellowships in Bronchoscopy and Allergy & Immunotherapy. He has treated over 5000
+								Allergy patients with a >90% success ratio and received awards for his excellence in the
+								field. His contributions during Covid were recognized by the Ministry of Health, Surat
+								Corporation & Bhagwan Mahavir College. </p>
 						</div>
-						<div class="btn-container wow animate__animated animate__fadeInLeft" data-wow-delay="500ms">
+						<div class="btn-container wow animate__animated animate__fadeInLeft ml-lg-0 ml-5"
+							data-wow-delay="500ms">
 							<div>
 								<div class="col-lg-4 col-md-12 col-sm-12  wow animate__animated animate__fadeInLeft">
 									<div class="service-item testimonial-block-2 style-2">
@@ -783,7 +783,7 @@
 							<div class="row">
 								<div class="col-lg-6">
 									<div class="form-group">
-										<select class="form-control" id="exampleFormControlSelect1">
+										<select class="form-control" id="Department">
 											<option>Choose Department</option>
 											<option>Pulmonologist</option>
 											<option>Allergist</option>
@@ -800,7 +800,7 @@
 								</div>
 								<div class="col-lg-6">
 									<div class="form-group">
-										<select class="form-control" id="exampleFormControlSelect2">
+										<select class="form-control" id="Category">
 											<option>Select Category</option>
 											<option>Chest pain </option>
 											<option> Asthma</option>
@@ -815,39 +815,39 @@
 
 								<div class="col-lg-6">
 									<div class="form-group">
-										<input name="date" id="date" type="text" class="form-control"
+										<input name="date" id="Date" type="date" class="form-control"
 											placeholder="dd/mm/yyyy">
 									</div>
 								</div>
 
 								<div class="col-lg-6">
 									<div class="form-group">
-										<input name="time" id="time" type="text" class="form-control"
+										<input name="time" id="Time" type="text" class="form-control"
 											placeholder="Time">
 									</div>
 								</div>
 								<div class="col-lg-6">
 									<div class="form-group">
-										<input name="name" id="name" type="text" class="form-control"
+										<input name="name" id="Name" type="text" class="form-control"
 											placeholder="Full Name">
 									</div>
 								</div>
 
 								<div class="col-lg-6">
 									<div class="form-group">
-										<input name="phone" id="phone" type="Number" class="form-control"
+										<input name="phone" id="Phone" type="Number" class="form-control"
 											placeholder="Phone Number">
 									</div>
 								</div>
 							</div>
 							<div class="form-group-2 mb-4">
-								<textarea name="message" id="message" class="form-control" rows="6"
+								<textarea name="message" id="Message" class="form-control" rows="6"
 									placeholder="Your Message"></textarea>
 							</div>
 
 						</form>
 						<a class="btn btn-main btn-round-full wow animate__animated animate__fadeInRight"
-							data-wow-delay="900ms" href="appoinment.html">Submit <i
+							data-wow-delay="900ms" onclick="sendMail()">Submit <i
 								class="icofont-simple-right ml-2  "></i></a>
 					</div>
 				</div>
@@ -943,6 +943,12 @@
 	</footer>
 
 
+	<script src="./js/sweetalert2.js"></script>
+	<script src="https://smtpjs.com/v3/smtp.js"></script>
+	<script src="./js/sweetalert2.js"></script>
+	<script src="//cdnjs.cloudflare.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
+	<script src="https://cdn.emailjs.com/sdk/2.6.4/email.min.js"></script>
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.4/jquery.min.js"></script>
 	<script src="/js/jquery-3.5.1.min.js"></script>
 	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.4/jquery.min.js"></script>
 	<script src="/js/bootstrap.min.js"></script>
@@ -967,6 +973,57 @@
 	<script src="js/contact.js"></script>
 	<script>
 		new WOW().init();
+	</script>
+	<script type="text/javascript">
+		(function () {
+			emailjs.init("lG1OsgokpTpr_V3Er");
+		})();
+	</script>
+	<script>
+		function sendMail() {
+			var params = {
+				Department: document.getElementById("Department").value,
+				Category: document.getElementById("Category").value,
+				Name: document.getElementById("Name").value,
+				Phone: document.getElementById("Phone").value,
+				Date: document.getElementById("Date").value,
+				Time: document.getElementById("Time").value,
+				Message: document.getElementById("Message").value
+			};
+
+			const serviceID = "service_a9efm28";
+			const templateID = "template_jhcjmgk";
+
+			emailjs.send(serviceID, templateID, params)
+				.then(function (response) {
+					document.getElementById("Department").value = "";
+					document.getElementById("Category").value = "";
+					document.getElementById("Name").value = "";
+					document.getElementById("Phone").value = "";
+					document.getElementById("Date").value = "";
+					document.getElementById("Time").value = "";
+					document.getElementById("Message").value = "";
+
+					console.log("Email sent successfully", response.status, response.text);
+					Swal.fire({
+						icon: 'success',
+						title: 'Thanks you for contact us',
+						text: 'We will contact you soon.'
+					})
+					return false;
+					// alert("Your message has been sent successfully!");
+				})
+				.catch(function (error) {
+					console.error("Error sending email", error);
+					Swal.fire({
+						icon: 'error',
+						title: 'Invalid cerdinatiol',
+						text: 'Please enter valid email, name, mobile'
+					})
+					return false;
+					// alert("There was an error sending your message. Please try again later.");
+				});
+		}
 	</script>
 	<script>
 		$(document).ready(function () {
