@@ -736,8 +736,8 @@ progress {
   flex-shrink: 0;
   width: 100%;
   max-width: 100%;
-  padding-right: calc(var(--bs-gutter-x) * .5);
-  padding-left: calc(var(--bs-gutter-x) * .5);
+  padding-right: calc(var(--bs-gutter-x) * .8);
+  padding-left: calc(var(--bs-gutter-x) * .8);
   margin-top: var(--bs-gutter-y);
 }
 
@@ -15331,7 +15331,7 @@ textarea {
 }
 
 .site-footer .social li a:hover {
-  background: #f59b74;
+  background: #3E4095;
   color: #fff;
 }
 
@@ -15459,8 +15459,8 @@ textarea {
 
 .floating_btn {
   position: fixed;
-  bottom: 10px;
-  left: 20px;
+  bottom: 30px !important;
+  left: 25px !important;
   width: 100px;
   height: 100px;
   display: flex;
