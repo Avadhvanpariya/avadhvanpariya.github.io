@@ -28,22 +28,28 @@
 	<link rel="stylesheet" href="css/flaticon.css">
 	<link rel="stylesheet" href="css/icomoon.css">
 	<link rel="stylesheet" href="css/style.css">
+
+
+	<script src="https://cdn.emailjs.com/dist/email.min.js"></script>
+	<script type="text/javascript" src="https://cdn.jsdelivr.net/npm/@emailjs/browser@3/dist/email.min.js"></script>
+	<script src="./plugins/sweetalert2/sweetalert2.all.min.js"></script>
 </head>
 
 <body>
+
+	<div class="go-top">
+		<p class="go-top-text"><i class="fas fa-arrow-up"></i></p>
+	</div>
+
+	<a class="float-button" target="_blank"
+		href="https://api.whatsapp.com/send?phone=8160159245&text=Hello I want to know more about Jagruti Beauty Salon & Academy">
+		<i class="fab fa-whatsapp"></i>
+		<span class="text-white">Message<span>
+	</a>
+
 	<nav class="navbar navbar-expand-lg navbar-dark ftco_navbar bg-dark ftco-navbar-light" id="ftco-navbar">
 		<div class="container">
-			<a class="navbar-brand" href="index.html"><img src="/images/Jagruti Beauty PArlour.png" width="30%"
-					alt=""></a>
-			<div class="collapse navbar-collapse" id="ftco-nav">
-				<ul class="navbar-nav ml-auto">
-					<li class="nav-item active"><a href="index.html" class="nav-link">Home</a></li>
-					<li class="nav-item"><a href="" class="nav-link">About</a></li>
-					<li class="nav-item"><a href="" class="nav-link">Services</a></li>
-					<li class="nav-item"><a href="" class="nav-link">Specialists</a></li>
-					<li class="nav-item"><a href="" class="nav-link">Contact</a></li>
-				</ul>
-			</div>
+			<a class="navbar-brand " href="index.html"><img src="/images/Jagruti-logo.png" width="150px" alt=""></a>
 		</div>
 	</nav>
 	<!-- END nav -->
@@ -60,13 +66,15 @@
 					<h1>Beauty Center</h1>
 					<div class="row justify-content-center">
 						<div class="col-md-7 mb-3">
-							<p>Far far away, behind the word mountains, far from the countries Vokalia and Consonantia,
-								there live the blind texts.</p>
+							<p>"Elevate Your Beauty, Boost Your Confidence – Unveil a New You at Jagruti Beauty Salon &
+								Academy –
+								Skin * Hair * Makeup"</p>
 						</div>
 					</div>
 					<p>
-						<a href="#" class="btn btn-primary p-3 px-5 py-4 mr-md-2">Get in Touch</a>
-						<a href="#" class="btn btn-outline-primary p-3 px-5 py-4 ml-md-2">Contact</a>
+						<a href="https://api.whatsapp.com/send?phone=8160159245&text=Hello I want to know more about Jagruti Beauty Salon & Academy"
+							class="btn btn-primary p-3 px-5 py-4 mr-md-2 ">Contact Us</a>
+						<!-- <a href="#" class="btn btn-outline-primary p-3 px-5 py-4 ml-md-2">Contact</a> -->
 					</p>
 				</div>
 			</div>
@@ -122,10 +130,10 @@
 				<div class="col-md-6 col-lg-3 ">
 					<div class="services text-center ftco-animate custom-block-body custom-block-wrap">
 						<div class="icon d-flex justify-content-center align-items-center">
-							<span class="flaticon-candle"></span>
+							<img src="/images/makeup.png" width="45px" alt="">
 						</div>
 						<div class="text mt-3">
-							<h3>Aromatheraphy</h3>
+							<h3>Bridal Makeup</h3>
 							<p>A small river named Duden flows by their place and supplies it with the necessary
 								regelialia. It is a paradisematic country</p>
 						</div>
@@ -134,10 +142,10 @@
 				<div class="col-md-6 col-lg-3">
 					<div class="services text-center ftco-animate custom-block-body custom-block-wrap">
 						<div class="icon d-flex justify-content-center align-items-center">
-							<span class="flaticon-beauty-treatment"></span>
+							<img src="/images/hairstyle.png" width="45px" alt="">
 						</div>
 						<div class="text mt-3">
-							<h3>Skin Care</h3>
+							<h3>Hair Style</h3>
 							<p>A small river named Duden flows by their place and supplies it with the necessary
 								regelialia. It is a paradisematic country</p>
 						</div>
@@ -146,10 +154,10 @@
 				<div class="col-md-6 col-lg-3">
 					<div class="services text-center ftco-animate custom-block-body custom-block-wrap">
 						<div class="icon d-flex justify-content-center align-items-center">
-							<span class="flaticon-stone"></span>
+							<img src="/images/botox.png" width="45px" alt="">
 						</div>
 						<div class="text mt-3">
-							<h3>Herbal Spa</h3>
+							<h3>Face Sculpting</h3>
 							<p>A small river named Duden flows by their place and supplies it with the necessary
 								regelialia. It is a paradisematic country</p>
 						</div>
@@ -158,10 +166,10 @@
 				<div class="col-md-6 col-lg-3">
 					<div class="services text-center ftco-animate custom-block-body custom-block-wrap">
 						<div class="icon d-flex justify-content-center align-items-center">
-							<span class="flaticon-relax"></span>
+							<img src="/images/nail-color.png" width="45px" alt="">
 						</div>
 						<div class="text mt-3">
-							<h3>Body Massage</h3>
+							<h3>Nail Art Classes</h3>
 							<p>A small river named Duden flows by their place and supplies it with the necessary
 								regelialia. It is a paradisematic country</p>
 						</div>
@@ -183,13 +191,12 @@
 				<div class="col-lg-12">
 					<div class="row no-gutters">
 						<div class="col-md-3 d-flex align-items-stretch">
-							<div
-								class="treatment w-100 text-center ftco-animate border border-right-0 border-bottom-0 p-3 py-4">
+							<div class="treatment w-100 text-center ftco-animate border  border-bottom-0 p-3 py-4">
 								<div class="icon d-flex justify-content-center align-items-center">
-									<span class="flaticon-candle"></span>
+									<img src="/images/hair-treatment.png" width="60px" alt="">
 								</div>
 								<div class="text mt-2">
-									<h3>Salt &amp; Aroma</h3>
+									<h3>Hair spa</h3>
 									<p>A small river named Duden flows by their place and supplies.</p>
 								</div>
 							</div>
@@ -197,21 +204,21 @@
 						<div class="col-md-3 d-flex align-items-stretch">
 							<div class="treatment w-100 text-center ftco-animate border border-bottom-0 p-3 py-4">
 								<div class="icon d-flex justify-content-center align-items-center">
-									<span class="flaticon-spa-1"></span>
+									<img src="/images/hair-dye.png" width="60px" alt="">
 								</div>
 								<div class="text mt-2">
-									<h3>Hydro</h3>
+									<h3>Hair colour</h3>
 									<p>A small river named Duden flows.</p>
 								</div>
 							</div>
 						</div>
 						<div class="col-md-3 d-flex align-items-stretch">
-							<div class="treatment w-100 text-center ftco-animate border border-right-0 p-3 py-4">
+							<div class="treatment w-100 text-center ftco-animate border  p-3 py-4">
 								<div class="icon d-flex justify-content-center align-items-center">
-									<span class="flaticon-stone"></span>
+									<img src="/images/woman.png" width="60px" alt="">
 								</div>
 								<div class="text mt-2">
-									<h3>Hot Stone</h3>
+									<h3>Highlights</h3>
 									<p>A small river named Duden flows by their place and supplies.</p>
 								</div>
 							</div>
@@ -222,7 +229,7 @@
 									<span class="flaticon-lotus"></span>
 								</div>
 								<div class="text mt-2">
-									<h3>Aroma</h3>
+									<h3>Keratin </h3>
 									<p>A small river named Duden flows.</p>
 								</div>
 							</div>
@@ -230,21 +237,21 @@
 						<div class="col-md-3 d-flex align-items-stretch">
 							<div class="treatment w-100 text-center ftco-animate border p-3 py-4">
 								<div class="icon d-flex justify-content-center align-items-center">
-									<span class="flaticon-relax"></span>
+									<img src="/images/hair.png" width="60px" alt="">
 								</div>
 								<div class="text mt-2">
-									<h3>Athlete</h3>
+									<h3>Hair Botox</h3>
 									<p>A small river named Duden flows.</p>
 								</div>
 							</div>
 						</div>
 						<div class="col-md-3 d-flex align-items-stretch">
-							<div class="treatment w-100 text-center ftco-animate border border-right-0 p-3 py-4">
+							<div class="treatment w-100 text-center ftco-animate border  p-3 py-4">
 								<div class="icon d-flex justify-content-center align-items-center">
 									<span class="flaticon-massage"></span>
 								</div>
 								<div class="text mt-2">
-									<h3>Thai</h3>
+									<h3>Smoothening stenting</h3>
 									<p>A small river named Duden flows by their place and supplies.</p>
 								</div>
 							</div>
@@ -252,10 +259,10 @@
 						<div class="col-md-3 d-flex align-items-stretch">
 							<div class="treatment w-100 text-center ftco-animate border p-3 py-4">
 								<div class="icon d-flex justify-content-center align-items-center">
-									<span class="flaticon-rose"></span>
+									<img src="/images/facial-treatment.png" width="60px" alt="">
 								</div>
 								<div class="text mt-2">
-									<h3>Rose</h3>
+									<h3>Face Sculpting</h3>
 									<p>A small river named Duden flows.</p>
 								</div>
 							</div>
@@ -263,10 +270,10 @@
 						<div class="col-md-3 d-flex align-items-stretch">
 							<div class="treatment w-100 text-center ftco-animate border p-3 py-4">
 								<div class="icon d-flex justify-content-center align-items-center">
-									<span class="flaticon-rose"></span>
+									<img src="/images/make-up.png" width="60px" alt="">
 								</div>
 								<div class="text mt-2">
-									<h3>Rose</h3>
+									<h3>Bridal Makeup</h3>
 									<p>A small river named Duden flows.</p>
 								</div>
 							</div>
@@ -281,7 +288,7 @@
 			<div class="row justify-content-center mb-5 pb-3">
 				<div class="col-md-10 heading-section ftco-animate text-center">
 					<h3 class="subheading">Testimony</h3>
-					<h2 class="mb-1">Successful Stories</h2>
+					<h2 class="mb-1">What Are Customer Says !</h2>
 				</div>
 			</div>
 			<div class="row ftco-animate">
@@ -291,17 +298,17 @@
 							<div class="testimony-wrap p-4 pb-5">
 								<div class="text">
 									<div class="line pl-5">
-										<p class="mb-4 pb-1">Far far away, behind the word mountains, far from the
-											countries Vokalia and Consonantia, there live the blind texts.</p>
-										<span class="quote d-flex align-items-center justify-content-center">
-											<i class="icon-quote-left"></i>
-										</span>
+										<p class="mb-4 pb-1">Jagruti's Keratin treatments are addictive! My hair is
+											smoother and easier to manage.
+											<span class="quote d-flex align-items-center justify-content-center">
+												<i class="icon-quote-left"></i>
+											</span>
 									</div>
 									<div class="d-flex align-items-center">
-										<div class="user-img" style="background-image: url(images/person_1.jpg)">
+										<div class="user-img" style="background-image: url(images/review-4.jpg)">
 										</div>
 										<div class="ml-4">
-											<p class="name">Gabby Smith</p>
+											<p class="name">Aisha Sharma</p>
 											<span class="position">Customer</span>
 										</div>
 									</div>
@@ -312,18 +319,18 @@
 							<div class="testimony-wrap p-4 pb-5">
 								<div class="text">
 									<div class="line pl-5">
-										<p class="mb-4 pb-1">Far far away, behind the word mountains, far from the
-											countries Vokalia and Consonantia, there live the blind texts.</p>
+										<p class="mb-4 pb-1">Hair Botox worked wonders on my damaged hair. It's
+											healthier and shinier now.</p>
 										<span class="quote d-flex align-items-center justify-content-center">
 											<i class="icon-quote-left"></i>
 										</span>
 									</div>
 
 									<div class="d-flex align-items-center">
-										<div class="user-img" style="background-image: url(images/person_2.jpg)">
+										<div class="user-img" style="background-image: url(images/review-3.jpg)">
 										</div>
 										<div class="ml-4">
-											<p class="name">Floyd Weather</p>
+											<p class="name">Zara Reddy</p>
 											<span class="position">Customer</span>
 										</div>
 									</div>
@@ -334,18 +341,18 @@
 							<div class="testimony-wrap p-4 pb-5">
 								<div class="text">
 									<div class="line pl-5">
-										<p class="mb-4 pb-1">Far far away, behind the word mountains, far from the
-											countries Vokalia and Consonantia, there live the blind texts.</p>
+										<p class="mb-4 pb-1">Jagruti made my wedding day special with flawless Bridal
+											Makeup. I felt like a princess!</p>
 										<span class="quote d-flex align-items-center justify-content-center">
 											<i class="icon-quote-left"></i>
 										</span>
 									</div>
 
 									<div class="d-flex align-items-center">
-										<div class="user-img" style="background-image: url(images/person_3.jpg)">
+										<div class="user-img" style="background-image: url(images/review-2.jpg)">
 										</div>
 										<div class="ml-4">
-											<p class="name">James Dee</p>
+											<p class="name">Riya Patel</p>
 											<span class="position">Customer</span>
 										</div>
 									</div>
@@ -356,18 +363,18 @@
 							<div class="testimony-wrap p-4 pb-5">
 								<div class="text">
 									<div class="line pl-5">
-										<p class="mb-4 pb-1">Far far away, behind the word mountains, far from the
-											countries Vokalia and Consonantia, there live the blind texts.</p>
+										<p class="mb-4 pb-1">Face Sculpting at Jagruti enhanced my features beautifully.
+											I feel more radiant and confident.</p>
 										<span class="quote d-flex align-items-center justify-content-center">
 											<i class="icon-quote-left"></i>
 										</span>
 									</div>
 
 									<div class="d-flex align-items-center">
-										<div class="user-img" style="background-image: url(images/person_4.jpg)">
+										<div class="user-img" style="background-image: url(images/review-6.jpg)">
 										</div>
 										<div class="ml-4">
-											<p class="name">Lance Roger</p>
+											<p class="name">Naina Kapoor</p>
 											<span class="position">Customer</span>
 										</div>
 									</div>
@@ -378,18 +385,18 @@
 							<div class="testimony-wrap p-4 pb-5">
 								<div class="text">
 									<div class="line pl-5">
-										<p class="mb-4 pb-1">Far far away, behind the word mountains, far from the
-											countries Vokalia and Consonantia, there live the blind texts.</p>
+										<p class="mb-4 pb-1">I'm thrilled with the Smoothening Stenting at Jagruti! My
+											frizzy hair is now super smooth.recommended!</p>
 										<span class="quote d-flex align-items-center justify-content-center">
 											<i class="icon-quote-left"></i>
 										</span>
 									</div>
 
 									<div class="d-flex align-items-center">
-										<div class="user-img" style="background-image: url(images/person_2.jpg)">
+										<div class="user-img" style="background-image: url(images/review-5.jpg)">
 										</div>
 										<div class="ml-4">
-											<p class="name">Kenny Bufer</p>
+											<p class="name">Aanya Gupta</p>
 											<span class="position">Customer</span>
 										</div>
 									</div>
@@ -456,32 +463,32 @@
 			</div>
 			<div class="row">
 				<div class="col-md-3 ftco-animate">
-					<a href="images/gallery-1.jpg" class="gallery image-popup img d-flex align-items-center"
-						style="background-image: url(images/gallery-1.jpg);">
+					<a href="images/work-5.jpeg" class="gallery image-popup img d-flex align-items-center"
+						style="background-image: url(images/work-1.jpeg);">
 						<div class="icon mb-4 d-flex align-items-center justify-content-center">
 							<span class="icon-instagram"></span>
 						</div>
 					</a>
 				</div>
 				<div class="col-md-3 ftco-animate">
-					<a href="images/gallery-2.jpg" class="gallery image-popup img d-flex align-items-center"
-						style="background-image: url(images/gallery-2.jpg);">
+					<a href="images/work-6.jpeg" class="gallery image-popup img d-flex align-items-center"
+						style="background-image: url(images/work-2.jpeg);">
 						<div class="icon mb-4 d-flex align-items-center justify-content-center">
 							<span class="icon-instagram"></span>
 						</div>
 					</a>
 				</div>
 				<div class="col-md-3 ftco-animate">
-					<a href="images/gallery-3.jpg" class="gallery image-popup img d-flex align-items-center"
-						style="background-image: url(images/gallery-3.jpg);">
+					<a href="images/work-7.jpeg" class="gallery image-popup img d-flex align-items-center"
+						style="background-image: url(images/work-3.jpeg);">
 						<div class="icon mb-4 d-flex align-items-center justify-content-center">
 							<span class="icon-instagram"></span>
 						</div>
 					</a>
 				</div>
 				<div class="col-md-3 ftco-animate">
-					<a href="images/gallery-4.jpg" class="gallery image-popup img d-flex align-items-center"
-						style="background-image: url(images/gallery-4.jpg);">
+					<a href="images/work-8.jpeg" class="gallery image-popup img d-flex align-items-center"
+						style="background-image: url(images/work-4.jpeg);">
 						<div class="icon mb-4 d-flex align-items-center justify-content-center">
 							<span class="icon-instagram"></span>
 						</div>
@@ -490,47 +497,70 @@
 			</div>
 		</div>
 	</section>
+	<section id="contact">
+		<div class="form-main">
+			<div class="main-wrapper">
+				<h1 class="form-head">Contact From</h1>
+				<form class="form-wrapper" onsubmit="return sendMail()">
+					<div class="form-card">
+						<input class="form-input" id="Name" type="text" name="full_name" required="required" />
+						<label class="form-label" for="Name">Full Name</label>
+					</div>
 
+					<div class="form-card">
+						<input class="form-input" id="Sender" type="email" name="email" required="required" />
+						<label class="form-label" for="Sender">Email</label>
+					</div>
 
+					<div class="form-card">
+						<input class="form-input" id="Mobile" type="tel" name="phone_number" required="required" />
+						<label class="form-label" for="Mobile">Phone number</label>
+					</div>
 
-	<footer class="ftco-footer ftco-section" style="background-color: #000;">
+					<div class="form-card">
+						<textarea class="form-textarea" id="message" maxlength="420" rows="3" name="message"
+							required="required"></textarea>
+						<label class="form-textarea-label" for="message">Message</label>
+					</div>
+					<div class="btn-wrap">
+						<button type="submit">Submit</button>
+					</div>
+				</form>
+			</div>
+		</div>
+	</section>
+	<footer class="ftco-footer " style="background-color: #000;">
 		<div class="container">
 			<div class="row d-flex">
 				<div class="col-md-4">
 					<div class="ftco-footer-widget mb-4">
-						<img src="/images/Jagruti Beauty PArlour.png" width="40%" alt="">
-						<p>Far far away, behind the word mountains, far from the countries Vokalia and Consonantia,
-							there live the blind texts.</p>
+						<img src="images/Jagruti-logo.png" width="40%" alt="">
+						<p>"Elevate Your Beauty, Boost Your Confidence – Unveil a New You at Jagruti Beauty Salon &
+							Academy –
+							Skin * Hair * Makeup"</p>
 						<ul class="ftco-footer-social list-unstyled float-lft mt-3">
-							<li class="ftco-animate"><a href="#"><span class="icon-twitter"></span></a></li>
 							<li class="ftco-animate"><a href="#"><span class="icon-facebook"></span></a></li>
-							<li class="ftco-animate"><a href="#"><span class="icon-instagram"></span></a></li>
+							<li class="ftco-animate"><a
+									href="https://instagram.com/bridalmakeoverbyjagrutipatel?utm_source=qr&igshid=OGIxMTE0OTdkZA=="><span
+										class="icon-instagram"></span></a></li>
 						</ul>
 					</div>
+				</div>
+				<div class="col-md-4">
+
 				</div>
 				<div class="col-md-4">
 					<div class="ftco-footer-widget mb-4">
-						<h2 class="ftco-heading-2 text-white">Quick Links</h2>
-						<ul class="list-unstyled ">
-							<li><a href="#" class="text-white">About</a></li>
-							<li><a href="#" class="text-white">Our Spa</a></li>
-							<li><a href="#" class="text-white">Treatments</a></li>
-							<li><a href="#" class="text-white">Specialists</a></li>
-							<li><a href="#" class="text-white">Contact</a></li>
-						</ul>
-					</div>
-				</div>
-				<div class="col-md-4">
-					<div class="ftco-footer-widget mb-4">	
 						<h2 class="ftco-heading-2 text-white">Have a Questions?</h2>
 						<div class="block-23 mb-3">
 							<ul class="text-white">
-								<li><span class="icon icon-map-marker text-white"></span><span class="text text-white">203 Fake St. Mountain
-										View, San Francisco, California, USA</span></li>
-								<li><a href="#"><span class="icon icon-phonetext-white text-white"></span><span class="text text-white">+2 392 3929
-											210</span></a></li>
-								<li><a href="#"><span class="icon icon-envelope text-white"></span><span
-											class="text text-white">info@yourdomain.com</span></a></li>
+								<li><span class="icon icon-map-marker text-white"></span><span
+										class="text text-white">Shop No. 112,
+										Satyamev Royal-3,
+										Nr. Datt Avalon, Tragad, New Chandkheda,
+										Ahmedabad</span></li>
+								<li><a href="#"><span class="icon icon-phone text-white"></span><span
+											class="text text-white">+91 8160159245</span></a></li>
 							</ul>
 						</div>
 					</div>
@@ -539,14 +569,15 @@
 			<div class="row">
 				<div class="col-md-12 text-center">
 
-					<!-- <p class="mb-0">
+					<p class="mb-0">
 						Copyright &copy;
 						<script>
 							document.write(new Date().getFullYear());
 
-						</script> All rights reserved | This template is made with <i class="icon-heart" aria-hidden="true"></i>
-						by <a href="https://colorlib.com" target="_blank">Colorlib</a>
-					</p> -->
+						</script> All rights reserved |
+						<a href="https://gcsconsultant.com/digital-marketing-agency.html" class="text-white"
+							target="_blank">FitIT Official</a>
+					</p>
 				</div>
 			</div>
 		</div>
@@ -580,7 +611,101 @@
 		src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBVWaKrjvy3MaE7SQ74_uJiULgl1JY0H2s&sensor=false"></script>
 	<script src="js/google-map.js"></script>
 	<script src="js/main.js"></script>
+	<script src="https://smtpjs.com/v3/smtp.js"></script>
+	<script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+	<script src="//cdnjs.cloudflare.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
+	<script src="https://cdn.emailjs.com/sdk/2.6.4/email.min.js"></script>
 
+	<script>
+		new WOW().init();
+	</script>
+	<script type="text/javascript">
+		(function () {
+			emailjs.init("1bvjmdRMdtw1Lg_PU");
+		})();
+	</script>
+	<script>
+		function sendMail() {
+			var name = document.getElementById("Name").value.trim();
+			var sender = document.getElementById("Sender").value.trim();
+			var mobile = document.getElementById("Mobile").value.trim();
+			var message = document.getElementById("message").value.trim();
+
+			if (!name || !sender || !mobile || !message) {
+				Swal.fire({
+					icon: 'error',
+					title: 'Missing Information',
+					text: 'Please fill in all the required fields.'
+				});
+				return false;
+			}
+
+			if (!isValidEmail(sender)) {
+				Swal.fire({
+					icon: 'error',
+					title: 'Invalid Email Address',
+					text: 'Please enter a valid email address.'
+				});
+				return false;
+			}
+
+			if (!isValidMobileNumber(mobile)) {
+				Swal.fire({
+					icon: 'error',
+					title: 'Invalid Mobile Number',
+					text: 'Please enter a valid mobile number.'
+				});
+				return false;
+			}
+
+			var params = {
+				Name: name,
+				Sender: sender,
+				Mobile: mobile,
+				message: message
+			};
+
+			const serviceID = "service_0iqozjz";
+			const templateID = "template_z591m44";
+
+			emailjs.send(serviceID, templateID, params)
+				.then(function (response) {
+					document.getElementById("Name").value = "";
+					document.getElementById("Sender").value = "";
+					document.getElementById("Mobile").value = "";
+					document.getElementById("message").value = "";
+
+					console.log("Email sent successfully", response.status, response.text);
+					Swal.fire({
+						icon: 'success',
+						title: 'Thank You!',
+						text: 'Your message has been sent successfully. We will contact you soon.'
+					});
+				})
+				.catch(function (error) {
+					console.error("Error sending email", error);
+					Swal.fire({
+						icon: 'error',
+						title: 'Error Sending Email',
+						text: 'There was an error sending your message. Please try again later.'
+					});
+				});
+
+			return false; // Prevent form submission (if using a form element)
+		}
+
+		function isValidEmail(email) {
+			// Basic email validation
+			var emailPattern = /^[^\s@]+@[^\s@]+\.[^\s@]+$/;
+			return emailPattern.test(email);
+		}
+
+		function isValidMobileNumber(mobile) {
+			// Basic mobile number validation
+			var mobilePattern = /^\d{10}$/;
+			return mobilePattern.test(mobile);
+		}
+	</script>
 </body>
 
 </html>
