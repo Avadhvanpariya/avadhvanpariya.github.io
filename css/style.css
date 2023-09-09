@@ -14061,14 +14061,23 @@ textarea.form-control {
 
 @media screen and (max-width: 545px) {
   .float-button {
-    left: -22px;
-    font-size: 12px;
+    left: -25px;
+    font-size: 14px;
     padding: 4px 5px;
   }
 
   .fa-whatsapp {
     padding: 0;
   }
+}
+
+.float-button2 {
+  position: fixed;
+  padding: 4px;
+  bottom: 50%;
+  right: -10px;
+  z-index: 999;
+
 }
 
 
