@@ -14091,7 +14091,8 @@ textarea.form-control {
   justify-content: center;
   width: 40px;
   height: 40px;
-  background-color: #007bff; /* Change this color as needed */
+  background-color: #007bff;
+  /* Change this color as needed */
   border-radius: 50%;
   font-size: 20px;
   color: #fff;
@@ -14100,7 +14101,8 @@ textarea.form-control {
 }
 
 .float-button2 a:hover {
-  background-color: #000; /* Change this color as needed */
+  background-color: #000;
+  /* Change this color as needed */
 }
 
 /* Common Styles for Android and iOS */
@@ -14118,7 +14120,6 @@ textarea.form-control {
 .main-wrapper {
   border-radius: 10px;
   padding: 45px;
-  width: 80%; /* Adjust this as needed */
   box-shadow: 0 0 5px 5px rgba(0, 0, 0, 0.2);
   backdrop-filter: blur(5px);
   background-color: rgba(255, 255, 255, 0.9);
@@ -14148,7 +14149,7 @@ textarea.form-control {
 .form-input,
 .form-textarea {
   padding: 15px;
-  width: 100%;
+  width: 500px;
   border: 1px solid #ccc;
   border-radius: 5px;
   background: transparent;
@@ -14158,9 +14159,31 @@ textarea.form-control {
   font-weight: 400;
 }
 
+@media screen and (max-width: 545px) {
+
+  .form-input,
+  .form-textarea {
+    padding: 15px;
+    width: 290px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    background: transparent;
+    outline: none;
+    font-size: 18px;
+    line-height: 24px;
+    font-weight: 400;
+  }
+
+  .main-wrapper {
+    padding: 30px;
+  }
+
+}
+
 .form-input:focus,
 .form-textarea:focus {
-  border: 1px solid #007bff; /* Change this color as needed */
+  border: 1px solid #007bff;
+  /* Change this color as needed */
 }
 
 .form-label {
@@ -14186,7 +14209,8 @@ textarea.form-control {
   padding: 0 24px;
   font-size: 18px;
   line-height: 36px;
-  border: 1px solid #007bff; /* Change this color as needed */
+  border: 1px solid #007bff;
+  /* Change this color as needed */
   font-weight: 600;
   border-radius: 6px;
   transition: all 0.5s ease;
@@ -14194,8 +14218,9 @@ textarea.form-control {
 }
 
 .btn-wrap button:hover {
-  background: #007bff; /* Change this color as needed */
+  background: #007bff;
+  /* Change this color as needed */
   color: #fff;
-  border: 1px solid #007bff; /* Change this color as needed */
+  border: 1px solid #007bff;
+  /* Change this color as needed */
 }
-
