@@ -847,15 +847,11 @@ ul {
     color: #fff;
 }
 
-@media (max-width: 545px) {
+@media screen and (max-width: 545px) {
     .float-button {
         left: -32px;
         font-size: 14px;
         padding: 4px 5px;
-    }
-
-    .float-button2 {
-        bottom: 20% !important;
     }
 
     .fa-whatsapp {
@@ -867,7 +863,7 @@ ul {
 .float-button2 {
     position: fixed;
     padding: 4px;
-    bottom: 50%;
+    bottom: 20%;
     right: -2px;
     z-index: 999;
 
@@ -893,4 +889,12 @@ ul {
 
 .float-button2 a:hover {
     background-color: #000;
+}
+
+.map {
+    box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+    width: 350px;
+    height: 200px;
+    border: 0;
+    border-radius: 10px;
 }
