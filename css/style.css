@@ -857,6 +857,11 @@ ul {
     .fa-whatsapp {
         padding: 0;
     }
+
+    .partner img{
+        width: 150px !important;
+    }
+    
 }
 
 
@@ -897,4 +902,21 @@ ul {
     height: 200px;
     border: 0;
     border-radius: 10px;
+}
+
+
+.partner {
+    background-color: #ffffff;
+    border: 1px solid #dddddd;
+    padding: 15px 10px;
+}
+
+
+.partner img{
+    width: 250px;
+}
+
+.ulockd-pdng0{
+    padding-left: 0px;
+    padding-right: 0px;
 }
