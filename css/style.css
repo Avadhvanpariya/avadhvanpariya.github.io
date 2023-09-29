@@ -849,7 +849,7 @@ ul {
 
 @media screen and (max-width: 545px) {
     .float-button {
-        left: -22px;
+        left: -32px;
         font-size: 14px;
         padding: 4px 5px;
     }
