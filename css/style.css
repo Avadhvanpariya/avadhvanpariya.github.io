@@ -158,15 +158,16 @@ h6,
 /*** Header ***/
 .carousel-caption {
     top: 0;
-    left: 0;
-    right: 0;
+    left: -1% !important;
+    right: -15px !important;
     bottom: 0;
     display: flex;
     align-items: center;
     justify-content: center;
-    text-align: start;
+    text-align: start !important;
     z-index: 1;
 }
+
 
 .carousel-control-prev,
 .carousel-control-next {
@@ -850,6 +851,7 @@ ul {
 @media screen and (max-width: 545px) {
     .float-button {
         left: -30px;
+        bottom: 40%;
         font-size: 14px;
         padding: 4px 5px;
     }
@@ -858,10 +860,15 @@ ul {
         padding: 0;
     }
 
-    .partner img{
+    .partner img {
         width: 150px !important;
     }
-    
+
+    .modal-content{
+        width: 90% !important;
+        left: 5% !important;
+    }
+
 }
 
 
@@ -912,7 +919,46 @@ ul {
 }
 
 
-.ulockd-pdng0{
+.ulockd-pdng0 {
     padding-left: 0px;
     padding-right: 0px;
+}
+
+
+.black-form .timer span,
+.countdown span {
+    font-size: 20px;
+    font-weight: 500;
+    padding: 5px;
+    background-color: #525252;
+    border-radius: 5px;
+    width: 55px;
+}
+
+.black-form h5 {
+    font-size: 26px;
+    padding-bottom: 20px;
+}
+
+.pupop-form .in-put {
+    background: #fff;
+    color: #000;
+    border-radius: 7px;
+}
+
+.pupop-form select {
+    height: 45px !important;
+    font-weight: 500 !important;
+    font-size: 16px;
+    color: #474747;
+}
+
+a{
+    list-style: none;
+    text-decoration: none !important;
+} 
+
+.modal-content{
+    width: 90% !important;
+    left: 10% ;
 }
