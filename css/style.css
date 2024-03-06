@@ -1235,4 +1235,9 @@
         margin-top: 167px;
     }
 
+    .fancybox-slide--video .fancybox-content {
+        width: 370px !important;
+        height: 400px !important;
+    }
+
 }
