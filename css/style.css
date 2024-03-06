@@ -254,6 +254,10 @@
         transition: .5s;
         opacity: 0;
     }
+
+    .display-1 {
+        font-size: 4rem;
+    }
 }
 
 .dropdown .dropdown-menu a:hover {
@@ -439,7 +443,7 @@
     display: flex;
     align-items: center;
     justify-content: center;
-    background: rgba(0, 0, 0, .5);
+    background: rgba(0, 0, 0, 0);
 }
 
 .header-carousel .header-carousel-item .carousel-caption .carousel-caption-content {
@@ -1218,4 +1222,17 @@
     .about-img-inner {
         width: 176px;
     }
+
+    .display-1 br {
+        display: none;
+    }
+
+    .display-1 {
+        font-size: 2rem;
+    }
+
+    .carousel-caption-content {
+        margin-top: 167px;
+    }
+
 }
