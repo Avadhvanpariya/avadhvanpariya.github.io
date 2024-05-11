@@ -1,664 +1,760 @@
-<!doctype html>
-<html lang="en">
+<!DOCTYPE html>
+<html lang="zxx">
 
 <head>
     <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-    <title>Unique Laundry</title>
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css">
-    <!-- jQuery should be included before any scripts that depend on it -->
-    <link rel="shortcut icon" href="assets/images/fav.jpg">
-    <link href="https://fonts.googleapis.com/css?family=Source+Sans+Pro" rel="stylesheet">
-    <link rel="stylesheet" href="assets/css/bootstrap.min.css">
-    <link rel="stylesheet" href="assets/css/fontawsom-all.min.css">
-    <link rel="stylesheet" href="assets/plugins/testimonial/css/owl.carousel.min.css">
-    <link rel="stylesheet" href="assets/plugins/testimonial/css/owl.theme.min.css">
-    <link rel="stylesheet" type="text/css" href="assets/css/style.css" />
-
-
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1" />
+    <title>Gapuchee</title>
+    <link rel="shortcut icon" href="./img/logo.png" type="image/x-icon">
     <link rel="stylesheet"
-        href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.theme.default.min.css">
+        href="https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;500;600;700;800;900&display=swap">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/css/bootstrap.min.css"
+        integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <link rel="stylesheet" href="css/plugins.css" />
+    <link rel="stylesheet" href="css/style.css" />
+    <link rel="stylesheet" href="css/plugins/all.min.css"/>
+    <style>
+        
+        .opacity-50 {
+        opacity: 0.7; /* Adjust the opacity value as needed */
+    }
+    </style>
 </head>
-
 <body>
-    <!-- ################# Header Starts Here#######################--->
-    <header>
-        <div id="nav-head" class="header-nav">
-            <div class="container">
-                <div class="row">
-                    <div class="col-md-3 col-sm-12 nav-img">
-                        <img src="assets/images/logo.webp" alt="">
-                        <a data-toggle="collapse" data-target="#menu" href="#menu"><i
-                                class="fas d-block d-md-none small-menu fa-bars"></i></a>
-                    </div>
-                    <div id="menu" class="col-md-9 d-none d-md-block nav-item">
-                        <ul>
-                            <li><a href="index.html">Home</a></li>
-                            <li class="service-menu"><a href="#">Services</a></li>
-                            <li class="videos"><a href="#">Videos</a></li>
-                            <li class="packagesa"><a href="#">Packages</a></li>
-                            <li class="aboutus"><a href="#">About Us</a></li>
-                            <li class="contacts"><a href="#">Contact</a></li>
+    <div class="preloader-bg"></div>
+    <div id="preloader">
+        <div id="preloader-status">
+            <div class="preloader-position loader"> <span></span> </div>
+        </div>
+    </div>
+    <div class="progress-wrap cursor-pointer">
+        <svg class="progress-circle svg-content" width="100%" height="100%" viewBox="-1 -1 102 102">
+            <path d="M50,1 a49,49 0 0,1 0,98 a49,49 0 0,1 0,-98" />
+        </svg>
+        <!-- <div class="" width="100%" height="100%">
+            <i class="fa-solid fa-arrow-up progress-circle svg-content"></i>
+        </div> -->
+    </div>
+
+    <nav class="navbar navbar-expand-lg">
+        <div class="container">
+            <!-- Logo -->
+            <div class="logo-wrapper">
+                <a class="logo" href="index.html"><img src="/img/gapuchee5.png" alt="" style="width:200px"></a>
+            </div>
+            <!-- Button -->
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbar"
+                aria-controls="navbar" aria-expanded="false" aria-label="Toggle navigation"> <span
+                    class="navbar-toggler-icon"><i class="fa-solid fa-bars"></i></span> </button>
+            <!-- Menu -->
+            <div class="collapse navbar-collapse" id="navbar">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item dropdown"> <a class="nav-link active dropdown-toggle" href="index.html" 
+                             data-bs-auto-close="outside" aria-expanded="false">Home </a>
+                    </li>
+                    <li class="nav-item"><a class="nav-link" href="about.html">About</a></li>
+                    <li class="nav-item dropdown"> <a class="nav-link dropdown-toggle" href="#" role="button"
+                            data-bs-toggle="dropdown" data-bs-auto-close="outside" aria-expanded="false">Categories <i class="fa-solid fa-angle-down"></i></a>
+                        <ul class="dropdown-menu">
+                            <li><a href="atv.html" class="dropdown-item"><span>ATV</span></a>
+                           
+                            </li>
+                            <li><a href="dirt-bike.html" class="dropdown-item"><span>DIRT BIKE</span></a>
+                                
+                            </li>
+                            <li><a href="pocket.html" class="dropdown-item"><span>POCKET BIKE</span></a>
+                               
+                            </li>
+                            <li><a href="child-bike.html" class="dropdown-item"><span>CHILD BATTERY CAR</span></a>
+                              
+                            </li>
+                            <li><a href="hoverboard.html" class="dropdown-item"><span>HOVERBOARD</span></a>
+                               
+                            </li>
+                            <li><a href="cycle.html" class="dropdown-item"><span>CYCLE</span></a>
+                               
+                            </li>
+                            <li><a href="utv.html" class="dropdown-item"><span>UTV</span></a></li>
                         </ul>
+                    </li>
+                    <li class="nav-item"><a class="nav-link" href="contact.html">Contact</a></li>
+                </ul>
+                <div class="navbar-right">
+                    <div class="wrap">
+                        <div class="icon"><img src="./img/phone-call.png" width="50%" alt=""> </div>
+                        <div class="text">
+                            <p>Need help?</p>
+                            <h5><a href="tel:8551004444">90333 12020</a></h5>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </nav>
+   
+    <header class="header slider-fade">
+        <div class="owl-carousel owl-theme">
+                  <div class="item bg-img" data-overlay-dark="5" data-background="img/IMG_3647.jpg">
+                <div class="v-middle caption">
+                    <div class="container">
+                        <div class="row text-center">
+                            <div class="col-lg-12 col-md-12">
+                                <div class="v-middle">
+                                    <h6>* Premium</h6>
+                                    <h1 class="mt-4 mb-4"> ATV Collection </h1>
+                                    <P><a href="atv.html" class="button-1 mt-15 mb-15">View Details</a> </P>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="item bg-img" data-overlay-dark="5" data-background="img/cycle.jpg">
+                <div class="v-middle caption">
+                    <div class="container">
+                        <div class="row text-center">
+                            <div class="col-lg-12 col-md-12">
+                                <div class="v-middle">
+                                    <h6>* Premium</h6>
+                                    <h1 class="mt-4 mb-4">Exclusive Cycle Collection </h1>
+                                    <P><a href="cycle.html" class="button-1 mt-15 mb-15">View Details</a> </P>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="item bg-img" data-overlay-dark="5" data-background="img/1-4-500x500.jpg">
+                <div class="v-middle caption">
+                    <div class="container">
+                        <div class="row text-center">
+                            <div class="col-lg-12 col-md-12">
+                                <div class="v-middle">
+                                    <h6>* Premium</h6>
+                                    <h1 class="mt-4 mb-4">Best Quad Bikes in India </h1>
+                                    <P><a href="hoverboard.html" class="button-1 mt-15 mb-15">View Details</a> </P>
+                                </div>
+                            </div>
+                        </div>
                     </div>
                 </div>
             </div>
         </div>
     </header>
-    <!-- ################# Slider Starts Here#######################--->
-    <div class="slider">
+    <section class="about section-padding p-0 pt-5">
         <div class="container">
-            <div class="slider-titl row">
-                <div class="col-md-6 slidgb text-left order-2 order-md-1">
-                    <h1>We Promise keep you so fresh and so Clean</h1>
-                    <p>Deploy your service infrastructure on our fully redundant, high performance cloud platform and
-                        benefit from its high reliability, security and enterprise feature set.</p>
-                    <div class="mt-4 button-container">
-                        <a href="https://api.whatsapp.com/send?phone=+917537820000&text=Hello I want to know more about Unique Laundry"
-                            class="btn btn-info button-container">Book Appointment</a>
-                    </div>
-                </div>
-                <div class="col-md-6 slid-img order-1 order-md-2">
-                    <img src="assets/Photos/IMG_9902.JPG" alt="">
-                </div>
-
-
-
-
-            </div>
-
-        </div>
-    </div>
-
-
-    <!-- ################# Key Features Starts Here#######################--->
-
-    <section class="latest-features">
-        <div class="container">
-            <div class="inner-title">
-
-                <h2> Latest Features & Services</h2>
-                <p>Take a look at some of latest features and services provided by our team</p>
-            </div>
-
             <div class="row">
-                <div class="col-md-4 col-sm-6 ">
-                    <div class="single-feature">
-                        <img src="assets/Photos/IMG_2590.JPG" alt="">
-                        <div class="bn-dgt">
-                            <h5>Home Cleaning</h5>
-                            <p>Home Cleaning" is the process of tidying and sanitizing living spaces to maintain a clean
-                                and healthy environment. It involves tasks such as dusting, vacuuming, mopping.</p>
-                        </div>
-                    </div>
-                </div>
-
-                <div class="col-md-4 col-sm-6">
-                    <div class="single-feature">
-                        <img src="assets/Photos/IMG_9904.JPG" alt="">
-                        <div class="bn-dgt">
-                            <h5>Sofa Cleaning</h5>
-                            <p>"Sofa cleaning" refers to the process of cleaning and maintaining upholstery,
-                                particularly sofas, to ensure they remain hygienic, aesthetically pleasing.</p>
-                        </div>
-                    </div>
-                </div>
-
-                <div class="col-md-4 col-sm-6">
-                    <div class="single-feature">
-                        <img src="assets/Photos/IMG_2581.JPG" alt="">
-                        <div class="bn-dgt">
-                            <h5>Chair Cleaning</h5>
-                            <p> CChair cleaning" involves the maintenance and sanitation of chairs to keep them clean,
-                                presentable, and free from dirt, stains, and allergens</p>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-md-4 col-sm-6">
-                    <div class="single-feature">
-                        <img src="assets/Photos/IMG_2602.JPG" alt="">
-                        <div class="bn-dgt">
-                            <h5>bag Cleaning</h5>
-                            <p> Bag cleaning" refers to the process of maintaining and refreshing bags to keep them
-                                clean, hygienic, and looking their best. Bags, whether they're handbags, backpacks, or
-                                travel bags, can accumulate dirt</p>
-                        </div>
-                    </div>
-                </div>
-
-                <div class="col-md-4 col-sm-6">
-                    <div class="single-feature">
-                        <img src="assets/Photos/IMG_0014.JPG" alt="">
-                        <div class="bn-dgt">
-                            <h5>Carpet Cleaning</h5>
-                            <p>Carpet cleaning is the process of removing dirt, stains, and allergens from carpets to
-                                maintain their appearance and hygiene. Methods include vacuuming, spot cleaning for
-                                spills, steam cleaning</p>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-md-4 col-sm-6">
-                    <div class="single-feature">
-                        <img src="assets/Photos/IMG_2561.JPG" alt="">
-                        <div class="bn-dgt">
-                            <h5>Shoes Cleaning</h5>
-                            <p> Shoe cleaning involves removing dirt, stains, and marks from footwear to maintain their
-                                appearance and hygiene. This process typically includes surface cleaning with a soft
-                                brush or cloth.</p>
-                        </div>
-                    </div>
-                </div>
-
-            </div>
-
-        </div>
-
-    </section>
-
-
-
-    <!-- Video Section -->
-    <section class="video-section">
-        <div class="container">
-            <div class="inner-title">
-
-                <h2>videos</h2>
-                <p>Watch our video and see how we work!</p>
-            </div>
-            <div id="video-slider">
-                <div class="item">
-                    <div class="video-img">
-                        <div class="ply1 black-before">
-                            <img class="" data-src="./images/takshak/demo-lecture.jpg" width="100%"
-                                style="border-radius: 10px;" alt="client journey" src="/assets/Photos/IMG_2533.JPG">
-                            <div class="video-btn">
-                                <a href="https://youtu.be/HJ-o1-wPN6E" data-flashy-type="video" class="custom">
-                                    <span class="newthing"><i class="fas fa-play"></i></span>
-                                </a>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <div class="item">
-                    <div class="video-img">
-                        <div class="ply1 black-before">
-                            <img class="" data-src="./images/takshak/demo-lecture.jpg" width="100%"
-                                style="border-radius: 10px;" alt="client journey" src="/assets/Photos/IMG_2578.JPG">
-                            <div class="video-btn">
-                                <a href="https://youtube.com/shorts/aFKsbpP1V0M?feature=share" data-flashy-type="video"
-                                    class="custom">
-                                    <span class="newthing"><i class="fas fa-play"></i></span>
-                                </a>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <div class="item">
-                    <div class="video-img">
-                        <div class="ply1 black-before">
-                            <img class="" data-src="./images/takshak/demo-lecture.jpg" width="100%"
-                                style="border-radius: 10px;" alt="client journey" src="/assets/Photos/IMG_2590.JPG">
-                            <div class="video-btn">
-                                <a href="https://youtu.be/mrbnPO6J99U" data-flashy-type="video" class="custom">
-                                    <span class="newthing"><i class="fas fa-play"></i></span>
-                                </a>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <div class="item">
-                    <div class="video-img">
-                        <div class="ply1 black-before">
-                            <img class="" data-src="./images/takshak/demo-lecture.jpg" width="100%"
-                                style="border-radius: 10px;" alt="client journey" src="/assets/Photos/IMG_2602.JPG">
-                            <div class="video-btn">
-                                <a href="https://youtu.be/EiD2UIwbetA" data-flashy-type="video" class="custom">
-                                    <span class="newthing"><i class="fas fa-play"></i></span>
-                                </a>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <div class="item">
-                    <div class="video-img">
-                        <div class="ply1 black-before">
-                            <img class="" data-src="./images/takshak/demo-lecture.jpg" width="100%"
-                                style="border-radius: 10px;" alt="client journey" src="/assets/Photos/IMG_9951.JPG">
-                            <div class="video-btn">
-                                <a href="https://youtube.com/shorts/NpnUGQuxfgo?feature=share" data-flashy-type="video"
-                                    class="custom">
-                                    <span class="newthing"><i class="fas fa-play"></i></span>
-                                </a>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <div class="item">
-                    <div class="video-img">
-                        <div class="ply1 black-before">
-                            <img class="" data-src="./images/takshak/demo-lecture.jpg" width="100%"
-                                style="border-radius: 10px;" alt="client journey" src="/assets/Photos/IMG_9971.JPG">
-                            <div class="video-btn">
-                                <a href="https://youtu.be/PneIcDYY3GM" data-flashy-type="video" class="custom">
-                                    <span class="newthing"><i class="fas fa-play"></i></span>
-                                </a>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <div class="item">
-                    <div class="video-img">
-                        <div class="ply1 black-before">
-                            <img class="" data-src="./images/takshak/demo-lecture.jpg" width="100%"
-                                style="border-radius: 10px;" alt="client journey" src="/assets/Photos/IMG_9994.JPG">
-                            <div class="video-btn">
-                                <a href="https://youtu.be/07RhQDYWAxM" data-flashy-type="video" class="custom">
-                                    <span class="newthing"><i class="fas fa-play"></i></span>
-                                </a>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </section>
-
-
-
-
-    <!-- ################# Packages Starts Here#######################--->
-    <section class="packages">
-        <div class="container">
-            <div class="inner-title">
-                <h2>Membership Packages</h2>
-                <p>Choose the membership plan that suits you best</p>
-            </div>
-            <div class="row">
-                <div class="col-md-4">
-                    <div class="product-box silver">
-                        <div class="product-header">
-                            <h4>Silver</h4>
-                            <p>Basic features</p>
-                        </div>
-                        <div class="product-price">
-                            ₹
-                            320<span class="term"> / month</span>
-                        </div>
-                        <div class="product-order">
-                            <a href="https://api.whatsapp.com/send?phone=+917537820000&text=Hello I want to Purchase silver-membership"
-                                class="btn btn-info" href="#">Order Now</a>
-                        </div>
-                    </div>
-                </div>
-
-                <div class="col-md-4">
-                    <div class="product-box gold">
-                        <!-- <div class="product-popular">Most Popular</div> -->
-                        <div class="product-header">
-                            <h4>Gold</h4>
-                            <p>Advanced features</p>
-                        </div>
-                        <div class="product-price">
-                            ₹
-                            420<span class="term"> / month</span>
-                        </div>
-                        <div class="product-order">
-                            <a class="btn btn-info"
-                                href="https://api.whatsapp.com/send?phone=+917537820000&text=Hello I want to Purchase gold-membership">Order
-                                Now</a>
-                        </div>
-                    </div>
-                </div>
-
-                <div class="col-md-4">
-                    <div class="product-box diamond">
-                        <div class="product-header">
-                            <h4>Diamond</h4>
-                            <p>Premium features</p>
-                        </div>
-                        <div class="product-price">
-                            ₹
-                            500
-                            <span class="term"> / month</span>
-                        </div>
-                        <div class="product-order">
-                            <a class="btn btn-info"
-                                href="https://api.whatsapp.com/send?phone=+917537820000&text=Hello I want to Purchase Diamond-membership">Order
-                                Now</a>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </section>
-
-
-    <section class="with-medical">
-        <div class="container">
-            <div class="inner-title">
-
-                <h2>About Us</h2>
-                <p>Take a look at some of our key features</p>
-            </div>
-            <div class="row">
-
-                <div class="col-lg-6 col-md-12 txtr">
-                    <h4>Why choos cleaning with <br>
-                        <span>Unique Cleaning </span>
-                    </h4>
-                    <p>Choose Unique Cleaning for impeccable service, professionalism, and eco-friendly practices. Our
-                        dedicated team delivers top-notch cleaning tailored to your needs. With competitive rates and
-                        flexible scheduling, we make cleanliness accessible. We prioritize your satisfaction, offering a
-                        guarantee on our work. Experience the difference with Unique Cleaning and enjoy a spotless,
-                        inviting space.</p>
-                    <ul>
-                        <li><i class="fa fa-check"></i> Quality Service</li>
-                        <li><i class="fa fa-check"></i> Customized Solutions </li>
-                        <li><i class="fa fa-check"></i> Affordable Pricing</li>
-                        <li><i class="fa fa-check"></i> Flexible Scheduling </li>
-                    </ul>
-                </div>
-
                 <div class="col-lg-6 col-md-12">
-                    <div class="row">
-                        <div class="col-md-6">
-                            <div class="count-bx">
-                                <h4>22K</h4>
-                                <p>Services Done</p>
-                            </div>
-                        </div>
-                        <div class="col-md-6">
-                            <div class="count-bx">
-                                <h4>11K</h4>
-                                <p>Total Clients</p>
-                            </div>
-                        </div>
-                        <div class="col-md-6">
-                            <div class="count-bx">
-                                <h4>465</h4>
-                                <p>Projects Done</p>
-                            </div>
-                        </div>
-                        <div class="col-md-6">
-                            <div class="count-bx">
-                                <h4>14Y</h4>
-                                <p>Experiance</p>
-                            </div>
-                        </div>
+                    <div class="content">
+                        <div class="section-subtitle">GAPUCHEE</div>
+                        <div class="section-title">We Are More Than <span>A Bike Rental Company</span></div>
+                        <p class="mb-30">Gapuchee is a relatively unknown term, so I'm assuming it's a brand or a
+                            product name. However, if you're referring to "GAPUCHEE" as a specific brand or model of
+                            bike or cycle, I don't have any information about it. It's possible that it could be a new
+                            brand or a regional one that hasn't gained widespread recognition yet. If you have any
+                            specific details or context about GAPUCHEE bikes or cycles, feel free to share, and I can
+                            try to provide more relevant information!</p>
+                        <ul class="list-unstyled list">
+
+
+                        </ul> <a href="about.html" class="button-1">Read More <i class="ml-2 fa-solid fa-arrow-right"></i></a>
                     </div>
                 </div>
-
-            </div>
-        </div>
-    </section>
-    <!-- ################# Testimonial Starts Here#######################--->
-    <section class="testimonial-container">
-        <div class="container">
-            <div class="inner-title row">
-                <h2>Testimonial</h2>
-                <p>Take a look at what people say about us</p>
-            </div>
-            <div class="row">
-                <div class="col-md-offset-2 float-auto col-md-10">
-                    <div id="testimonial-slider" class="owl-carousel">
-                        <div class="testimonial">
-                            <div class="pic">
-                                <img src="assets/Photos/sanket ahuja.png" alt="">
+                <div class="col-lg-5 offset-lg-1 col-md-12">
+                    <div class="item"> <img src="img/IMG_3666.JPG" class="img-fluid" alt="">
+                        <div class="curv-butn icon-bg">
+                            <a href="https://youtu.be/1LxcTt1adfY" class="vid">
+                                <div class="icon mt-3"><a href=""><i class="fa-solid fa-play" style="color: goldenrod;"></i></a></div>
+                            </a>
+                            <div class="br-left-top">
+                                <svg viewBox="0 0 11 11" fill="none" xmlns="http://www.w3.org/2000/svg"
+                                    class="w-11 h-11">
+                                    <path
+                                        d="M11 1.54972e-06L0 0L2.38419e-07 11C1.65973e-07 4.92487 4.92487 1.62217e-06 11 1.54972e-06Z"
+                                        fill="#1b1b1b"></path>
+                                </svg>
                             </div>
-                            <p class="description">
-                                Positive: Professionalism, Quality, Responsiveness, Value
-                                Timely pickup and delivery…Amazing quality of cleaning shoes..Top class..Recommended
-                                👍👍👍
-                            </p>
-                            <h3 class="title">Saket Juneja
-
-                                <span class="post"> - Customer</span>
-                            </h3>
-                        </div>
-
-                        <div class="testimonial">
-                            <div class="pic">
-                                <img src="assets/Photos/amin.png" alt="">
+                            <div class="br-right-bottom">
+                                <svg viewBox="0 0 11 11" fill="none" xmlns="http://www.w3.org/2000/svg"
+                                    class="w-11 h-11">
+                                    <path
+                                        d="M11 1.54972e-06L0 0L2.38419e-07 11C1.65973e-07 4.92487 4.92487 1.62217e-06 11 1.54972e-06Z"
+                                        fill="#1b1b1b"></path>
+                                </svg>
                             </div>
-                            <p class="description">
-                                Positive: Professionalism, Quality, Value
-                                Super Fast Quality Service.... after the service shoes looks like brand new.
-                            </p>
-                            <h3 class="title">Panual Amin
-                                <span class="post"> - Customer</span>
-                            </h3>
-                        </div>
-
-                        <div class="testimonial">
-                            <div class="pic">
-                                <img src="assets/Photos/customer-1.jpg" alt="">
-                            </div>
-                            <p class="description">
-                                Positive: Professionalism, Quality, Value
-                                Super Fast Quality Service.... after the service shoes looks like brand new.
-                            </p>
-                            <h3 class="title">Mark Patel
-
-
-                                <span class="post"> - Customer</span>
-                            </h3>
-                        </div>
-
-                        <div class="testimonial">
-                            <div class="pic">
-                                <img src="assets/Photos/customer.jpg" alt="">
-                            </div>
-                            <p class="description">
-                                Positive: Quality, Responsiveness
-                                We received next day verry cleaned shoes thank you deepak bhai.
-                            </p>
-                            <h3 class="title">Jimmy Christie
-
-
-                                <span class="post"> - Customer</span>
-                            </h3>
-                        </div>
-
-                        <div class="testimonial">
-                            <div class="pic">
-                                <img src="assets/Photos/amin-1.jpg" alt="">
-                            </div>
-                            <p class="description">
-                                Positive: Quality
-                                Nice work.. 👍
-                            </p>
-                            <h3 class="title">Fiona Amin
-
-
-                                <span class="post"> - Customer</span>
-                            </h3>
-                        </div>
-
-                        <div class="testimonial">
-                            <div class="pic">
-                                <img src="assets/Photos/sanddep.png" alt="">
-                            </div>
-                            <p class="description">
-                                Positive: Professionalism, Quality, Responsiveness, Value
-                                Professional Work.
-                            </p>
-                            <h3 class="title">Sandeep Panth
-
-
-                                <span class="post"> - Customer</span>
-                            </h3>
-                        </div>
-
-                        <div class="testimonial">
-                            <div class="pic">
-                                <img src="assets/Photos/sameer.png" alt="">
-                            </div>
-                            <p class="description">
-                                Positive: Professionalism, Punctuality, Quality, Responsiveness, Value
-                                very well Experienceand Experience with the team and they are always ready to help
-                            </p>
-                            <h3 class="title">Samir Gandhi
-
-
-                                <span class="post"> - Customer</span>
-                            </h3>
                         </div>
                     </div>
                 </div>
             </div>
         </div>
     </section>
-    <!-- ################# Contact Starts Here#######################--->
+ 
 
-    <section class="contact my-4">
+    <section class="car-types1 section-padding p-0 pt-5 pb-5">
         <div class="container">
             <div class="row">
-                <div class="col-md-6">
-                    <iframe
-                        src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3719.822010532453!2d72.8033953735296!3d21.199228481905056!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3be04e8a3baaaaab%3A0xacd17b1c2c18861!2sUnique%20Laundry!5e0!3m2!1sen!2sin!4v1714129907980!5m2!1sen!2sin"
-                        width="100%" height="500" style="border:0;" allowfullscreen="" loading="lazy"
-                        referrerpolicy="no-referrer-when-downgrade"></iframe>
+                <div class="col-md-12 text-center mb-30">
+                    <div class="section-subtitle">Categories</div>
+                    <div class="section-title">Watch <span>Bikes Types</span></div>
                 </div>
-                <div class="col-md-6 mx-auto">
-                    <div id="contact-form">
-                        <div class="mb-3">
-                            <h2 class="mb-3 text-black" style="color: #000;">Contact Us</h2>
-                            <p>Feel free to contect us directly or simply complete our form below and we will follow up
-                                with you.</p>
+            </div>
+            <div class="row">
+                <div class="col-md-12">
+                    <div class="owl-carousel owl-theme">
+                        <div class="item"> <img src="img/atv/dirt-bike.png" class="img-fluid opacity-50" alt="">
+                            <div class="title">
+                                <h4>ATV BIKE</h4>
+                            </div>
+                            <div class="curv-butn icon-bg">
+                                <a href="atv.html" class="vid">
+                                    <div class="icon"> <i class="fa-solid fa-square-arrow-up-right" style="font-size: 25px; color: goldenrod;"></i> </div>
+                                </a>
+                                <div class="br-left-top">
+                                    <svg viewBox="0 0 11 11" fill="none" xmlns="http://www.w3.org/2000/svg"
+                                        class="w-11 h-11">
+                                        <path
+                                            d="M11 1.54972e-06L0 0L2.38419e-07 11C1.65973e-07 4.92487 4.92487 1.62217e-06 11 1.54972e-06Z"
+                                            fill="#1b1b1b"></path>
+                                    </svg>
+                                </div>
+                                <div class="br-right-bottom">
+                                    <svg viewBox="0 0 11 11" fill="none" xmlns="http://www.w3.org/2000/svg"
+                                        class="w-11 h-11">
+                                        <path
+                                            d="M11 1.54972e-06L0 0L2.38419e-07 11C1.65973e-07 4.92487 4.92487 1.62217e-06 11 1.54972e-06Z"
+                                            fill="#1b1b1b"></path>
+                                    </svg>
+                                </div>
+                            </div>
                         </div>
-                        <form class="form" id="contactForm">
-                            <div class="form-group">
-                                <input type="text" class="form-control" id="name" placeholder="Name">
+                        <div class="item"> <img src="img/neo/neo-bike.jpg" class="img-fluid opacity-50" alt="">
+                            <div class="title">
+                                <h4>NEO ATV</h4>
                             </div>
-                            <div class="form-group">
-                                <input type="text" class="form-control" id="email" placeholder="Email">
+                            <div class="curv-butn icon-bg">
+                                <a href="neo-atv.html" class="vid">
+                                    <div class="icon"><i class="fa-solid fa-square-arrow-up-right" style="font-size: 25px;color: goldenrod;"></i> </div>
+                                </a>
+                                <div class="br-left-top">
+                                    <svg viewBox="0 0 11 11" fill="none" xmlns="http://www.w3.org/2000/svg"
+                                        class="w-11 h-11">
+                                        <path
+                                            d="M11 1.54972e-06L0 0L2.38419e-07 11C1.65973e-07 4.92487 4.92487 1.62217e-06 11 1.54972e-06Z"
+                                            fill="#1b1b1b"></path>
+                                    </svg>
+                                </div>
+                                <div class="br-right-bottom">
+                                    <svg viewBox="0 0 11 11" fill="none" xmlns="http://www.w3.org/2000/svg"
+                                        class="w-11 h-11">
+                                        <path
+                                            d="M11 1.54972e-06L0 0L2.38419e-07 11C1.65973e-07 4.92487 4.92487 1.62217e-06 11 1.54972e-06Z"
+                                            fill="#1b1b1b"></path>
+                                    </svg>
+                                </div>
                             </div>
-                            <div class="form-group">
-                                <input type="text" class="form-control" id="mobile" placeholder="Phone no.">
+                        </div>
+                        <div class="item"> <img src="img/dirt bike/dirt-bike.jpg" class="img-fluid opacity-50" alt="">
+                            <div class="title">
+                                <h4>DIRT BIKE</h4>
                             </div>
-                            <div class="form-group">
-                                <textarea class="form-control textarea" id="message" rows="1"
-                                    placeholder="Write a message"></textarea>
+                            <div class="curv-butn icon-bg">
+                                <a href="dirt-bike.html" class="vid">
+                                    <div class="icon"><i class="fa-solid fa-square-arrow-up-right" style="font-size: 25px;color: goldenrod;"></i>  </div>
+                                </a>
+                                <div class="br-left-top">
+                                    <svg viewBox="0 0 11 11" fill="none" xmlns="http://www.w3.org/2000/svg"
+                                        class="w-11 h-11">
+                                        <path
+                                            d="M11 1.54972e-06L0 0L2.38419e-07 11C1.65973e-07 4.92487 4.92487 1.62217e-06 11 1.54972e-06Z"
+                                            fill="#1b1b1b"></path>
+                                    </svg>
+                                </div>
+                                <div class="br-right-bottom">
+                                    <svg viewBox="0 0 11 11" fill="none" xmlns="http://www.w3.org/2000/svg"
+                                        class="w-11 h-11">
+                                        <path
+                                            d="M11 1.54972e-06L0 0L2.38419e-07 11C1.65973e-07 4.92487 4.92487 1.62217e-06 11 1.54972e-06Z"
+                                            fill="#1b1b1b"></path>
+                                    </svg>
+                                </div>
                             </div>
-                            <button type="button" onclick="submitForm()"
-                                class="btn btn-blue text-center">Submit</button>
-                        </form>
+                        </div>
+                        <div class="item"> <img src="img/dirt bike/pocket.jpg" class="img-fluid opacity-50" alt="">
+                            <div class="title">
+                                <h4>POCKET BIKE</h4>
+                            </div>
+                            <div class="curv-butn icon-bg">
+                                <a href="pocket.html" class="vid">
+                                    <div class="icon"><i class="fa-solid fa-square-arrow-up-right" style="font-size: 25px; color: goldenrod;"></i> </div>
+                                </a>
+                                <div class="br-left-top">
+                                    <svg viewBox="0 0 11 11" fill="none" xmlns="http://www.w3.org/2000/svg"
+                                        class="w-11 h-11">
+                                        <path
+                                            d="M11 1.54972e-06L0 0L2.38419e-07 11C1.65973e-07 4.92487 4.92487 1.62217e-06 11 1.54972e-06Z"
+                                            fill="#1b1b1b"></path>
+                                    </svg>
+                                </div>
+                                <div class="br-right-bottom">
+                                    <svg viewBox="0 0 11 11" fill="none" xmlns="http://www.w3.org/2000/svg"
+                                        class="w-11 h-11">
+                                        <path
+                                            d="M11 1.54972e-06L0 0L2.38419e-07 11C1.65973e-07 4.92487 4.92487 1.62217e-06 11 1.54972e-06Z"
+                                            fill="#1b1b1b"></path>
+                                    </svg>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="item"> <img src="img/dirt bike/child-bike.jpg" class="img-fluid opacity-50" alt="">
+                            <div class="title">
+                                <h4>CHILD  BIKE</h4>
+                            </div>
+                            <div class="curv-butn icon-bg">
+                                <a href="child-bike.html" class="vid">
+                                    <div class="icon"><i class="fa-solid fa-square-arrow-up-right" style="font-size: 25px;color: goldenrod;"></i> </div>
+                                </a>
+                                <div class="br-left-top">
+                                    <svg viewBox="0 0 11 11" fill="none" xmlns="http://www.w3.org/2000/svg"
+                                        class="w-11 h-11">
+                                        <path
+                                            d="M11 1.54972e-06L0 0L2.38419e-07 11C1.65973e-07 4.92487 4.92487 1.62217e-06 11 1.54972e-06Z"
+                                            fill="#1b1b1b"></path>
+                                    </svg>
+                                </div>
+                                <div class="br-right-bottom">
+                                    <svg viewBox="0 0 11 11" fill="none" xmlns="http://www.w3.org/2000/svg"
+                                        class="w-11 h-11">
+                                        <path
+                                            d="M11 1.54972e-06L0 0L2.38419e-07 11C1.65973e-07 4.92487 4.92487 1.62217e-06 11 1.54972e-06Z"
+                                            fill="#1b1b1b"></path>
+                                    </svg>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="item"> <img src="img/dirt bike/hoverboard.jpg" class="img-fluid opacity-50" alt="">
+                            <div class="title">
+                                <h4>HOVERBOARD</h4>
+                            </div>
+                            <div class="curv-butn icon-bg">
+                                <a href="hoverboard.html" class="vid">
+                                    <div class="icon"><i class="fa-solid fa-square-arrow-up-right" style="font-size: 25px;color: goldenrod;"></i>  </div>
+                                </a>
+                                <div class="br-left-top">
+                                    <svg viewBox="0 0 11 11" fill="none" xmlns="http://www.w3.org/2000/svg"
+                                        class="w-11 h-11">
+                                        <path
+                                            d="M11 1.54972e-06L0 0L2.38419e-07 11C1.65973e-07 4.92487 4.92487 1.62217e-06 11 1.54972e-06Z"
+                                            fill="#1b1b1b"></path>
+                                    </svg>
+                                </div>
+                                <div class="br-right-bottom">
+                                    <svg viewBox="0 0 11 11" fill="none" xmlns="http://www.w3.org/2000/svg"
+                                        class="w-11 h-11">
+                                        <path
+                                            d="M11 1.54972e-06L0 0L2.38419e-07 11C1.65973e-07 4.92487 4.92487 1.62217e-06 11 1.54972e-06Z"
+                                            fill="#1b1b1b"></path>
+                                    </svg>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="item"> <img src="img/dirt bike/BYCLE.jpg" class="img-fluid opacity-50" alt="">
+                            <div class="title">
+                                <h4>CYCLE</h4>
+                            </div>
+                            <div class="curv-butn icon-bg">
+                                <a href="/cycle.html" class="vid">
+                                    <div class="icon"><i class="fa-solid fa-square-arrow-up-right" style="font-size: 25px;color: goldenrod;"></i>  </div>
+                                </a>
+                                <div class="br-left-top">
+                                    <svg viewBox="0 0 11 11" fill="none" xmlns="http://www.w3.org/2000/svg"
+                                        class="w-11 h-11">
+                                        <path
+                                            d="M11 1.54972e-06L0 0L2.38419e-07 11C1.65973e-07 4.92487 4.92487 1.62217e-06 11 1.54972e-06Z"
+                                            fill="#1b1b1b"></path>
+                                    </svg>
+                                </div>
+                                <div class="br-right-bottom">
+                                    <svg viewBox="0 0 11 11" fill="none" xmlns="http://www.w3.org/2000/svg"
+                                        class="w-11 h-11">
+                                        <path
+                                            d="M11 1.54972e-06L0 0L2.38419e-07 11C1.65973e-07 4.92487 4.92487 1.62217e-06 11 1.54972e-06Z"
+                                            fill="#1b1b1b"></path>
+                                    </svg>
+                                </div>
+                            </div>
+                        </div>
+
+
+                        <div class="item"> <img src="img/UTV/UTV-1-2-500x500.jpg" class="img-fluid opacity-50" alt="">
+                            <div class="title">
+                                <h4>UTV</h4>
+                            </div>
+                            <div class="curv-butn icon-bg">
+                                <a href="/utv.html" class="vid">
+                                    <div class="icon"><i class="fa-solid fa-square-arrow-up-right" style="font-size: 25px;color: goldenrod;"></i>  </div>
+                                </a>
+                                <div class="br-left-top">
+                                    <svg viewBox="0 0 11 11" fill="none" xmlns="http://www.w3.org/2000/svg"
+                                        class="w-11 h-11">
+                                        <path
+                                            d="M11 1.54972e-06L0 0L2.38419e-07 11C1.65973e-07 4.92487 4.92487 1.62217e-06 11 1.54972e-06Z"
+                                            fill="#1b1b1b"></path>
+                                    </svg>
+                                </div>
+                                <div class="br-right-bottom">
+                                    <svg viewBox="0 0 11 11" fill="none" xmlns="http://www.w3.org/2000/svg"
+                                        class="w-11 h-11">
+                                        <path
+                                            d="M11 1.54972e-06L0 0L2.38419e-07 11C1.65973e-07 4.92487 4.92487 1.62217e-06 11 1.54972e-06Z"
+                                            fill="#1b1b1b"></path>
+                                    </svg>
+                                </div>
+                            </div>
+                        </div>
                     </div>
                 </div>
             </div>
         </div>
-
     </section>
 
-
-    <footer class="footer">
+    <section class="cars1 section-padding p-0 pt-5 mb-5">
         <div class="container">
             <div class="row">
-                <div class="col-md-4 col-sm-12">
-                    <h2>About Us</h2>
-                    <p>
-                        Choose Unique Cleaning for impeccable service, professionalism, and eco-friendly practices. Our
-                        dedicated team delivers top-notch cleaning tailored to your needs. With competitive rates and
-                        flexible scheduling, we make cleanliness accessible. We prioritize your satisfaction, offering a
-                        guarantee on our work. Experience the difference with Unique Cleaning and enjoy a spotless,
-                        inviting space.
-                    </p>
+                <div class="col-md-12 text-center mb-30">
+                    <div class="section-subtitle">Select Your Bike</div>
+                    <div class="section-title">Luxury <span>Bike Fleet</span></div>
+                </div>
+            </div>
+            <div class="cars1-carousel owl-theme owl-carousel">
+                <div class="item">
+                    <div class="img"> <img src="img/IMG_3642.JPG" alt=""> </div>
+                </div>
+                <div class="item">
+                    <div class="img"> <img src="img/dirt bike/cycle.jpg" alt=""> </div>
+                </div>
+                <div class="item">
+                    <div class="img"> <img src="img/dirt bike/dirt.jpg" alt=""> </div>
+                </div>
+                <div class="item">
+                    <div class="img"> <img src="img/dirt bike/child.jpg" alt=""> </div>
+                </div>
+                <div class="item">
+                    <div class="img"> <img src="img/dirt bike/child-.jpg" alt=""> </div>
+                </div>
+                <div class="item">
+                    <div class="img"> <img src="img/dirt bike/hover.jpg" alt=""> </div>
+                </div>
+                <div class="item">
+                    <div class="img"> <img src="img/IMG_3666.JPG" alt=""> </div>
+                </div>
+                <div class="item">
+                    <div class="img"> <img src="img/IMG_3732.JPG" alt=""> </div>
+                </div>
+            </div>
+        </div>
+    </section>
 
+  
+   
+    <!-- Video -->
+    <section class="video-wrapper video section-padding bg-img bg-fixed p-0 pt-5 pb-5" data-overlay-dark="4"
+        data-background="img/IMG_3666.JPG">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-12 text-center">
+                    <div class="section-subtitle">Explore</div>
+                    <div class="section-title white">Bike <span>Promo</span> Video</div>
                 </div>
-                <div class="col-md-4 col-sm-12">
-                    <h2>Useful Links</h2>
-                    <ul class="list-unstyled link-list">
-                        <li class="aboutus"><a href="#">About us</a><i class="fa fa-angle-right"></i></li>
-                        <li class="service-menu"><a href="#">Services</a><i class="fa fa-angle-right"></i>
-                        </li>
-                        <li class="videos"><a href="#">Videos</a><i class="fa fa-angle-right"></i>
-                        </li>
-                        <li class="packagesa"><a href="#">Packages</a><i class="fa fa-angle-right"></i></li>
-                        <li class="contacts"><a href="#">Contact us</a><i class="fa fa-angle-right"></i></li>
-                    </ul>
-                </div>
-                <div class="col-md-4 col-sm-12 map-img">
-                    <h2>Contact Us</h2>
-                    <a href="https://maps.app.goo.gl/qy3o1v1zCmzgfdfj6">
-                        <address>
-                            <p class="mt-2">4, Second Floor</p>
-                            <p class="mt-2">Gandhi Nagar Shopping Centre</p>
-                            <p class="mt-2">Adajan patiya, surat</p>
-                            <p class="mt-2">Phone: 075378 20000
-                            </p>
-                        </address>
+            </div>
+            <div class="row">
+                <div class="text-center col-md-12">
+                    <a class="vid" href="https://youtu.be/rLnOeSBFN5Q?si=jFl2iOIJ7WzSnrZJ">
+                        <div class="vid-butn"> <span class="icon"><img src="./img/play.png" width="100%" style="margin-bottom: 20px;" alt=""></span> </div>
                     </a>
-
                 </div>
             </div>
         </div>
-
-
-    </footer>
-    <div class="copy">
-        <div class="container text-center">
-            <a href="https://www.smarteyeapps.com/">2024 &copy; All Rights Reserved | Designed and Developed by GCS</a>
+    </section>
+    <!-- Testimonials -->
+    <section class="testimonials section-padding mt-15">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-12 text-center mb-30">
+                    <div class="section-subtitle">Testimonials</div>
+                    <div class="section-title">What Clients Say</div>
+                </div>
+                <div class="col-md-12">
+                    <div class="owl-carousel owl-theme">
+                        <div class="item">
+                            <div class="stars"> <span class="rate">
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star"></i>
+                                </span>
+                                <div class="shap-left-top">
+                                    <svg viewBox="0 0 11 11" fill="none" xmlns="http://www.w3.org/2000/svg"
+                                        class="w-11 h-11">
+                                        <path
+                                            d="M11 1.54972e-06L0 0L2.38419e-07 11C1.65973e-07 4.92487 4.92487 1.62217e-06 11 1.54972e-06Z"
+                                            fill="#1b1b1b"></path>
+                                    </svg>
+                                </div>
+                                <div class="shap-right-bottom">
+                                    <svg viewBox="0 0 11 11" fill="none" xmlns="http://www.w3.org/2000/svg"
+                                        class="w-11 h-11">
+                                        <path
+                                            d="M11 1.54972e-06L0 0L2.38419e-07 11C1.65973e-07 4.92487 4.92487 1.62217e-06 11 1.54972e-06Z"
+                                            fill="#1b1b1b"></path>
+                                    </svg>
+                                </div>
+                            </div> <i class="fa-solid fa-quote-left"></i>
+                            <div class="text">
+                                <p>Yeah Gapuchee is one of the best importer for kids toys. Also they are very kind and friendly to deal and support us, am happy with them.
+                                    Thank you</p>
+                            </div>
+                            <div class="info mt-30">
+                                <div class="img-curv">
+                                    <div class="img"> <img src="img/member-1.png" alt=""> </div>
+                                    <div class="shap-left-top">
+                                        <svg viewBox="0 0 11 11" fill="none" xmlns="http://www.w3.org/2000/svg"
+                                            class="w-11 h-11">
+                                            <path
+                                                d="M11 1.54972e-06L0 0L2.38419e-07 11C1.65973e-07 4.92487 4.92487 1.62217e-06 11 1.54972e-06Z"
+                                                fill="#1b1b1b"></path>
+                                        </svg>
+                                    </div>
+                                    <div class="shap-right-bottom">
+                                        <svg viewBox="0 0 11 11" fill="none" xmlns="http://www.w3.org/2000/svg"
+                                            class="w-11 h-11">
+                                            <path
+                                                d="M11 1.54972e-06L0 0L2.38419e-07 11C1.65973e-07 4.92487 4.92487 1.62217e-06 11 1.54972e-06Z"
+                                                fill="#1b1b1b"></path>
+                                        </svg>
+                                    </div>
+                                </div>
+                                <div class="ml-30">
+                                    <h6>sudhakar sudha
+                                    </h6>
+                                    <p>Customer</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="item">
+                            <div class="stars"> <span class="rate">
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star"></i>
+                                </span>
+                                <div class="shap-left-top">
+                                    <svg viewBox="0 0 11 11" fill="none" xmlns="http://www.w3.org/2000/svg"
+                                        class="w-11 h-11">
+                                        <path
+                                            d="M11 1.54972e-06L0 0L2.38419e-07 11C1.65973e-07 4.92487 4.92487 1.62217e-06 11 1.54972e-06Z"
+                                            fill="#1b1b1b"></path>
+                                    </svg>
+                                </div>
+                                <div class="shap-right-bottom">
+                                    <svg viewBox="0 0 11 11" fill="none" xmlns="http://www.w3.org/2000/svg"
+                                        class="w-11 h-11">
+                                        <path
+                                            d="M11 1.54972e-06L0 0L2.38419e-07 11C1.65973e-07 4.92487 4.92487 1.62217e-06 11 1.54972e-06Z"
+                                            fill="#1b1b1b"></path>
+                                    </svg>
+                                </div>
+                            </div> <i class="fa-solid fa-quote-left"></i>
+                            <div class="text">
+                                <p>100 percent trustable company...today's online world thr are lots of fake sellers...but this seller is 100 percent genuine...fully satiesfied</p>
+                            </div>
+                            <div class="info mt-30">
+                                <div class="img-curv">
+                                    <div class="img"> <img src="img/member-02.png" alt=""> </div>
+                                    <div class="shap-left-top">
+                                        <svg viewBox="0 0 11 11" fill="none" xmlns="http://www.w3.org/2000/svg"
+                                            class="w-11 h-11">
+                                            <path
+                                                d="M11 1.54972e-06L0 0L2.38419e-07 11C1.65973e-07 4.92487 4.92487 1.62217e-06 11 1.54972e-06Z"
+                                                fill="#1b1b1b"></path>
+                                        </svg>
+                                    </div>
+                                    <div class="shap-right-bottom">
+                                        <svg viewBox="0 0 11 11" fill="none" xmlns="http://www.w3.org/2000/svg"
+                                            class="w-11 h-11">
+                                            <path
+                                                d="M11 1.54972e-06L0 0L2.38419e-07 11C1.65973e-07 4.92487 4.92487 1.62217e-06 11 1.54972e-06Z"
+                                                fill="#1b1b1b"></path>
+                                        </svg>
+                                    </div>
+                                </div>
+                                <div class="ml-30">
+                                    <h6>mohsin ghadiyali
+                                    </h6>
+                                    <p>Customer</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="item">
+                            <div class="stars"> <span class="rate">
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star"></i>
+                                </span>
+                                <div class="shap-left-top">
+                                    <svg viewBox="0 0 11 11" fill="none" xmlns="http://www.w3.org/2000/svg"
+                                        class="w-11 h-11">
+                                        <path
+                                            d="M11 1.54972e-06L0 0L2.38419e-07 11C1.65973e-07 4.92487 4.92487 1.62217e-06 11 1.54972e-06Z"
+                                            fill="#1b1b1b"></path>
+                                    </svg>
+                                </div>
+                                <div class="shap-right-bottom">
+                                    <svg viewBox="0 0 11 11" fill="none" xmlns="http://www.w3.org/2000/svg"
+                                        class="w-11 h-11">
+                                        <path
+                                            d="M11 1.54972e-06L0 0L2.38419e-07 11C1.65973e-07 4.92487 4.92487 1.62217e-06 11 1.54972e-06Z"
+                                            fill="#1b1b1b"></path>
+                                    </svg>
+                                </div>
+                            </div> <i class="fa-solid fa-quote-left"></i>
+                            <div class="text">
+                                <p>Yeah Gapuchee is one of the best importer for kids toys. Also they are very kind and friendly to deal and support us, am happy with them.
+                                    Thank you
+                                </p>
+                            </div>
+                            <div class="info mt-30">
+                                <div class="img-curv">
+                                    <div class="img"> <img src="img/member-3.png" alt=""> </div>
+                                    <div class="shap-left-top">
+                                        <svg viewBox="0 0 11 11" fill="none" xmlns="http://www.w3.org/2000/svg"
+                                            class="w-11 h-11">
+                                            <path
+                                                d="M11 1.54972e-06L0 0L2.38419e-07 11C1.65973e-07 4.92487 4.92487 1.62217e-06 11 1.54972e-06Z"
+                                                fill="#1b1b1b"></path>
+                                        </svg>
+                                    </div>
+                                    <div class="shap-right-bottom">
+                                        <svg viewBox="0 0 11 11" fill="none" xmlns="http://www.w3.org/2000/svg"
+                                            class="w-11 h-11">
+                                            <path
+                                                d="M11 1.54972e-06L0 0L2.38419e-07 11C1.65973e-07 4.92487 4.92487 1.62217e-06 11 1.54972e-06Z"
+                                                fill="#1b1b1b"></path>
+                                        </svg>
+                                    </div>
+                                </div>
+                                <div class="ml-30">
+                                    <h6>Komal patel</h6>
+                                    <p>Customer</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
         </div>
+    </section>
+   
 
-    </div>
+    
+    <section class="lets-talk bg-img bg-fixed section-padding" data-overlay-dark="6" data-background="img/contact.jpeg">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-12 text-center">
+                    <h6>Contact</h6>
+                    <h5>Contact With Us</h5>
+                    <p>Don't hesitate and send us a message.</p> <a href="tel:+8001234567"
+                        class="button-1 mt-15 mb-15 mr-10"></i>WhatsApp</a> <a
+                        href="https://www.google.com/search?q=gapuchee&oq=gapu&gs_lcrp=EgZjaHJvbWUqDAgAECMYJxiABBiKBTIMCAAQIxgnGIAEGIoFMg0IARAuGK8BGMcBGIAEMgYIAhBFGEAyBggDEEUYOTIGCAQQRRg8MgYIBRBFGDwyBggGEEUYPTIGCAcQRRg80gEIMjE5NmowajeoAgiwAgE&sourceid=chrome&ie=UTF-8#lrd=0x3be04e9176f499f5:0x3791341f0fc44ac0,3,,,,"
+                        class="button-2 mt-15 mb-15">Review Now</a>
+                </div>
+            </div>
+        </div>
+    </section>
 
+    <footer class="footer clearfix">
+        <div class="container">
+            <div class="second-footer">
+                <div class="row">
+                    <div class="col-md-4 widget-area">
+                        <div class="widget clearfix">
+                            <h3 class="widget-title">Social Connect</h3>
+                            <div class="widget-text">
+                                <p>We are always trying to innavate and bring new products to the indian market. In case you have a new business idea or a specific requirement, please feel free to contact us.</p>
+                                <div class="social-icons">
+                                    <ul class="list-inline">
+                                        <li><a href="tel:+9033312020"><i class="fa-brands fa-whatsapp" style="color: goldenrod;"></i></a></li>
+                                        <li><a href="https://www.facebook.com/share/vcJ9ZjNFNnEJm4VF/?mibextid=qi2Omg"><i class="fa-brands fa-facebook-f" style="color: goldenrod;"></i></a></li>
+                                        <li><a href="https://youtube.com/@gapucheeindia?si=xLrRVxfdr2oLr9KG"><i class="fa-brands fa-youtube" style="color: goldenrod;"></i></a></li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-3 offset-md-1 widget-area">
+                        <div class="widget clearfix usful-links">
+                            <h3 class="widget-title">Quick Links</h3>
+                            <ul>
+                                <li><a href="index.html">Home</a></li>
+                                <li><a href="about.html">About</a></li>
+                                <li><a href="index.html">Categories</a></li>
+                                <li><a href="contact.html">Contact</a></li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="col-md-4 widget-area">
+                        <div class="widget clearfix">
+                            <h3 class="widget-title">Contact Us</h3>
+                            <li>Plot no: 475</li>
+                            <li>Pandol Industrial Estate No. 2</li>
+                            <li>Ved Road,</li>
+                            <li>Surat: 395003</li>
+                            <li>Phone: 90333 12020 / 93751 33444</li>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="container-fluid copyright py-4">
+                <div class="container">
+                    <div class="row g-4 align-items-center">
+                        <div class="col-md-6 text-center text-md-start mb-md-0">
+                            <span class="text-white"><a href="#"><i class="fas fa-copyright text-light me-2"></i>
+                                    </a>copyright by Gapuchee 2024</span>
+                        </div>
+                        <div class="col-md-6 text-center text-md-end text-white">
+                            Designed By <a class="border-bottom"
+                                href="https://gcsconsultant.com/digital-marketing-agency.html">Fitit Offical</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    
+    <!-- jQuery -->
+    <script src="js/jquery-3.7.1.min.js"></script>
+    <script src="js/jquery-migrate-3.4.1.min.js"></script>
+    <script src="js/all.min.js"></script>
+    <script src="js/modernizr-2.6.2.min.js"></script>
+    <script src="js/imagesloaded.pkgd.min.js"></script>
+    <script src="js/jquery.isotope.v3.0.2.js"></script>
+    <script src="js/popper.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/scrollIt.min.js"></script>
+    <script src="js/jquery.waypoints.min.js"></script>
+    <script src="js/owl.carousel.min.js"></script>
+    <script src="js/jquery.stellar.min.js"></script>
+    <script src="js/jquery.magnific-popup.js"></script>
+    <script src="js/select2.js"></script>
+    <script src="js/datepicker.js"></script>
+    <script src="js/YouTubePopUp.js"></script>
+    <script src="js/custom.js"></script>
 </body>
-
-<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
-<script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js"></script>
-
-<script src="assets/js/jquery-3.2.1.min.js"></script>
-<script src="assets/js/popper.min.js"></script>
-<script src="assets/js/bootstrap.min.js"></script>
-<script src="assets/plugins/slider/js/owl.carousel.min.js"></script>
-<script src="assets/plugins/scroll-fixed/jquery-scrolltofixed-min.js"></script>
-<script src="assets/plugins/testimonial/js/owl.carousel.min.js"></script>
-<script src="assets/js/script.js"></script>
-
-<script>
-    function submitForm() {
-        var name = document.getElementById('name').value;
-        var email = document.getElementById('email').value;
-        var mobile = document.getElementById('mobile').value;
-        var message = document.getElementById('message').value;
-
-        var whatsappLink = "https://api.whatsapp.com/send?phone=+917537820000&text=";
-        var encodedMessage = encodeURIComponent("Name: " + name + "\nEmail: " + email + "\nPhone no.: " + mobile + "\nMessage: " + message);
-        whatsappLink += encodedMessage;
-
-        window.open(whatsappLink, '_blank');
-
-        // Clear form fields after submission
-        document.getElementById('name').value = '';
-        document.getElementById('email').value = '';
-        document.getElementById('mobile').value = '';
-        document.getElementById('message').value = '';
-    }
-</script>
-
-<script>
-    $(document).ready(function () {
-        $('.owl-carousel').owlCarousel({
-            loop: true,
-            margin: 10,
-            nav: true,
-            autoplay: true,
-            autoplayTimeout: 5000,
-            autoplayHoverPause: true,
-            responsive: {
-                0: {
-                    items: 1
-                },
-                600: {
-                    items: 2
-                },
-                1000: {
-                    items: 3
-                }
-            }
-        });
-    });
-</script>
 
 </html>

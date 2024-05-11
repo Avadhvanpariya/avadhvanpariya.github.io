@@ -1,0 +1,244 @@
+<!DOCTYPE html>
+<html lang="zxx">
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1" />
+    <title>Gapuchee</title>
+    <link rel="shortcut icon" href="./img/logo.png" type="image/x-icon">
+    <link rel="stylesheet"
+        href="https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;500;600;700;800;900&display=swap">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/css/bootstrap.min.css"
+        integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <link rel="stylesheet" href="css/plugins.css" />
+    <link rel="stylesheet" href="css/style.css" />
+    <link rel="stylesheet" href="css/plugins/all.min.css"/>
+    <style>
+        
+        .opacity-50 {
+        opacity: 0.7; /* Adjust the opacity value as needed */
+    }
+    </style>
+</head>
+<body>
+    <div class="preloader-bg"></div>
+    <div id="preloader">
+        <div id="preloader-status">
+            <div class="preloader-position loader"> <span></span> </div>
+        </div>
+    </div>
+    <div class="progress-wrap cursor-pointer">
+        <svg class="progress-circle svg-content" width="100%" height="100%" viewBox="-1 -1 102 102">
+            <path d="M50,1 a49,49 0 0,1 0,98 a49,49 0 0,1 0,-98" />
+        </svg>
+    </div>
+
+    <nav class="navbar navbar-expand-lg">
+        <div class="container">
+            <!-- Logo -->
+            <div class="logo-wrapper">
+                <a class="logo" href="index.html"><img src="/img/gapuchee5.png" alt="" style="width:200px"></a>
+            </div>
+            <!-- Button -->
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbar"
+                aria-controls="navbar" aria-expanded="false" aria-label="Toggle navigation"> <span
+                    class="navbar-toggler-icon"><i class="fa-solid fa-bars"></i></span> </button>
+            <!-- Menu -->
+            <div class="collapse navbar-collapse" id="navbar">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item dropdown"> <a class="nav-link active dropdown-toggle" href="index.html" 
+                             data-bs-auto-close="outside" aria-expanded="false">Home </a>
+                    </li>
+                    <li class="nav-item"><a class="nav-link" href="about.html">About</a></li>
+                    <li class="nav-item dropdown"> <a class="nav-link dropdown-toggle" href="#" role="button"
+                            data-bs-toggle="dropdown" data-bs-auto-close="outside" aria-expanded="false">Categories <i class="fa-solid fa-angle-down"></i></a>
+                        <ul class="dropdown-menu">
+                            <li><a href="atv.html" class="dropdown-item"><span>ATV</span></a>
+                           
+                            </li>
+                            <li><a href="dirt-bike.html" class="dropdown-item"><span>DIRT BIKE</span></a>
+                                
+                            </li>
+                            <li><a href="pocket.html" class="dropdown-item"><span>POCKET BIKE</span></a>
+                               
+                            </li>
+                            <li><a href="child-bike.html" class="dropdown-item"><span>CHILD BATTERY CAR</span></a>
+                              
+                            </li>
+                            <li><a href="hoverboard.html" class="dropdown-item"><span>HOVERBOARD</span></a>
+                               
+                            </li>
+                            <li><a href="cycle.html" class="dropdown-item"><span>CYCLE</span></a>
+                               
+                            </li>
+                            <li><a href="utv.html" class="dropdown-item"><span>UTV</span></a></li>
+                        </ul>
+                    </li>
+                    <li class="nav-item"><a class="nav-link" href="contact.html">Contact</a></li>
+                </ul>
+                <div class="navbar-right">
+                    <div class="wrap">
+                        <div class="icon"><img src="./img/phone-call.png" width="50%" alt=""> </div>
+                        <div class="text">
+                            <p>Need help?</p>
+                            <h5><a href="tel:8551004444">90333 12020</a></h5>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </nav>
+    <section class="banner-header middle-height section-padding bg-img" data-overlay-dark="2" data-background="img/128103.jpg">
+        <div class="v-middle">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-12 text-center">
+                        <h6>Get in touch</h6>
+                        <h1>Contact <span>Us</span></h1>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="contact section-padding">
+        <div class="container">
+            <div class="row">
+                <!-- Form -->
+                <div class="col-lg-6 col-md-12 mb-30">
+                    <div class="form-box">
+                        <h5>Get in touch</h5>
+                        <form method="post" class="contact__form" action="mail.php">
+                            <!-- form message -->
+                            <div class="row">
+                                <div class="col-12">
+                                    <div class="alert alert-success contact__msg" style="display: none" role="alert"> Your message was sent successfully. </div>
+                                </div>
+                            </div>
+                            <!-- form elements -->
+                            <div class="row">
+                                <div class="col-md-6 form-group">
+                                    <input name="name" type="text" placeholder="Your Name *" required>
+                                </div>
+                                <div class="col-md-6 form-group">
+                                    <input name="email" type="email" placeholder="Your Email *" required>
+                                </div>
+                                <div class="col-md-6 form-group">
+                                    <input name="phone" type="text" placeholder="Your Number *" required>
+                                </div>
+                                <div class="col-md-6 form-group">
+                                    <input name="subject" type="text" placeholder="Subject *" required>
+                                </div>
+                                <div class="col-md-12 form-group">
+                                    <textarea name="message" id="message" cols="30" rows="4" placeholder="Message *" required></textarea>
+                                </div>
+                                <div class="col-md-12">
+                                    <input name="submit" type="submit" value="Send Message">
+                                </div>
+                            </div>
+                        </form>
+                    </div>
+                </div>
+                <!-- Map -->
+                <div class="col-lg-5 offset-lg-1 col-md-12">
+                    <h5>Location</h5>
+                    <div class="google-map">
+                        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3719.462393182642!2d72.81760617353004!3d21.21350518141096!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3be04e9176f499f5%3A0x3791341f0fc44ac0!2sGapuchee!5e0!3m2!1sen!2sin!4v1715337728094!5m2!1sen!2sin" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- Lets Talk -->
+    <section class="lets-talk bg-img bg-fixed section-padding" data-overlay-dark="6" data-background="img/128103.jpg">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-12 text-center">
+                    <h6>Contact</h6>
+                    <h5>Contact With Us</h5>
+                    <p>Don't hesitate and send us a message.</p> <a href="tel:+8001234567"
+                        class="button-1 mt-15 mb-15 mr-10"></i>WhatsApp</a> <a
+                        href="https://www.google.com/search?q=gapuchee&oq=gapu&gs_lcrp=EgZjaHJvbWUqDAgAECMYJxiABBiKBTIMCAAQIxgnGIAEGIoFMg0IARAuGK8BGMcBGIAEMgYIAhBFGEAyBggDEEUYOTIGCAQQRRg8MgYIBRBFGDwyBggGEEUYPTIGCAcQRRg80gEIMjE5NmowajeoAgiwAgE&sourceid=chrome&ie=UTF-8#lrd=0x3be04e9176f499f5:0x3791341f0fc44ac0,3,,,,"
+                        class="button-2 mt-15 mb-15">Review Now</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <footer class="footer clearfix">
+        <div class="container">
+            <div class="second-footer">
+                <div class="row">
+                    <div class="col-md-4 widget-area">
+                        <div class="widget clearfix">
+                            <h3 class="widget-title">Social Connect</h3>
+                            <div class="widget-text">
+                                <p>We are always trying to innavate and bring new products to the indian market. In case you have a new business idea or a specific requirement, please feel free to contact us.</p>
+                                <div class="social-icons">
+                                    <ul class="list-inline">
+                                        <li><a href="tel:+9033312020"><i class="fa-brands fa-whatsapp" style="color: goldenrod;"></i></a></li>
+                                        <li><a href="https://www.facebook.com/share/vcJ9ZjNFNnEJm4VF/?mibextid=qi2Omg"><i class="fa-brands fa-facebook-f" style="color: goldenrod;"></i></a></li>
+                                        <li><a href="https://youtube.com/@gapucheeindia?si=xLrRVxfdr2oLr9KG"><i class="fa-brands fa-youtube" style="color: goldenrod;"></i></a></li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-3 offset-md-1 widget-area">
+                        <div class="widget clearfix usful-links">
+                            <h3 class="widget-title">Quick Links</h3>
+                            <ul>
+                                <li><a href="index.html">Home</a></li>
+                                <li><a href="about.html">About</a></li>
+                                <li><a href="index.html">Categories</a></li>
+                                <li><a href="contact.html">Contact</a></li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="col-md-4 widget-area">
+                        <div class="widget clearfix">
+                            <h3 class="widget-title">Contact Us</h3>
+                            <li>Plot no: 475</li>
+                            <li>Pandol Industrial Estate No. 2</li>
+                            <li>Ved Road,</li>
+                            <li>Surat: 395003</li>
+                            <li>Phone: 90333 12020 / 93751 33444</li>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="container-fluid copyright py-4">
+                <div class="container">
+                    <div class="row g-4 align-items-center">
+                        <div class="col-md-6 text-center text-md-start mb-md-0">
+                            <span class="text-white"><a href="#"><i class="fas fa-copyright text-light me-2"></i>
+                                    </a>copyright by Gapuchee 2024</span>
+                        </div>
+                        <div class="col-md-6 text-center text-md-end text-white">
+                            Designed By <a class="border-bottom"
+                                href="https://gcsconsultant.com/digital-marketing-agency.html">Fitit Offical</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+    <script src="js/jquery-3.7.1.min.js"></script>
+    <script src="js/jquery-migrate-3.4.1.min.js"></script>
+    <script src="js/all.min.js"></script>
+    <script src="js/modernizr-2.6.2.min.js"></script>
+    <script src="js/imagesloaded.pkgd.min.js"></script>
+    <script src="js/jquery.isotope.v3.0.2.js"></script>
+    <script src="js/popper.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/scrollIt.min.js"></script>
+    <script src="js/jquery.waypoints.min.js"></script>
+    <script src="js/owl.carousel.min.js"></script>
+    <script src="js/jquery.stellar.min.js"></script>
+    <script src="js/jquery.magnific-popup.js"></script>
+    <script src="js/select2.js"></script>
+    <script src="js/datepicker.js"></script>
+    <script src="js/YouTubePopUp.js"></script>
+    <script src="js/custom.js"></script>
+</body>
+</html>
