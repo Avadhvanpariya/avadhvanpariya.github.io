@@ -54,7 +54,6 @@ body {
     -moz-osx-font-smoothing: grayscale;
     -webkit-font-smoothing: antialiased;
     -moz-font-smoothing: antialiased;
-    font-smoothing: antialiased;
 }
 * {
     margin: 0;
@@ -802,7 +801,6 @@ hr {
 .nav-scroll .logo-wrapper .logo span {
     color: #f5b754;
 }
-.nav-scroll .logo-wrapper {}
 .logo-wrapper {
     float: left;
 }
@@ -1012,7 +1010,7 @@ hr {
         text-align: left;
         margin-left: 0px;
     }
-    .nav-scroll .logo {}
+    
     .logo-img {
         margin-bottom: 0px;
         width: 130px;
@@ -2429,7 +2427,6 @@ font-family: 'Outfit', sans-serif;
 .cars2 .car-list {
     position: relative;
 }
-.cars2 .car-list .item {}
 .cars2 .car-list .item figure {
     margin: 0;
     position: relative;
@@ -3632,7 +3629,6 @@ height: 100% !important;
 .play-button svg.circle-track {
     z-index: 0;
 }
-.video-wrapper {}
 .video-wrapper .vid {
     position: relative;
     z-index: 8;
@@ -3647,16 +3643,25 @@ height: 100% !important;
 }
 .video-wrapper .vid .vid-butn .icon {
     color: #fff;
-    width: 100px;
-    height: 100px;
+    width: 80px;
+    height: 80px;
     border: none;
     border-radius: 50%;
-    line-height: 105px;
     text-align: center;
-    font-size: 35px;
+    font-size: 30px;
     position: relative;
     transition: border-color 300ms ease, transform 300ms ease, background-color 300ms ease, color 300ms ease;
     transform-style: preserve-3d;
+}
+.vid-butn .icon .fa-play{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    -webkit-transform: translate(-50%, -50%);
+    -moz-transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    -o-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
 }
 .video-wrapper .vid .vid-butn .icon:after {
     content: '';
@@ -3669,20 +3674,7 @@ height: 100% !important;
     border-radius: 50%;
     z-index: -1;
 }
-.video-wrapper .vid .vid-butn .icon:before {
-    content: '';
-    position: absolute;
-    top: 5px;
-    bottom: 5px;
-    right: 5px;
-    left: 5px;
-    background: transparent;
-    border-radius: 50%;
-    z-index: -1;
-    -webkit-transition: all 0.5s cubic-bezier(1, 0, 0, 1);
-    -o-transition: all 0.5s cubic-bezier(1, 0, 0, 1);
-    transition: all 0.5s cubic-bezier(1, 0, 0, 1);
-}
+
 
 
 /* ======= Accordion Box (for Faqs) style ======= */
@@ -3697,7 +3689,6 @@ height: 100% !important;
     margin-bottom: 15px;
     border-radius: 20px;
 }
-.accordion-box .block.active-block {}
 .accordion-box .block:last-child {
     margin-bottom: 0;
 }
@@ -4707,7 +4698,6 @@ height: 100% !important;
     border: 1px solid #222;
     padding: 4px;
 }
-.post .section .wrap .cont {}
 .post .section .wrap .cont .repay {
     font-size: 10px;
     color: #fff;
