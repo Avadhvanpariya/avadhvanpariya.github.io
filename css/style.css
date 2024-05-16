@@ -1988,6 +1988,7 @@ hr {
     line-height: 55px;
     text-align: center;
     border-radius: 0 40px 0 0;
+    transition: .5s;
 }
 
 .about .item .curv-butn .vid {
@@ -1999,11 +2000,12 @@ hr {
     border-radius: 100%;
     background: transparent;
     color: #fff;
+    transition: .5;
 }
 
 .about .item .curv-butn .br-left-top {
     position: absolute;
-    top: -24px;
+    top: -23px;
     left: -1px;
     -webkit-transform: rotate(270deg);
     -ms-transform: rotate(270deg);
@@ -2039,11 +2041,14 @@ hr {
     border: 1px solid #f5b754;
     border-radius: 100%;
     line-height: 60px;
+    transition: .5s;
 }
 
 .about .item:hover .curv-butn .icon {
     color: #1b1b1b !important;
     background-color: goldenrod;
+    transition: .5s;
+
 }
 
 .icon-bg {
@@ -3169,6 +3174,7 @@ hr {
     border: 1px solid #f5b754;
     border-radius: 100%;
     line-height: 62px;
+    transition: .5s;
 }
 
 .car-types1 .item:hover .curv-butn .icon {
@@ -4195,10 +4201,13 @@ body.mfp-zoom-out-cur {
     z-index: 8;
 }
 
-.video-wrapper .vid .vid-butn:hover .icon {
-    color: #f5b754;
-}
 
+.video-wrapper .vid .vid-butn .icon:hover {
+    background-color: #f5b754;
+}
+.video-wrapper .vid .vid-butn:hover .icon .fa-play{
+color: #000 !important;
+}
 .video-wrapper .vid .vid-butn:hover .icon:before {
     -webkit-transform: scale(0);
     -ms-transform: scale(0);
@@ -4206,22 +4215,18 @@ body.mfp-zoom-out-cur {
 }
 
 .video-wrapper .vid .vid-butn .icon {
-    color: #fff;
-    width: 80px;
-    height: 80px;
-    border: none;
-    border-radius: 50%;
-    text-align: center;
-    font-size: 30px;
-    position: relative;
-    transition: border-color 300ms ease, transform 300ms ease, background-color 300ms ease, color 300ms ease;
-    transform-style: preserve-3d;
+    width: 60px;
+    height: 60px;
+    font-size: 21px;
+    color: goldenrod;
+    border: 1px solid #f5b754;
+    border-radius: 100%;
 }
 
 .vid-butn .icon .fa-play {
     position: absolute;
-    top: 50%;
-    left: 50%;
+    top: 45%;
+    left: 45%;
     -webkit-transform: translate(-50%, -50%);
     -moz-transform: translate(-50%, -50%);
     -ms-transform: translate(-50%, -50%);
@@ -4229,17 +4234,6 @@ body.mfp-zoom-out-cur {
     transform: translate(-50%, -50%);
 }
 
-.video-wrapper .vid .vid-butn .icon:after {
-    content: '';
-    position: absolute;
-    top: 5px;
-    bottom: 5px;
-    right: 5px;
-    left: 5px;
-    border: 1px solid #f5b754;
-    border-radius: 50%;
-    z-index: -1;
-}
 
 
 
@@ -6310,11 +6304,16 @@ body.mfp-zoom-out-cur {
     transition: all .4s;
     border: 1px solid #f5b754;
     border-radius: 100%;
+    color: goldenrod;
+
 }
 
 .social-icons li:hover {
     color: black;
-    background-color: linen;
+    background-color: goldenrod;
+}
+.social-icons li:hover a .fa-brands{
+    color: black ;
 }
 
 /* newsletter */

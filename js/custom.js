@@ -26,10 +26,6 @@
 
 ----------------------------------------------------------- */
 
-
-
-
-
     function openProductPage() {
         window.location.href = "product-page.html";
     }
