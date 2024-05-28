@@ -1,643 +1,950 @@
 <!DOCTYPE html>
-<html lang="zxx">
+<html lang="en">
 
 <head>
-    <meta charset="utf-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1" />
-    <title>Gapuchee</title>
-    <link rel="shortcut icon" href="/img/gapuchi.png" type="image/x-icon">
-    <link rel="stylesheet"
-        href="https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;500;600;700;800;900&display=swap">
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/css/bootstrap.min.css"
-        integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
-    <link rel="stylesheet" href="css/plugins.css" />
-    <link rel="stylesheet" href="css/style.css" />
-    <link rel="stylesheet" href="css/plugins/all.min.css" />
-    <style>
-        .opacity-50 {
-            opacity: 0.7;
-        }
-    </style>
+  <meta charset="utf-8">
+  <meta content="width=device-width, initial-scale=1.0" name="viewport">
+
+  <title>AKASHAR FAMILY HEALTH CARE</title>
+  <meta content="" name="description">
+  <meta content="" name="keywords">
+
+  <!-- Favicons -->
+  <link href="assets/img/favicon.png" rel="apple-touch-icon">
+  <link rel="shortcut icon" href="./assets/img/favicon.png" type="image/x-icon">
+
+  <!-- Google Fonts -->
+  <link
+    href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,600i,700,700i|Roboto:300,300i,400,400i,500,500i,600,600i,700,700i|Poppins:300,300i,400,400i,500,500i,600,600i,700,700i"
+    rel="stylesheet">
+
+  <!-- Vendor CSS Files -->
+  <link href="assets/vendor/aos/aos.css" rel="stylesheet">
+  <link href="assets/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+  <link href="assets/vendor/bootstrap-icons/bootstrap-icons.css" rel="stylesheet">
+  <link href="assets/vendor/boxicons/css/boxicons.min.css" rel="stylesheet">
+  <link href="assets/vendor/glightbox/css/glightbox.min.css" rel="stylesheet">
+  <link href="assets/vendor/swiper/swiper-bundle.min.css" rel="stylesheet">
+
+  <!-- Template Main CSS File -->
+  <link href="assets/css/style.css" rel="stylesheet">
+
+
+  <script src="https://cdn.jsdelivr.net/npm/sweetalert2@10"></script>
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/sweetalert2@10/dist/sweetalert2.min.css">
+  <script src="https://cdn.emailjs.com/dist/email.min.js"></script>
 </head>
+
 <body>
-    <div class="preloader-bg"></div>
-    <div id="preloader">
-        <div id="preloader-status">
-            <div class="preloader-position loader"> <span></span> </div>
-        </div>
+
+  <a class="float-button" target="_blank"
+    href="https://api.whatsapp.com/send?phone=+919898588820&amp;text=Hello I want to know more about Akshar Family Health Care">
+    <img src="./assets/img/whatsapp.png" width="30px" alt="">
+    </span></span></a>
+
+  <!-- ======= Header ======= -->
+  <!-- <header id="header" class="d-flex align-items-center">
+    <div class="container d-flex align-items-center justify-content-between">
+
+      <h1 class="logo">
+        <a href="index.html"><img src="./assets/img/favicon.png" width="80px" alt="logo"></a>
+      </h1>
+      <nav id="navbar" class="navbar">
+        <ul>
+          <li><a class="nav-link scrollto active" href="#hero">Home</a></li>
+          <li><a class="nav-link scrollto" href="#about">About</a></li>
+          <li><a class="nav-link scrollto" href="#services">Services</a></li>
+          <li><a class="nav-link scrollto" href="#contact">Contact</a></li>
+        </ul>
+        <i class="bi bi-list mobile-nav-toggle"></i>
+      </nav>
+
     </div>
-    <div>
-        <a href="#" class="return-to-top" title="Back to top">
-            <i class="fas fa-arrow-up"></i>
-        </a>
-    </div>
-    <nav class="navbar navbar-expand-lg">
-        <div class="container">
-            <div class="logo-wrapper">
-                <a class="logo" href="index.html"><img src="/img/gapuchee5.png" alt="" style="width:200px"></a>
-            </div>
-            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbar"
-                aria-controls="navbar" aria-expanded="false" aria-label="Toggle navigation"> <span
-                    class="navbar-toggler-icon"><i class="fa-solid fa-bars"></i></span> </button>
-            <div class="collapse navbar-collapse" id="navbar">
-                <ul class="navbar-nav ms-auto">
-                    <li class="nav-item dropdown"> <a class="nav-link active dropdown-toggle" href="index.html"
-                            data-bs-auto-close="outside" aria-expanded="false">Home </a>
-                    </li>
-                    <li class="nav-item"><a class="nav-link" href="about.html">About</a></li>
-                    <li class="nav-item dropdown"> <a class="nav-link dropdown-toggle" href="#" role="button"
-                            data-bs-toggle="dropdown" data-bs-auto-close="outside" aria-expanded="false">Categories <i
-                                class="fa-solid fa-angle-down"></i></a>
-                        <ul class="dropdown-menu">
-                            <li><a href="atv.html" class="dropdown-item"><span>ATV</span></a></li>
-                            <li><a href="dirt-bike.html" class="dropdown-item"><span>DIRT BIKE</span></a></li>
-                            <li><a href="utv.html" class="dropdown-item"><span>UTV</span></a></li>
-                        </ul>
-                    </li>
-                    <li class="nav-item"><a class="nav-link" href="contact.html">Contact</a></li>
-                </ul>
-                <div class="navbar-right">
-                    <div class="wrap">
-                        <a
-                            href="https://api.whatsapp.com/send?phone=+919875225326&text=Hello I contact to you for bikes">
-                            <div class="icon"><img src="./img/phone-call.png" width="50%" alt=""> </div>
-                        </a>
-                        <div class="text">
-                            <p>Need help?</p>
-                            <h5><a
-                                    href="https://api.whatsapp.com/send?phone=+919875225326&text=Hello I contact to you for bikes">98752
-                                    25326</a></h5>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
+  </header> -->
+
+  <header class="header">
+    <nav>
+      <div class="container d-flex align-items-center justify-content-between">
+        <h1 class="logo">
+          <a href="index.html"><img src="./assets/img/favicon.png" width="80px" alt="logo"></a>
+        </h1>
+        <input type="checkbox" id="menu-toggle">
+        <label for="menu-toggle" class="menu-icon">&#9776;</label>
+        <ul id="navbar" class="navbar menu mt-2">
+          <li><a class="nav-link  active" href="#hero">Home</a></li>
+          <li><a class="nav-link" href="#about">About</a></li>
+          <li><a class="nav-link" href="#services">Services</a></li>
+          <li><a class="nav-link" href="#contact">Contact</a></li>
+        </ul>
+      </div>
     </nav>
-    <header class="header slider-fade">
-        <div class="owl-carousel owl-theme">
-            <div class="item bg-img" data-overlay-dark="5" data-background="img/atv.webp">
-                <div class="v-middle caption">
-                    <div class="container">
-                        <div class="row text-center">
-                            <div class="col-lg-12 col-md-12">
-                                <div class="v-middle">
-                                    <h6>* Premium</h6>
-                                    <h1 class="mt-4 mb-4"> ATV Collection </h1>
-                                    <P><a href="atv.html" class="button-1 mt-15 mb-15">View Details</a> </P>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-            <div class="item bg-img" data-overlay-dark="5" data-background="img/UTV-1-3-500x500.jpg">
-                <div class="v-middle caption">
-                    <div class="container">
-                        <div class="row text-center">
-                            <div class="col-lg-12 col-md-12">
-                                <div class="v-middle">
-                                    <h6>* Premium</h6>
-                                    <h1 class="mt-4 mb-4">Exclusive UTV Collection </h1>
-                                    <P><a href="utv.html" class="button-1 mt-15 mb-15">View Details</a> </P>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-            <div class="item bg-img" data-overlay-dark="5" data-background="img/squad.webp">
-                <div class="v-middle caption">
-                    <div class="container">
-                        <div class="row text-center">
-                            <div class="col-lg-12 col-md-12">
-                                <div class="v-middle">
-                                    <h6>* Premium</h6>
-                                    <h1 class="mt-4 mb-4">Best Squad Bikes in India </h1>
-                                    <P><a href="dirt-bike.html" class="button-1 mt-15 mb-15">View Details</a> </P>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
+  </header>
+
+  <!-- ======= Hero Section ======= -->
+  <section id="hero" class="d-flex align-items-center">
+    <div class="container" data-aos="zoom-out" data-aos-delay="100">
+      <div class="text-center">
+        <h1>Welcome to <span>Akshar Health Care</span></h1>
+        <h2 class="mt-3">Biomagnetism has the potential to advance the health industry throughout <br> the world.</h2>
+        <div class="d-flex justify-content-center">
+          <a href="https://api.whatsapp.com/send?phone=+919898588820&amp;text=Hello I want to know more about Akshar Family Health Care"
+            class=" btn-watch-video" target="_blank"><span>Contact Us</span></a>
         </div>
-    </header>
-    <section class="about section-padding p-0 pt-5">
-        <div class="container">
-            <div class="row">
-                <div class="col-lg-6 col-md-12">
-                    <div class="content">
-                        <div class="section-subtitle">GAPUCHEE</div>
-                        <div class="section-title">We Are More Than <span>A Bike Rental Company</span></div>
-                        <p class="mb-30">Join the #GAPUCHEEGANG and elevate your off-road experience to new heights!
-                            Dive into our exclusive collection of quad bikes, ATV bikes, and dirt bikes - meticulously
-                            crafted for adventure enthusiasts like you. As the premier manufacturer of all-terrain
-                            vehicles in India, GAPUCHEE brings innovation, performance, and style together in every
-                            ride. Whether you're craving adrenaline-pumping trails or scenic explorations, our lineup
-                            has something for every thrill-seeker. Don't just ride, conquer with confidence - join the
-                            #GapucheeGang today!</p>
-                        <ul class="list-unstyled list">
+      </div>
+    </div>
+  </section><!-- End Hero -->
+
+  <main id="main">
+    <section id="about" class="about section-bg d-none d-md-block">
+      <div class="container" data-aos="fade-up">
+
+        <div class="section-title">
+          <h2>About</h2>
+          <h3>Find Out More <span>About Us</span></h3>
+
+        </div>
+
+        <div class="row">
+          <div class="col-lg-6" data-aos="fade-right" data-aos-delay="100">
+            <img src="assets/img/aboutus.JPG" class="img-fluid" alt="">
+          </div>
+          <div class="col-lg-6 pt-4 pt-lg-0 content d-flex flex-column justify-content-center" data-aos="fade-up"
+            data-aos-delay="100">
+            <h3>AKASHAR FAMILY HEALTH CARE</h3>
+            <p>
+              E Biotorium, established as proprietary concern and now converted to E Biotorium Network Private Limited
+              (a company incorporated on 23rd December, 2021 under companies Act 2013) is into the business of
+              Bio-Magnetic products competing with the world class noninvasive, alternative health therapies since last
+              16+ years.
+            </p>
+            <ul>
+              <li class="mb-2">
+                <i class="bx bx-store-alt"></i>
+                <div>
+                  <p>The company adopted in 2020, Network model of distributing its multiple Bio-Magnetic products and
+                    in a very short span became one of the leading direct selling company at National level. The secret
+                    of the success and exponential growth of the company lies in the excellence of the high value health
+                    products made available at affordable price and liberal compensation plan of the company that
+                    rewards in a multiple ways the Direct Sellers in proportion to their performance. This speaks high
+                    of the long vision of the founders, dynamism of the management and sustain ability of the systems.
+                  </p>
+                </div>
+              </li>
+            </ul>
+            <ul id="moreContent" class="hidden">
+              <li class="mt-1 mb-2">
+                <i class="bx bx-images"></i>
+                <div>
+                  <p>E Biotorium is constantly expanding its product range to introduce innovative Bio-Magnetic products
+                    which are manufactured at GMP certified state of the art manufacturing facilities. E Biotorium is an
+                    ISO 14001-2015 certified direct selling company and believes in providing world-class services to
+                    all its customers. With over 5000+ product pickup and Distribution centers pan India, E Biotorium is
+                    building a wide network of distributors to reach every corner of the country.</p>
+                </div>
+              </li>
+              <p>
+                Founder of the company Mr. Sagar Joshi and the company E Biotorium are awarded and recognized by
+                multiple
+                organizations, agencies and Institutions in the country for the innovation as well as contribution to
+                the
+                good of humanity. E Biotorium is the only company awarded and recognized specially by MSME & Ayush
+                Ministry (Govt. of India).
+              </p>
+            </ul>
+            <div class="readmore">
+              <button type="button" onclick="toggleReadMore()">Know more</button>
+            </div>
+          </div>
+        </div>
+
+      </div>
+    </section>
+    <section id="about" class="about section-bg d-block d-md-none">
+      <div class="container" data-aos="fade-up">
+
+        <div class="section-title">
+          <h2>About</h2>
+          <h3>Find Out More <span>About Us</span></h3>
+
+        </div>
+
+        <div class="row">
+          <div class="col-lg-6" data-aos="fade-right" data-aos-delay="100">
+            <img src="assets/img/aboutus.JPG" class="img-fluid" alt="">
+          </div>
+          <div class="col-lg-6 pt-4 pt-lg-0 content d-flex flex-column justify-content-center" data-aos="fade-up"
+            data-aos-delay="100">
+            <h3>AKASHAR HEALTH CARE</h3>
+            <p class="mb-1">
+              E Biotorium, established as proprietary concern and now converted to E Biotorium Network Private Limited
+              (a company incorporated on 23rd December, 2021 under companies Act 2013) is into...
+            </p>
+            <ul id="moreContent2" class="hidden">
+              <p>the business of
+                Bio-Magnetic products competing with the world class noninvasive, alternative health therapies since
+                last
+                16+ years.</p>
+              <li class="mb-3">
+                <i class="bx bx-store-alt"></i>
+                <div>
+                  <p>The company adopted in 2020, Network model of distributing its multiple Bio-Magnetic products and
+                    in a very short span became one of the leading direct selling company at National level. The secret
+                    of the success and exponential growth of the company lies in the excellence of the high value health
+                    products made available at affordable price and liberal compensation plan of the company that
+                    rewards in a multiple ways the Direct Sellers in proportion to their performance. This speaks high
+                    of the long vision of the founders, dynamism of the management and sustain ability of the systems.
+                  </p>
+                </div>
+              </li>
+              <li class="mt-1 mb-2">
+                <i class="bx bx-images"></i>
+                <div>
+                  <p>E Biotorium is constantly expanding its product range to introduce innovative Bio-Magnetic products
+                    which are manufactured at GMP certified state of the art manufacturing facilities. E Biotorium is an
+                    ISO 14001-2015 certified direct selling company and believes in providing world-class services to
+                    all its customers. With over 5000+ product pickup and Distribution centers pan India, E Biotorium is
+                    building a wide network of distributors to reach every corner of the country.</p>
+                </div>
+              </li>
+              <p>
+                Founder of the company Mr. Sagar Joshi and the company E Biotorium are awarded and recognized by
+                multiple
+                organizations, agencies and Institutions in the country for the innovation as well as contribution to
+                the
+                good of humanity. E Biotorium is the only company awarded and recognized specially by MSME & Ayush
+                Ministry (Govt. of India).
+              </p>
+            </ul>
+            <div class="readmore mt-2">
+              <button type="button" onclick="toggleReadMore2()">Read More</button>
+            </div>
+          </div>
+        </div>
+
+      </div>
+    </section>
+
+    <!-- ======= Counts Section ======= -->
+    <section id="counts" class="counts">
+      <div class="container" data-aos="fade-up">
+
+        <div class="row justify-content-center">
+          <div class="col-md-3">
+            <div class="count-box">
+              <i class="bi bi-emoji-smile"></i>
+              <span data-purecounter-start="0" data-purecounter-end="232" data-purecounter-duration="1"
+                class="purecounter"></span>
+              <p>Happy Clients</p>
+            </div>
+          </div>
+          <div class="col-md-3 mt-5 mt-md-0">
+            <div class="count-box">
+              <i class="bi bi-journal-richtext"></i>
+              <span data-purecounter-start="0" data-purecounter-end="521" data-purecounter-duration="1"
+                class="purecounter"></span>
+              <p>Products</p>
+            </div>
+          </div>
+          <div class="col-md-3 mt-5 mt-lg-0">
+            <div class="count-box">
+              <i class="bi bi-people"></i>
+              <span data-purecounter-start="0" data-purecounter-end="15" data-purecounter-duration="1"
+                class="purecounter"></span>
+              <p>Hard Workers</p>
+            </div>
+          </div>
+
+        </div>
+
+      </div>
+    </section><!-- End Counts Section -->
+
+    <!-- ======= Clients Section ======= -->
+    <!-- <section id="clients" class="clients section-bg">
+      <div class="container" data-aos="zoom-in">
+
+        <div class="row">
+
+          <div class="col-lg-2 col-md-4 col-6 d-flex align-items-center justify-content-center">
+            <img src="assets/img/clients/client-1.png" class="img-fluid" alt="">
+          </div>
+
+          <div class="col-lg-2 col-md-4 col-6 d-flex align-items-center justify-content-center">
+            <img src="assets/img/clients/client-2.png" class="img-fluid" alt="">
+          </div>
+
+          <div class="col-lg-2 col-md-4 col-6 d-flex align-items-center justify-content-center">
+            <img src="assets/img/clients/client-3.png" class="img-fluid" alt="">
+          </div>
+
+          <div class="col-lg-2 col-md-4 col-6 d-flex align-items-center justify-content-center">
+            <img src="assets/img/clients/client-4.png" class="img-fluid" alt="">
+          </div>
+
+          <div class="col-lg-2 col-md-4 col-6 d-flex align-items-center justify-content-center">
+            <img src="assets/img/clients/client-5.png" class="img-fluid" alt="">
+          </div>
+
+          <div class="col-lg-2 col-md-4 col-6 d-flex align-items-center justify-content-center">
+            <img src="assets/img/clients/client-6.png" class="img-fluid" alt="">
+          </div>
+
+        </div>
+
+      </div>
+    </section>End Clients Section -->
 
 
-                        </ul> <a href="about.html" class="button-1">Read More <i
-                                class="ml-2 fa-solid fa-arrow-right"></i></a>
-                    </div>
-                </div>
-                <div class="col-lg-5 offset-lg-1 col-md-12">
-                    <div class="item"> <img src="img/about-us.jpg" class="img-fluid" alt="">
-                        <div class="curv-butn icon-bg">
-                            <a href="https://youtube.com/shorts/MtwWpbJwRe4?si=oOt0orm54o0NIalH" class="vid"
-                                target="_blank">
-                                <div class="icon mt-3 "><a href="" class=""><i class="fa-solid fa-play "></i></a>
-                                </div>
-                            </a>
-                            <div class="br-left-top">
-                                <svg viewBox="0 0 11 11" fill="none" xmlns="http://www.w3.org/2000/svg"
-                                    class="w-11 h-11">
-                                    <path
-                                        d="M11 1.54972e-06L0 0L2.38419e-07 11C1.65973e-07 4.92487 4.92487 1.62217e-06 11 1.54972e-06Z"
-                                        fill="#1b1b1b"></path>
-                                </svg>
-                            </div>
-                            <div class="br-right-bottom">
-                                <svg viewBox="0 0 11 11" fill="none" xmlns="http://www.w3.org/2000/svg"
-                                    class="w-11 h-11">
-                                    <path
-                                        d="M11 1.54972e-06L0 0L2.38419e-07 11C1.65973e-07 4.92487 4.92487 1.62217e-06 11 1.54972e-06Z"
-                                        fill="#1b1b1b"></path>
-                                </svg>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
+    <section id="team" class="team section-bg">
+      <div class="container" data-aos="fade-up">
+
+        <div class="section-title">
+          <h2>Products</h2>
+          <h3>Our <span>Products</span></h3>
+          <p>
+            (Revolutionary Alternative Healing with the power of nature & science)
+            A natural way of living life...</p>
         </div>
+
+        <div class="row">
+
+          <div class="col-lg-3 col-md-6 d-flex align-items-stretch" data-aos="fade-up" data-aos-delay="100">
+            <div class="member">
+              <div class="member-img">
+                <img src="./assets/img/mattress-pad.png" class="img-fluid" alt="">
+              </div>
+              <div class="member-info text-center mb-3 text-center">
+                <h4>Bio-Magnetic Mattress Pad</h4>
+                <span>⭐⭐⭐⭐(4.5)</span>
+                <div class="mt-5">
+                  <a class="card-know-more" target="_blank"
+                    href="https://api.whatsapp.com/send?phone=+919898588820&amp;text=Hello I want to know more about Bio-Magnetic Mattress Pad">Know
+                    more</a>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-lg-3 col-md-6 d-flex align-items-stretch" data-aos="fade-up" data-aos-delay="200">
+            <div class="member">
+              <div class="member-img">
+                <img src="./assets/img/Silicon-Wrist.png" class="img-fluid" alt="">
+              </div>
+              <div class="member-info text-center  mb-3">
+                <h4>Bio-Magnetic Silicon Wrist Band</h4>
+                <span>⭐⭐⭐⭐(4.5)</span>
+                <div class="mt-4">
+                  <a class="card-know-more" target="_blank"
+                    href="https://api.whatsapp.com/send?phone=+919898588820&amp;text=Hello I want to know more about Bio-Magnetic Silicon Wrist Band">Know
+                    more</a>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-lg-3 col-md-6 d-flex align-items-stretch" data-aos="fade-up" data-aos-delay="300">
+            <div class="member">
+              <div class="member-img">
+                <img src="./assets/img/Bracelets.png" class="img-fluid" alt="">
+              </div>
+              <div class="member-info text-center  mb-3">
+                <h4>Stylish Imitation Diamond Bracelets & Jewellery</h4>
+                <span>⭐⭐⭐⭐(4.5)</span>
+                <div class="mt-4">
+                  <a class="card-know-more" target="_blank"
+                    href="https://api.whatsapp.com/send?phone=+919898588820&amp;text=Hello I want to know more about Stylish Imitation Diamond Bracelets & Jewellery">Know
+                    more</a>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-lg-3 col-md-6 d-flex align-items-stretch" data-aos="fade-up" data-aos-delay="400">
+            <div class="member">
+              <div class="member-img">
+                <img src="./assets/img/Water-Energy-Pad.png" class="img-fluid" alt="">
+              </div>
+              <div class="member-info text-center  mb-3">
+                <h4>Bio-Magnetic Water Energy Pad</h4>
+                <span>⭐⭐⭐⭐(4.5)</span>
+                <div class="mt-4">
+                  <a class="card-know-more" target="_blank"
+                    href="https://api.whatsapp.com/send?phone=+919898588820&amp;text=Hello I want to know more about Bio-Magnetic Water Energy Pad">Know
+                    more</a>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-lg-3 col-md-6 d-flex align-items-stretch" data-aos="fade-up" data-aos-delay="400">
+            <div class="member">
+              <div class="member-img">
+                <img src="https://4.imimg.com/data4/LY/AB/MY-1602274/night-wave-sleep-assistant-1000x1000.jpg"
+                  class="img-fluid" alt="">
+              </div>
+              <div class="member-info text-center  mb-3">
+                <h4>Bio-Magnetic Anti Snoring Pad</h4>
+                <span>⭐⭐⭐⭐(4.5)</span>
+                <div class="mt-4">
+                  <a class="card-know-more" target="_blank"
+                    href="https://api.whatsapp.com/send?phone=+919898588820&amp;text=Hello I want to know more about Bio-Magnetic Anti Snoring Pad">Know
+                    more</a>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-lg-3 col-md-6 d-flex align-items-stretch" data-aos="fade-up" data-aos-delay="400">
+            <div class="member">
+              <div class="member-img">
+                <img
+                  src="https://www.jiomart.com/images/product/original/rvrnljs8ee/ekin-accupressure-magnetic-pyramid-head-belt-for-headache-migraine-dizziness-product-images-orvrnljs8ee-p601245521-1-202305070702.jpg?im=Resize=(420,420)"
+                  class="img-fluid" alt="">
+              </div>
+              <div class="member-info text-center  mb-3">
+                <h4>Bio-Magnetic Headache Belt</h4>
+                <span>⭐⭐⭐⭐(4.5)</span>
+                <div class="mt-4">
+                  <a class="card-know-more" target="_blank"
+                    href="https://api.whatsapp.com/send?phone=+919898588820&amp;text=Hello I want to know more about Bio-Magnetic Headache Belt">Know
+                    more</a>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-lg-3 col-md-6 d-flex align-items-stretch" data-aos="fade-up" data-aos-delay="400">
+            <div class="member">
+              <div class="member-img text-center">
+                <img
+                  src="https://5.imimg.com/data5/SELLER/Default/2023/9/340581538/TS/LY/KL/2523832/bio-magnetic-foot-pad-leg-pad-1000x1000.jpeg"
+                  width="75%" class="img-fluid" alt="">
+              </div>
+              <div class="member-info text-center  mb-3">
+                <h4>Bio-Magnetic Foot Pain Relax Pad</h4>
+                <span>⭐⭐⭐⭐(4.5)</span>
+                <div class="mt-4">
+                  <a class="card-know-more" target="_blank"
+                    href="https://api.whatsapp.com/send?phone=+919898588820&amp;text=Hello I want to know more about Bio-Magnetic Foot Pain Relax Pad">Know
+                    more</a>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-lg-3 col-md-6 d-flex align-items-stretch" data-aos="fade-up" data-aos-delay="400">
+            <div class="member">
+              <div class="member-img">
+                <img src="https://m.media-amazon.com/images/I/61Mj2kueZeL._SX679_.jpg" class="img-fluid" alt="">
+              </div>
+              <div class="member-info text-center  mb-3">
+                <h4>Bio-Magnetic Seat Pad</h4>
+                <span>⭐⭐⭐⭐(4.5)</span>
+                <div class="mt-5">
+                  <a class="card-know-more" target="_blank"
+                    href="https://api.whatsapp.com/send?phone=+919898588820&amp;text=Hello I want to know more about Bio-Magnetic Seat Pad">Know
+                    more</a>
+                </div>
+              </div>
+            </div>
+          </div>
+
+        </div>
+
+      </div>
     </section>
-    <section class="car-types1 section-padding p-0 pt-5 pb-5">
-        <div class="container">
-            <div class="row">
-                <div class="col-md-12 text-center mb-30">
-                    <div class="section-subtitle">Categories</div>
-                    <div class="section-title">Watch <span>Bikes Types</span></div>
-                </div>
+
+    <section id="featured-services" class="featured-services">
+      <div class="container" data-aos="fade-up">
+
+        <div class="row text-center justify-content-center">
+          <div class="col-md-6 col-lg-5 d-flex align-items-stretch mb-5 mb-lg-0">
+            <div class="icon-box" data-aos="fade-up" data-aos-delay="100">
+              <div class="icon"><img src="./assets/img/vision.png" width="100px" alt=""></div>
+              <h4 class="title"><a href="">Our Vision</a></h4>
+              <p class="description">"Our vision is to research and share scientifically proven methods for achieving
+                optimal health and lasting happiness through cleansing and balancing cellular, molecular, and electronic
+                bodies."</p>
             </div>
-            <div class="row">
-                <div class="col-md-12">
-                    <div class="owl-carousel owl-theme">
-                        <div class="item"> <img src="img/atv/dirt-bike.png" class="img-fluid opacity-50" alt="">
-                            <div class="title">
-                                <h4>ATV BIKE</h4>
-                            </div>
-                            <div class="curv-butn icon-bg">
-                                <a href="atv.html" class="vid">
-                                    <div class="icon"> <i class="fa-solid fa-square-arrow-up-right"
-                                            style="font-size: 25px;"></i> </div>
-                                </a>
-                                <div class="br-left-top">
-                                    <svg viewBox="0 0 11 11" fill="none" xmlns="http://www.w3.org/2000/svg"
-                                        class="w-11 h-11">
-                                        <path
-                                            d="M11 1.54972e-06L0 0L2.38419e-07 11C1.65973e-07 4.92487 4.92487 1.62217e-06 11 1.54972e-06Z"
-                                            fill="#1b1b1b"></path>
-                                    </svg>
-                                </div>
-                                <div class="br-right-bottom">
-                                    <svg viewBox="0 0 11 11" fill="none" xmlns="http://www.w3.org/2000/svg"
-                                        class="w-11 h-11">
-                                        <path
-                                            d="M11 1.54972e-06L0 0L2.38419e-07 11C1.65973e-07 4.92487 4.92487 1.62217e-06 11 1.54972e-06Z"
-                                            fill="#1b1b1b"></path>
-                                    </svg>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="item"> <img src="img/dirt bike/dirt-bike.jpg" class="img-fluid opacity-50" alt="">
-                            <div class="title">
-                                <h4>DIRT BIKE</h4>
-                            </div>
-                            <div class="curv-butn icon-bg">
-                                <a href="dirt-bike.html" class="vid">
-                                    <div class="icon"><i class="fa-solid fa-square-arrow-up-right"
-                                            style="font-size: 25px"></i> </div>
-                                </a>
-                                <div class="br-left-top">
-                                    <svg viewBox="0 0 11 11" fill="none" xmlns="http://www.w3.org/2000/svg"
-                                        class="w-11 h-11">
-                                        <path
-                                            d="M11 1.54972e-06L0 0L2.38419e-07 11C1.65973e-07 4.92487 4.92487 1.62217e-06 11 1.54972e-06Z"
-                                            fill="#1b1b1b"></path>
-                                    </svg>
-                                </div>
-                                <div class="br-right-bottom">
-                                    <svg viewBox="0 0 11 11" fill="none" xmlns="http://www.w3.org/2000/svg"
-                                        class="w-11 h-11">
-                                        <path
-                                            d="M11 1.54972e-06L0 0L2.38419e-07 11C1.65973e-07 4.92487 4.92487 1.62217e-06 11 1.54972e-06Z"
-                                            fill="#1b1b1b"></path>
-                                    </svg>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="item"> <img src="img/UTV/UTV-1-2-500x500.jpg" class="img-fluid opacity-50" alt="">
-                            <div class="title">
-                                <h4>UTV</h4>
-                            </div>
-                            <div class="curv-butn icon-bg">
-                                <a href="/utv.html" class="vid">
-                                    <div class="icon"><i class="fa-solid fa-square-arrow-up-right"
-                                            style="font-size: 25px;"></i> </div>
-                                </a>
-                                <div class="br-left-top">
-                                    <svg viewBox="0 0 11 11" fill="none" xmlns="http://www.w3.org/2000/svg"
-                                        class="w-11 h-11">
-                                        <path
-                                            d="M11 1.54972e-06L0 0L2.38419e-07 11C1.65973e-07 4.92487 4.92487 1.62217e-06 11 1.54972e-06Z"
-                                            fill="#1b1b1b"></path>
-                                    </svg>
-                                </div>
-                                <div class="br-right-bottom">
-                                    <svg viewBox="0 0 11 11" fill="none" xmlns="http://www.w3.org/2000/svg"
-                                        class="w-11 h-11">
-                                        <path
-                                            d="M11 1.54972e-06L0 0L2.38419e-07 11C1.65973e-07 4.92487 4.92487 1.62217e-06 11 1.54972e-06Z"
-                                            fill="#1b1b1b"></path>
-                                    </svg>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
+          </div>
+
+          <div class="col-md-6 col-lg-5 d-flex align-items-stretch mb-5 mb-lg-0">
+            <div class="icon-box" data-aos="fade-up" data-aos-delay="200">
+              <div class="icon"><img src="./assets/img/target.png" width="100px" alt=""></div>
+              <h4 class=" title"><a href="">Our Mission</a></h4>
+              <p class="description">"eradicate discomforts, pains, diseases in 20M households through biomagnetic
+                products, empowering wealth and joyful living."</p>
             </div>
+          </div>
         </div>
+
+      </div>
     </section>
-    <section class="cars1 section-padding p-0 pt-5 mb-5">
-        <div class="container">
-            <div class="row">
-                <div class="col-md-12 text-center mb-30">
-                    <div class="section-subtitle">Select Your Bike</div>
-                    <div class="section-title">Luxury <span>Bike Fleet</span></div>
-                </div>
+
+
+    <!-- ======= Testimonials Section ======= -->
+    <!-- <section id="testimonials" class="testimonials">
+      <div class="container" data-aos="zoom-in">
+
+        <div class="testimonials-slider swiper" data-aos="fade-up" data-aos-delay="100">
+          <div class="swiper-wrapper">
+
+            <div class="swiper-slide">
+              <div class="testimonial-item">
+                <img src="assets/img/testimonials/testimonials-1.jpg" class="testimonial-img" alt="">
+                <h3>Saul Goodman</h3>
+                <h4>Ceo &amp; Founder</h4>
+                <p>
+                  <i class="bx bxs-quote-alt-left quote-icon-left"></i>
+                  Proin iaculis purus consequat sem cure digni ssim donec porttitora entum suscipit rhoncus. Accusantium
+                  quam, ultricies eget id, aliquam eget nibh et. Maecen aliquam, risus at semper.
+                  <i class="bx bxs-quote-alt-right quote-icon-right"></i>
+                </p>
+              </div>
             </div>
-            <div class="cars1-carousel owl-theme owl-carousel">
-                <div class="item">
-                    <div class="img"> <img src="img/IMG_3642.JPG" alt=""> </div>
-                    <div class="con opacity-1">
-                        <div class="row">
-                            <div class="col-md-7">
-                                <div class="title"><a href="#">Atv bikes</a></div>
-                                <div class="details">GapucheeGang</div>
-                            </div>
-                            <div class="col-md-5">
-                                <div class="book">
-                                    <div><a href="atv.html" class="btn"><span>Details</span></a></div>
-                                    <div><span class="price">Buy Now</span></div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <div class="item">
-                    <div class="img"> <img src="img/dirt bike/dirt.jpg" alt=""> </div>
-                    <div class="con opacity-1">
-                        <div class="row">
-                            <div class="col-md-7">
-                                <div class="title"><a href="#">Dirt bikes</a></div>
-                                <div class="details">GapucheeGang</div>
-                            </div>
-                            <div class="col-md-5">
-                                <div class="book">
-                                    <div><a href="dirt-bike.html" class="btn"><span>Details</span></a></div>
-                                    <div><span class="price">Buy Now</span></div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <div class="item">
-                    <div class="img"> <img src="img/UTV/utc-1.jpg" alt=""> </div>
-                    <div class="con opacity-1">
-                        <div class="row">
-                            <div class="col-md-7">
-                                <div class="title"><a href="#">UTV bikes</a></div>
-                                <div class="details">GapucheeGang</div>
-                            </div>
-                            <div class="col-md-5">
-                                <div class="book">
-                                    <div><a href="dirt-bike.html" class="btn"><span>Details</span></a></div>
-                                    <div><span class="price">Buy Now</span></div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
+
+            <div class="swiper-slide">
+              <div class="testimonial-item">
+                <img src="assets/img/testimonials/testimonials-2.jpg" class="testimonial-img" alt="">
+                <h3>Sara Wilsson</h3>
+                <h4>Designer</h4>
+                <p>
+                  <i class="bx bxs-quote-alt-left quote-icon-left"></i>
+                  Export tempor illum tamen malis malis eram quae irure esse labore quem cillum quid cillum eram malis
+                  quorum velit fore eram velit sunt aliqua noster fugiat irure amet legam anim culpa.
+                  <i class="bx bxs-quote-alt-right quote-icon-right"></i>
+                </p>
+              </div>
             </div>
+
+            <div class="swiper-slide">
+              <div class="testimonial-item">
+                <img src="assets/img/testimonials/testimonials-3.jpg" class="testimonial-img" alt="">
+                <h3>Jena Karlis</h3>
+                <h4>Store Owner</h4>
+                <p>
+                  <i class="bx bxs-quote-alt-left quote-icon-left"></i>
+                  Enim nisi quem export duis labore cillum quae magna enim sint quorum nulla quem veniam duis minim
+                  tempor labore quem eram duis noster aute amet eram fore quis sint minim.
+                  <i class="bx bxs-quote-alt-right quote-icon-right"></i>
+                </p>
+              </div>
+            </div>
+
+            <div class="swiper-slide">
+              <div class="testimonial-item">
+                <img src="assets/img/testimonials/testimonials-4.jpg" class="testimonial-img" alt="">
+                <h3>Matt Brandon</h3>
+                <h4>Freelancer</h4>
+                <p>
+                  <i class="bx bxs-quote-alt-left quote-icon-left"></i>
+                  Fugiat enim eram quae cillum dolore dolor amet nulla culpa multos export minim fugiat minim velit
+                  minim dolor enim duis veniam ipsum anim magna sunt elit fore quem dolore labore illum veniam.
+                  <i class="bx bxs-quote-alt-right quote-icon-right"></i>
+                </p>
+              </div>
+            </div>
+
+            <div class="swiper-slide">
+              <div class="testimonial-item">
+                <img src="assets/img/testimonials/testimonials-5.jpg" class="testimonial-img" alt="">
+                <h3>John Larson</h3>
+                <h4>Entrepreneur</h4>
+                <p>
+                  <i class="bx bxs-quote-alt-left quote-icon-left"></i>
+                  Quis quorum aliqua sint quem legam fore sunt eram irure aliqua veniam tempor noster veniam enim culpa
+                  labore duis sunt culpa nulla illum cillum fugiat legam esse veniam culpa fore nisi cillum quid.
+                  <i class="bx bxs-quote-alt-right quote-icon-right"></i>
+                </p>
+              </div>
+            </div>
+
+          </div>
+          <div class="swiper-pagination"></div>
         </div>
-    </section>
-    <section class="video-wrapper video bg-img bg-fixed p-0 pt-5 pb-5" data-overlay-dark="4"
-        data-background="img/IMG_3666.JPG">
-        <div class="container">
-            <div class="row pt-5">
-                <div class="col-md-12 text-center">
-                    <div class="section-subtitle">Explore</div>
-                    <div class="section-title white">Bike <span>Promo</span> Video</div>
-                </div>
-            </div>
-            <div class="row pb-5">
-                <div class="text-center col-md-12">
-                    <a class="vid" href="https://youtube.com/shorts/bkDL22boOK4?si=31XRXVrf9fpRaBwg" target="_blank">
-                        <div class="vid-butn"> <span class="icon"><i class="fa-solid fa-play"
-                                    style="color: goldenrod; margin-left: 5px;"></i></span> </div>
-                    </a>
-                </div>
-            </div>
+
+      </div>
+    </section> -->
+    <!-- End Testimonials Section -->
+
+    <!-- <section id="services" class="services">
+      <div class="container" data-aos="fade-up">
+
+        <div class="section-title">
+          <h2>Benefits </h2>
+          <h3>Our Products <span>Benefits</span></h3>
+          <p>(Revolutionary Alternative Healing with the power of nature & science) A natural way of living life...</p>
         </div>
-    </section>
-    <!-- Testimonials -->
-    <section class="testimonials section-padding mt-15">
-        <div class="container">
-            <div class="row">
-                <div class="col-md-12 text-center mb-30">
-                    <div class="section-subtitle">Testimonials</div>
-                    <div class="section-title">What Clients Say</div>
-                </div>
-                <div class="col-md-12">
-                    <div class="owl-carousel owl-theme">
-                        <div class="item">
-                            <div class="stars"> <span class="rate">
-                                    <i class="fa-solid fa-star"></i>
-                                    <i class="fa-solid fa-star"></i>
-                                    <i class="fa-solid fa-star"></i>
-                                    <i class="fa-solid fa-star"></i>
-                                    <i class="fa-solid fa-star"></i>
-                                </span>
-                                <div class="shap-left-top">
-                                    <svg viewBox="0 0 11 11" fill="none" xmlns="http://www.w3.org/2000/svg"
-                                        class="w-11 h-11">
-                                        <path
-                                            d="M11 1.54972e-06L0 0L2.38419e-07 11C1.65973e-07 4.92487 4.92487 1.62217e-06 11 1.54972e-06Z"
-                                            fill="#1b1b1b"></path>
-                                    </svg>
-                                </div>
-                                <div class="shap-right-bottom">
-                                    <svg viewBox="0 0 11 11" fill="none" xmlns="http://www.w3.org/2000/svg"
-                                        class="w-11 h-11">
-                                        <path
-                                            d="M11 1.54972e-06L0 0L2.38419e-07 11C1.65973e-07 4.92487 4.92487 1.62217e-06 11 1.54972e-06Z"
-                                            fill="#1b1b1b"></path>
-                                    </svg>
-                                </div>
-                            </div> <i class="fa-solid fa-quote-left"></i>
-                            <div class="text">
-                                <p>Yeah Gapuchee is one of the best importer for kids toys. Also they are very kind and
-                                    friendly to deal and support us, am happy with them.
-                                    Thank you</p>
-                            </div>
-                            <div class="info mt-30">
-                                <div class="img-curv">
-                                    <div class="img"> <img src="img/member-1.png" alt=""> </div>
-                                    <div class="shap-left-top">
-                                        <svg viewBox="0 0 11 11" fill="none" xmlns="http://www.w3.org/2000/svg"
-                                            class="w-11 h-11">
-                                            <path
-                                                d="M11 1.54972e-06L0 0L2.38419e-07 11C1.65973e-07 4.92487 4.92487 1.62217e-06 11 1.54972e-06Z"
-                                                fill="#1b1b1b"></path>
-                                        </svg>
-                                    </div>
-                                    <div class="shap-right-bottom">
-                                        <svg viewBox="0 0 11 11" fill="none" xmlns="http://www.w3.org/2000/svg"
-                                            class="w-11 h-11">
-                                            <path
-                                                d="M11 1.54972e-06L0 0L2.38419e-07 11C1.65973e-07 4.92487 4.92487 1.62217e-06 11 1.54972e-06Z"
-                                                fill="#1b1b1b"></path>
-                                        </svg>
-                                    </div>
-                                </div>
-                                <div class="ml-30">
-                                    <h6>sudhakar sudha
-                                    </h6>
-                                    <p>Customer</p>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="item">
-                            <div class="stars"> <span class="rate">
-                                    <i class="fa-solid fa-star"></i>
-                                    <i class="fa-solid fa-star"></i>
-                                    <i class="fa-solid fa-star"></i>
-                                    <i class="fa-solid fa-star"></i>
-                                    <i class="fa-solid fa-star"></i>
-                                </span>
-                                <div class="shap-left-top">
-                                    <svg viewBox="0 0 11 11" fill="none" xmlns="http://www.w3.org/2000/svg"
-                                        class="w-11 h-11">
-                                        <path
-                                            d="M11 1.54972e-06L0 0L2.38419e-07 11C1.65973e-07 4.92487 4.92487 1.62217e-06 11 1.54972e-06Z"
-                                            fill="#1b1b1b"></path>
-                                    </svg>
-                                </div>
-                                <div class="shap-right-bottom">
-                                    <svg viewBox="0 0 11 11" fill="none" xmlns="http://www.w3.org/2000/svg"
-                                        class="w-11 h-11">
-                                        <path
-                                            d="M11 1.54972e-06L0 0L2.38419e-07 11C1.65973e-07 4.92487 4.92487 1.62217e-06 11 1.54972e-06Z"
-                                            fill="#1b1b1b"></path>
-                                    </svg>
-                                </div>
-                            </div> <i class="fa-solid fa-quote-left"></i>
-                            <div class="text">
-                                <p>100 percent trustable company...today's online world thr are lots of fake
-                                    sellers...but this seller is 100 percent genuine...fully satiesfied</p>
-                            </div>
-                            <div class="info mt-30">
-                                <div class="img-curv">
-                                    <div class="img"> <img src="img/member-02.png" alt=""> </div>
-                                    <div class="shap-left-top">
-                                        <svg viewBox="0 0 11 11" fill="none" xmlns="http://www.w3.org/2000/svg"
-                                            class="w-11 h-11">
-                                            <path
-                                                d="M11 1.54972e-06L0 0L2.38419e-07 11C1.65973e-07 4.92487 4.92487 1.62217e-06 11 1.54972e-06Z"
-                                                fill="#1b1b1b"></path>
-                                        </svg>
-                                    </div>
-                                    <div class="shap-right-bottom">
-                                        <svg viewBox="0 0 11 11" fill="none" xmlns="http://www.w3.org/2000/svg"
-                                            class="w-11 h-11">
-                                            <path
-                                                d="M11 1.54972e-06L0 0L2.38419e-07 11C1.65973e-07 4.92487 4.92487 1.62217e-06 11 1.54972e-06Z"
-                                                fill="#1b1b1b"></path>
-                                        </svg>
-                                    </div>
-                                </div>
-                                <div class="ml-30">
-                                    <h6>mohsin ghadiyali
-                                    </h6>
-                                    <p>Customer</p>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="item">
-                            <div class="stars"> <span class="rate">
-                                    <i class="fa-solid fa-star"></i>
-                                    <i class="fa-solid fa-star"></i>
-                                    <i class="fa-solid fa-star"></i>
-                                    <i class="fa-solid fa-star"></i>
-                                    <i class="fa-solid fa-star"></i>
-                                </span>
-                                <div class="shap-left-top">
-                                    <svg viewBox="0 0 11 11" fill="none" xmlns="http://www.w3.org/2000/svg"
-                                        class="w-11 h-11">
-                                        <path
-                                            d="M11 1.54972e-06L0 0L2.38419e-07 11C1.65973e-07 4.92487 4.92487 1.62217e-06 11 1.54972e-06Z"
-                                            fill="#1b1b1b"></path>
-                                    </svg>
-                                </div>
-                                <div class="shap-right-bottom">
-                                    <svg viewBox="0 0 11 11" fill="none" xmlns="http://www.w3.org/2000/svg"
-                                        class="w-11 h-11">
-                                        <path
-                                            d="M11 1.54972e-06L0 0L2.38419e-07 11C1.65973e-07 4.92487 4.92487 1.62217e-06 11 1.54972e-06Z"
-                                            fill="#1b1b1b"></path>
-                                    </svg>
-                                </div>
-                            </div> <i class="fa-solid fa-quote-left"></i>
-                            <div class="text">
-                                <p>Yeah Gapuchee is one of the best importer for kids toys. Also they are very kind and
-                                    friendly to deal and support us, am happy with them.
-                                    Thank you
-                                </p>
-                            </div>
-                            <div class="info mt-30">
-                                <div class="img-curv">
-                                    <div class="img"> <img src="img/member-3.png" alt=""> </div>
-                                    <div class="shap-left-top">
-                                        <svg viewBox="0 0 11 11" fill="none" xmlns="http://www.w3.org/2000/svg"
-                                            class="w-11 h-11">
-                                            <path
-                                                d="M11 1.54972e-06L0 0L2.38419e-07 11C1.65973e-07 4.92487 4.92487 1.62217e-06 11 1.54972e-06Z"
-                                                fill="#1b1b1b"></path>
-                                        </svg>
-                                    </div>
-                                    <div class="shap-right-bottom">
-                                        <svg viewBox="0 0 11 11" fill="none" xmlns="http://www.w3.org/2000/svg"
-                                            class="w-11 h-11">
-                                            <path
-                                                d="M11 1.54972e-06L0 0L2.38419e-07 11C1.65973e-07 4.92487 4.92487 1.62217e-06 11 1.54972e-06Z"
-                                                fill="#1b1b1b"></path>
-                                        </svg>
-                                    </div>
-                                </div>
-                                <div class="ml-30">
-                                    <h6>Komal patel</h6>
-                                    <p>Customer</p>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
+
+        <div class="row">
+          <div class="col-lg-3 col-md-6 d-flex align-items-stretch" data-aos="zoom-in" data-aos-delay="100">
+            <div class="icon-box">
+              <div class="icon"><i class="bx bxl-dribbble"></i></div>
+              <h4><a href="">Lorem Ipsum</a></h4>
+              <p>Voluptatum deleniti atque corrupti quos dolores et quas molestias excepturi</p>
             </div>
+          </div>
+
+          <div class="col-lg-3 col-md-6 d-flex align-items-stretch mt-4 mt-md-0" data-aos="zoom-in"
+            data-aos-delay="200">
+            <div class="icon-box">
+              <div class="icon"><i class="bx bx-file"></i></div>
+              <h4><a href="">Sed ut perspiciatis</a></h4>
+              <p>Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore</p>
+            </div>
+          </div>
+
+          <div class="col-lg-3 col-md-6 d-flex align-items-stretch mt-4 mt-lg-0" data-aos="zoom-in"
+            data-aos-delay="300">
+            <div class="icon-box">
+              <div class="icon"><i class="bx bx-tachometer"></i></div>
+              <h4><a href="">Magni Dolores</a></h4>
+              <p>Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia</p>
+            </div>
+          </div>
+
+          <div class="col-lg-3 col-md-6 d-flex align-items-stretch mt-4" data-aos="zoom-in" data-aos-delay="100">
+            <div class="icon-box">
+              <div class="icon"><i class="bx bx-world"></i></div>
+              <h4><a href="">Nemo Enim</a></h4>
+              <p>At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis</p>
+            </div>
+          </div>
+
+          <div class="col-lg-3 col-md-6 d-flex align-items-stretch mt-4" data-aos="zoom-in" data-aos-delay="200">
+            <div class="icon-box">
+              <div class="icon"><i class="bx bx-slideshow"></i></div>
+              <h4><a href="">Dele cardo</a></h4>
+              <p>Quis consequatur saepe eligendi voluptatem consequatur dolor consequuntur</p>
+            </div>
+          </div>
+
+          <div class="col-lg-3 col-md-6 d-flex align-items-stretch mt-4" data-aos="zoom-in" data-aos-delay="300">
+            <div class="icon-box">
+              <div class="icon"><i class="bx bx-arch"></i></div>
+              <h4><a href="">Divera don</a></h4>
+              <p>Modi nostrum vel laborum. Porro fugit error sit minus sapiente sit aspernatur</p>
+            </div>
+          </div>
+          <div class="col-lg-3 col-md-6 d-flex align-items-stretch mt-4" data-aos="zoom-in" data-aos-delay="300">
+            <div class="icon-box">
+              <div class="icon"><i class="bx bx-arch"></i></div>
+              <h4><a href="">Divera don</a></h4>
+              <p>Modi nostrum vel laborum. Porro fugit error sit minus sapiente sit aspernatur</p>
+            </div>
+          </div>
+          <div class="col-lg-3 col-md-6 d-flex align-items-stretch mt-4" data-aos="zoom-in" data-aos-delay="300">
+            <div class="icon-box">
+              <div class="icon"><i class="bx bx-arch"></i></div>
+              <h4><a href="">Divera don</a></h4>
+              <p>Modi nostrum vel laborum. Porro fugit error sit minus sapiente sit aspernatur</p>
+            </div>
+          </div>
+
         </div>
-    </section>
-    <section class="lets-talk bg-img bg-fixed section-padding" data-overlay-dark="6" data-background="img/contact.jpg">
-        <div class="container">
-            <div class="row">
-                <div class="col-md-12 text-center">
-                    <h6>Contact</h6>
-                    <h5>Contact With Us</h5>
-                    <p>At Gapuchee, we value your feedback and are dedicated to providing exceptional customer service.
-                        Whether you have questions about our products, need assistance with an order, or simply want to
-                        say hello, we're here to help. Reach out to us using any of the following options:</p> <a
-                        href="https://api.whatsapp.com/send?phone=+919875225326&text=Hello I contact to you for bikes"
-                        class="button-1 mt-15 mb-15 mr-10"></i>WhatsApp</a> <a
-                        href="https://www.google.com/search?q=gapuchee&oq=gapu&gs_lcrp=EgZjaHJvbWUqDAgAECMYJxiABBiKBTIMCAAQIxgnGIAEGIoFMg0IARAuGK8BGMcBGIAEMgYIAhBFGEAyBggDEEUYOTIGCAQQRRg8MgYIBRBFGDwyBggGEEUYPTIGCAcQRRg80gEIMjE5NmowajeoAgiwAgE&sourceid=chrome&ie=UTF-8#lrd=0x3be04e9176f499f5:0x3791341f0fc44ac0,3,,,,"
-                        class="button-2 mt-15 mb-15">Review Now</a>
-                </div>
-            </div>
+
+      </div>
+    </section> -->
+
+
+    <!-- ======= Frequently Asked Questions Section ======= -->
+    <section id="faq" class="faq section-bg">
+      <div class="container" data-aos="fade-up">
+
+        <div class="section-title">
+          <h2>F.A.Q</h2>
+          <h3>Frequently Asked <span>Questions</span></h3>
+          <p>(Revolutionary Alternative Healing with the power of nature & science) A natural way of living life...</p>
         </div>
-    </section>
-    <footer class="footer clearfix">
-        <div class="container">
-            <div class="second-footer">
-                <div class="row">
-                    <div class="col-md-4 widget-area">
-                        <div class="widget clearfix">
-                            <h3 class="widget-title">Social Connect</h3>
-                            <div class="widget-text">
-                                <p>We are always trying to innavate and bring new products to the indian market. In case
-                                    you have a new business idea or a specific requirement, please feel free to contact
-                                    us.</p>
-                                <div class="social-icons">
-                                    <ul class="list-inline">
-                                        <li><a
-                                                href="https://api.whatsapp.com/send?phone=+919875225326&text=Hello I contact to you for bikes"><i
-                                                    class="fa-brands fa-whatsapp"></i></a></li>
-                                        <li><a href="https://www.facebook.com/profile.php?id=61559397088352"><i
-                                                    class="fa-brands fa-facebook-f"></i></a></li>
-                                        <li><a href="https://www.youtube.com/channel/UCl8X13EG9Aiz32duM30zqQg"><i
-                                                    class="fa-brands fa-youtube"></i></a></li>
-                                        <li><a href="https://in.pinterest.com/gapuchee/"><i
-                                                    class="fa-brands fa-pinterest"></i></a></li>
-                                    </ul>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-md-3 offset-md-1 widget-area">
-                        <div class="widget clearfix usful-links">
-                            <h3 class="widget-title">Quick Links</h3>
-                            <ul>
-                                <li><a href="index.html">Home</a></li>
-                                <li><a href="about.html">About</a></li>
-                                <li><a href="atv.html">Categories</a></li>
-                                <li><a href="contact.html">Contact</a></li>
-                            </ul>
-                        </div>
-                    </div>
-                    <div class="col-md-4 widget-area">
-                        <div class="widget clearfix">
-                            <h3 class="widget-title">Contact Us</h3>
-                            <li>Plot no: 475</li>
-                            <li>Pandol Industrial Estate No. 2</li>
-                            <li>Ved Road,</li>
-                            <li>Surat: 395003</li>
-                            <li>Phone: 98752 25326</li>
-                        </div>
-                    </div>
+
+        <div class="row justify-content-center">
+          <div class="col-xl-10">
+            <ul class="faq-list">
+
+              <li>
+                <div data-bs-toggle="collapse" class="collapsed question" href="#faq1">What is Biomagnetism and how does
+                  it work?<i class="bi bi-chevron-down icon-show"></i><i class="bi bi-chevron-up icon-close"></i></div>
+                <div id="faq1" class="collapse" data-bs-parent=".faq-list">
+                  <p>
+                    Biomagnetism is an alternative healing therapy that utilizes the power of magnets to balance the
+                    body's energy. It works by applying magnets of specific strengths to various points on the body to
+                    promote wellness and alleviate discomforts.
+                  </p>
                 </div>
-            </div>
-            <div class="container-fluid copyright py-4">
-                <div class="container">
-                    <div class="row g-4 align-items-center">
-                        <div class="col-md-6 text-center text-md-start mb-md-0">
-                            <span class="text-white"><a href="#"><i class="fas fa-copyright text-light me-2"></i>
-                                </a>copyright by Gapuchee 2024</span>
-                        </div>
-                        <div class="col-md-6 text-center text-md-end text-white">
-                            Designed By <a class="border-bottom"
-                                href="https://gcsconsultant.com/digital-marketing-agency.html">Fitit Offical</a>
-                        </div>
-                    </div>
+              </li>
+
+              <li>
+                <div data-bs-toggle="collapse" href="#faq2" class="collapsed question">What types of products does
+                  Akshar Family Health Care offer?<i class="bi bi-chevron-down icon-show"></i><i
+                    class="bi bi-chevron-up icon-close"></i></div>
+                <div id="faq2" class="collapse" data-bs-parent=".faq-list">
+                  <p>
+                    Akshar Family Health Care offers a range of Bio-Magnetic products designed to address various health
+                    concerns. These include mattress pads, wrist bands, jewelry, water energy pads, anti-snoring pads,
+                    headache belts, foot pain relax pads, and seat pads.
+                  </p>
                 </div>
-            </div>
+              </li>
+
+              <li>
+                <div data-bs-toggle="collapse" href="#faq3" class="collapsed question">Are Akshar Family Health Care's
+                  products safe to use?<i class="bi bi-chevron-down icon-show"></i><i
+                    class="bi bi-chevron-up icon-close"></i></div>
+                <div id="faq3" class="collapse" data-bs-parent=".faq-list">
+                  <p>
+                    Yes, all our products undergo rigorous testing and are manufactured at GMP certified facilities to
+                    ensure safety and quality. Additionally, our Bio-Magnetic products are non-invasive and have been
+                    designed with the well-being of our customers in mind.
+                  </p>
+                </div>
+              </li>
+
+              <li>
+                <div data-bs-toggle="collapse" href="#faq4" class="collapsed question">How can I purchase Akshar Family
+                  Health Care's products? <i class="bi bi-chevron-down icon-show"></i><i
+                    class="bi bi-chevron-up icon-close"></i></div>
+                <div id="faq4" class="collapse" data-bs-parent=".faq-list">
+                  <p>
+                    You can purchase our products through our extensive network of distributors across India. We have
+                    over 5000 pickup and distribution centers nationwide to make our products accessible to everyone.
+                  </p>
+                </div>
+              </li>
+
+              <li>
+                <div data-bs-toggle="collapse" href="#faq5" class="collapsed question">Are there any scientific studies
+                  supporting the effectiveness of Biomagnetism? <i class="bi bi-chevron-down icon-show"></i><i
+                    class="bi bi-chevron-up icon-close"></i></div>
+                <div id="faq5" class="collapse" data-bs-parent=".faq-list">
+                  <p>
+                    Yes, Biomagnetism has been studied extensively, and there is growing evidence supporting its
+                    effectiveness in promoting wellness and alleviating various health issues. We are committed to
+                    researching and spreading scientific knowledge about the benefits of Biomagnetism.
+                  </p>
+                </div>
+              </li>
+
+              <li>
+                <div data-bs-toggle="collapse" href="#faq6" class="collapsed question">How can I get in touch with
+                  Akshar Family Health Care for further inquiries? <i class="bi bi-chevron-down icon-show"></i><i
+                    class="bi bi-chevron-up icon-close"></i></div>
+                <div id="faq6" class="collapse" data-bs-parent=".faq-list">
+                  <p>
+                    You can contact us through email at bhadreshexports2010@gmail.com or by phone at +91 98985 88820.
+                    Additionally, you can visit our office at 135 1 FLOOR SKY VIEW BUILDING, NEAR SWAMINARAYAN BUS
+                    PARKING SYAMDHAM MANDIR VARACHA SURAT-395006. We're here to assist you with any questions or
+                    concerns you may have.
+                  </p>
+                </div>
+              </li>
+
+            </ul>
+          </div>
         </div>
-    </footer>
-    <script src="js/jquery-3.7.1.min.js"></script>
-    <script src="js/jquery-migrate-3.4.1.min.js"></script>
-    <script src="js/all.min.js"></script>
-    <script src="js/modernizr-2.6.2.min.js"></script>
-    <script src="js/imagesloaded.pkgd.min.js"></script>
-    <script src="js/jquery.isotope.v3.0.2.js"></script>
-    <script src="js/popper.min.js"></script>
-    <script src="js/bootstrap.min.js"></script>
-    <script src="js/scrollIt.min.js"></script>
-    <script src="js/jquery.waypoints.min.js"></script>
-    <script src="js/owl.carousel.min.js"></script>
-    <script src="js/jquery.stellar.min.js"></script>
-    <script src="js/jquery.magnific-popup.js"></script>
-    <script src="js/select2.js"></script>
-    <script src="js/datepicker.js"></script>
-    <script src="js/YouTubePopUp.js"></script>
-    <script src="js/custom.js"></script>
+
+      </div>
+    </section><!-- End Frequently Asked Questions Section -->
+
+    <!-- ======= Contact Section ======= -->
+    <section id="contact" class="contact">
+      <div class="container" data-aos="fade-up">
+
+        <div class="section-title">
+          <h2>Contact</h2>
+          <h3><span>Contact Us</span></h3>
+          <p>(Revolutionary Alternative Healing with the power of nature & science) A natural way of living life...</p>
+        </div>
+
+        <div class="row" data-aos="fade-up" data-aos-delay="100">
+          <div class="col-lg-6">
+            <div class="info-box mb-4">
+              <i class="bx bx-map"></i>
+              <h3>Our Address</h3>
+              <p>135 1 FLOOR SKY VIEW BULDING. NEAR SWAMINARAYAN BUS PARKING SYAMDHAM MANDIR VARACHA SURAT-395006</p>
+            </div>
+          </div>
+
+          <div class="col-lg-3 col-md-6">
+            <div class="info-box  mb-4">
+              <i class="bx bx-envelope"></i>
+              <h3>Email Us</h3>
+              <p>bhadreshexports2010@gmail.com</p>
+            </div>
+          </div>
+
+          <div class="col-lg-3 col-md-6">
+            <div class="info-box  mb-4">
+              <i class="bx bx-phone-call"></i>
+              <h3>Call Us</h3>
+              <p>+91 98985 88820</p>
+            </div>
+          </div>
+
+        </div>
+
+        <div class="row" data-aos="fade-up" data-aos-delay="100">
+
+          <div class="col-lg-6 ">
+            <iframe class="mb-4 mb-lg-0"
+              src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d12097.433213460943!2d-74.0062269!3d40.7101282!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0xb89d1fe6bc499443!2sDowntown+Conference+Center!5e0!3m2!1smk!2sbg!4v1539943755621"
+              frameborder="0" style="border:0; width: 100%; height: 384px;" allowfullscreen></iframe>
+          </div>
+
+          <div class="col-lg-6">
+            <form class="php-email-form">
+              <div class="row">
+                <div class="col form-group">
+                  <input type="text" name="name" class="form-control" id="name" placeholder="Your Name" required>
+                </div>
+                <div class="col form-group">
+                  <input type="email" class="form-control" name="email" id="email" placeholder="Your Email" required>
+                </div>
+              </div>
+              <div class="form-group">
+                <input type="text" class="form-control" name="mobile" id="mobile" placeholder="Mobile no." required>
+              </div>
+              <div class="form-group">
+                <input type="text" class="form-control" name="subject" id="subject" placeholder="Subject" required>
+              </div>
+              <div class="form-group">
+                <textarea class="form-control" name="message" rows="5" placeholder="Message" required></textarea>
+              </div>
+              <div class="text-center">
+                <button type="button" onclick="sendMail()">Send Message</button>
+              </div>
+            </form>
+          </div>
+        </div>
+      </div>
+    </section><!-- End Contact Section -->
+
+  </main><!-- End #main -->
+
+  <!-- ======= Footer ======= -->
+  <footer id="footer">
+
+    <div class="footer-top">
+      <div class="container">
+        <div class="row">
+
+          <div class="col-lg-3 col-md-6 footer-contact">
+            <div class="text-center">
+              <img src="./assets/img/akasher-health-care.png" width="150px" class="text-center" alt="">
+            </div>
+          </div>
+          <div class="col-lg-3 col-md-6 footer-contact">
+            <h4>Contact Us</h4>
+            <p>
+              <strong>Address:</strong> 135 1 FLOOR SKY VIEW BULDING. NEAR SWAMINARAYAN BUS PARKING SYAMDHAM MANDIR
+              VARACHA SURAT-395006
+              <br>
+              <strong>Phone:</strong> +91 98985 88820<br>
+              <strong>Email:</strong> bhadreshexports2010@gmail.com<br>
+            </p>
+          </div>
+          <div class="col-lg-3 col-md-6 footer-links">
+            <div class="uselink">
+              <h4>Useful Links</h4>
+              <ul>
+                <li><i class="bx bx-chevron-right"></i> <a href="#">Home</a></li>
+                <li><i class="bx bx-chevron-right"></i> <a href="#">About us</a></li>
+                <li><i class="bx bx-chevron-right"></i> <a href="#">Services</a></li>
+              </ul>
+            </div>
+          </div>
+          <div class="col-lg-3 col-md-6 footer-links">
+            <h4>Our Social Networks</h4>
+            <p>(Revolutionary Alternative Healing with the power of nature & science) A natural way of living life...
+            </p>
+            <div class="social-links mt-3">
+              <a href="https://www.facebook.com/aksharhealth/" class="facebook"><i class="bx bxl-facebook"></i></a>
+              <a href="https://www.instagram.com/aksharfamilyhealthcare_/?fbclid=IwAR2DaOwKQL0eU5mmGvpIGp2TY3ZTUtR4o6RxL2IowV1oXKfuD4LHZt9MukI"
+                class="instagram"><i class="bx bxl-instagram"></i></a>
+              <!-- <a href="#" class="linkedin"><i class="bx bxl-linkedin"></i></a> -->
+            </div>
+          </div>
+
+        </div>
+      </div>
+    </div>
+
+    <div class="container py-4">
+      <div class="copyright">
+        &copy; Copyright <strong><span>AKASHAR FAMILY</span></strong>. All Rights Reserved
+      </div>
+      <div class="credits">
+        Designed by <a href="https://gcsconsultant.com/digital-marketing-agency.html">FITIT Official</a>
+      </div>
+    </div>
+  </footer><!-- End Footer -->
+
+  <div id="preloader"></div>
+  <a href="#" class="back-to-top d-flex align-items-center justify-content-center"><i
+      class="bi bi-arrow-up-short"></i></a>
+
+  <!-- Include SweetAlert2 library -->
+  <script src="https://cdn.jsdelivr.net/npm/sweetalert2@10"></script>
+
+  <script src="https://smtpjs.com/v3/smtp.js"></script>
+
+  <!-- Vendor JS Files -->
+  <script src="assets/vendor/purecounter/purecounter_vanilla.js"></script>
+  <script src="assets/vendor/aos/aos.js"></script>
+  <script src="assets/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+  <script src="assets/vendor/glightbox/js/glightbox.min.js"></script>
+  <script src="assets/vendor/isotope-layout/isotope.pkgd.min.js"></script>
+  <script src="assets/vendor/swiper/swiper-bundle.min.js"></script>
+  <script src="assets/vendor/waypoints/noframework.waypoints.js"></script>
+  <script src="assets/vendor/php-email-form/validate.js"></script>
+
+  <!-- Template Main JS File -->
+  <script src="assets/js/main.js"></script>
+
+  <script>
+    function toggleReadMore() {
+      var moreContent = document.getElementById("moreContent");
+      moreContent.classList.toggle("hidden");
+    }
+
+    function toggleReadMore2() {
+      var moreContent = document.getElementById("moreContent2");
+      moreContent.classList.toggle("hidden");
+    }
+  </script>
+
+  <script>
+    emailjs.init("8XpSFAuLYkcnfkp-X");
+
+    function sendMail() {
+      var params = {
+        name: document.getElementById("name").value,
+        email: document.getElementById("email").value,
+        mobile: document.getElementById("mobile").value,
+        subject: document.getElementById("subject").value,
+        message: document.getElementById("message").value
+      };
+
+      const serviceID = "service_4vr3my4";
+      const templateID = "template_3ead4en";
+
+      emailjs.send(serviceID, templateID, params)
+        .then(function (response) {
+          document.getElementById("name").value = "";
+          document.getElementById("email").value = "";
+          document.getElementById("mobile").value = "";
+          document.getElementById("subject").value = "";
+          document.getElementById("message").value = "";
+
+          console.log("Email sent successfully", response);
+          alert("Email sent successfully");
+        })
+        .catch(function (error) {
+          console.error("Error sending email", error);
+          alert("Error sending email");
+        });
+    }
+  </script>
+
 </body>
 
 </html>
